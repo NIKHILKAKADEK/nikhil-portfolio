@@ -5,16 +5,18 @@ import { portfolio } from "@/data/portfolio";
 import { ResumeLink } from "@/components/resume-link";
 
 export function Hero() {
+  const nameWords = portfolio.personal.name.trim().split(/\s+/);
+
   return (
     <div id="top" className="hero-main">
       <section className="hero" aria-labelledby="hero-title">
-        <div className="hero-copy" data-reveal="left">
+        <div className="hero-copy">
           <p className="ds-eyebrow hero-eyebrow">Hello, I’m</p>
-          <div>
-            <DisplayHeading id="hero-title" className="hero-title">
-              {portfolio.personal.name}
-            </DisplayHeading>
-          </div>
+          <DisplayHeading id="hero-title" className="hero-title">
+            {nameWords.map((word, index) => (
+              <span className="hero-title-clip" key={`${word}-${index}`}><span className="hero-title-word" style={{ animationDelay: `${index * 90}ms` }}>{word}</span></span>
+            )).flatMap((word, index) => index === 0 ? [word] : [" ", word])}
+          </DisplayHeading>
           <p className="hero-role">{portfolio.personal.role}</p>
           <div>
             <BodyText className="hero-description">

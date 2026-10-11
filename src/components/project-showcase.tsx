@@ -1,15 +1,6 @@
-"use client";
-
-import { LazyMotion, domAnimation, m as motion, type Variants } from "framer-motion";
 import { ArrowDown, ArrowRight, ArrowUpRight, Github } from "lucide-react";
 import { BodyText, Card, SectionHeading, Tag } from "@/components/ui";
 import { portfolio, type Project } from "@/data/portfolio";
-import { useMotionEnabled } from "@/hooks/use-motion-enabled";
-
-const reveal: Variants = {
-  visible: { opacity: [0.96, 1], y: [6, 0], transition: { duration: 0.32, ease: [0.22, 1, 0.36, 1] } },
-  still: { opacity: 1, y: 0, transition: { duration: 0 } },
-};
 
 function ProjectVisual({ project }: { project: Project }) {
   const isHospital = project.visualType === "hospital-flow";
@@ -59,18 +50,16 @@ function ProjectLinks({ project }: { project: Project }) {
 }
 
 export function ProjectShowcase() {
-  const motionEnabled = useMotionEnabled();
   const { projectShowcase, projects } = portfolio;
 
   return (
-    <LazyMotion features={domAnimation} strict>
     <section className="project-showcase" id="work" aria-labelledby="projects-heading">
       <div className="editorial-section projects-intro">
-        <motion.div className="projects-intro-copy" variants={reveal} initial={false} animate={motionEnabled ? undefined : "still"} whileInView={motionEnabled ? "visible" : undefined} viewport={{ once: true, amount: 0.4 }}>
+        <div className="projects-intro-copy">
           <p className="ds-eyebrow">{projectShowcase.eyebrow}</p>
           <SectionHeading id="projects-heading" className="projects-heading">{projectShowcase.heading}</SectionHeading>
           <BodyText className="projects-introduction">{projectShowcase.introduction}</BodyText>
-        </motion.div>
+        </div>
         <span className="projects-intro-index" aria-hidden="true">04 <i /> Work</span>
       </div>
 
@@ -78,14 +67,9 @@ export function ProjectShowcase() {
         {projects.map((project, index) => {
           const reverse = index % 2 === 1;
           return (
-            <motion.article
+            <article
               className={`editorial-section project-feature ${reverse ? "project-feature-reverse" : ""}`}
               key={project.id}
-              variants={reveal}
-              initial={false}
-              animate={motionEnabled ? undefined : "still"}
-              whileInView={motionEnabled ? "visible" : undefined}
-              viewport={{ once: true, amount: 0.18 }}
               aria-labelledby={`project-${project.id}-title`}
             >
               <div className="project-copy">
@@ -99,7 +83,7 @@ export function ProjectShowcase() {
                 <ProjectLinks project={project} />
               </div>
               <Card className="project-preview"><ProjectVisual project={project} /></Card>
-            </motion.article>
+            </article>
           );
         })}
       </div>
@@ -129,6 +113,5 @@ export function ProjectShowcase() {
         </ul>
       </div>
     </section>
-    </LazyMotion>
   );
 }
