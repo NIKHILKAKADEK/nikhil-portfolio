@@ -1,0 +1,532 @@
+{
+  "productionUrlConfigured": false,
+  "configuredBranch": "unit-tested only; actual origin not supplied",
+  "routes": [
+    {
+      "route": "/",
+      "title": "Nikhil Ajay Kakade — AI & Data Science",
+      "metadata": "pass; absolute URLs omitted until deployment configuration",
+      "structuredData": "supplied facts only",
+      "skipLink": "pass"
+    },
+    {
+      "route": "/projects/leadsutra-ai",
+      "title": "LeadSutra AI | Nikhil Ajay Kakade",
+      "metadata": "pass; absolute URLs omitted until deployment configuration",
+      "structuredData": "not duplicated",
+      "skipLink": "pass"
+    },
+    {
+      "route": "/projects/sentinel-ai",
+      "title": "SentinelAI | Nikhil Ajay Kakade",
+      "metadata": "pass; absolute URLs omitted until deployment configuration",
+      "structuredData": "not duplicated",
+      "skipLink": "pass"
+    },
+    {
+      "route": "/projects/hospital-management",
+      "title": "Hospital Management System | Nikhil Ajay Kakade",
+      "metadata": "pass; absolute URLs omitted until deployment configuration",
+      "structuredData": "not duplicated",
+      "skipLink": "pass"
+    },
+    {
+      "route": "/projects/emergency-navigation",
+      "title": "Emergency Navigation System | Nikhil Ajay Kakade",
+      "metadata": "pass; absolute URLs omitted until deployment configuration",
+      "structuredData": "not duplicated",
+      "skipLink": "pass"
+    }
+  ],
+  "assets": [
+    {
+      "url": "/social-preview.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 40168
+    },
+    {
+      "url": "/favicon.ico",
+      "status": 200,
+      "contentType": "image/x-icon",
+      "bytes": 738
+    },
+    {
+      "url": "/icon.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 241
+    },
+    {
+      "url": "/resume.pdf",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 117547
+    }
+  ],
+  "unknownRoutes": [
+    {
+      "route": "/projects/not-a-project",
+      "status": 404,
+      "noindex": true
+    },
+    {
+      "route": "/projects/unknown-production-check",
+      "status": 404,
+      "noindex": true
+    },
+    {
+      "route": "/missing-page",
+      "status": 404,
+      "noindex": true
+    }
+  ],
+  "manualSemantics": [
+    {
+      "route": "/",
+      "h1": 1,
+      "mains": 1,
+      "lang": "en",
+      "headings": [
+        {
+          "level": 1,
+          "text": "I build intelligent systems."
+        },
+        {
+          "level": 2,
+          "text": "Building with curiosity. Learning by shipping."
+        },
+        {
+          "level": 3,
+          "text": "Then"
+        },
+        {
+          "level": 3,
+          "text": "Now"
+        },
+        {
+          "level": 3,
+          "text": "Next"
+        },
+        {
+          "level": 2,
+          "text": "Education"
+        },
+        {
+          "level": 3,
+          "text": "B.Tech in AI & Data Science"
+        },
+        {
+          "level": 3,
+          "text": "HSC"
+        },
+        {
+          "level": 3,
+          "text": "SSC"
+        },
+        {
+          "level": 2,
+          "text": "Things I've built."
+        },
+        {
+          "level": 3,
+          "text": "LeadSutra AI"
+        },
+        {
+          "level": 3,
+          "text": "SentinelAI"
+        },
+        {
+          "level": 3,
+          "text": "Hospital Management System"
+        },
+        {
+          "level": 3,
+          "text": "Emergency Navigation System"
+        },
+        {
+          "level": 2,
+          "text": "More Experiments"
+        },
+        {
+          "level": 2,
+          "text": "What I build with."
+        },
+        {
+          "level": 3,
+          "text": "AI / Machine Learning"
+        },
+        {
+          "level": 3,
+          "text": "Cybersecurity & AI Security"
+        },
+        {
+          "level": 3,
+          "text": "Full-Stack Engineering"
+        },
+        {
+          "level": 3,
+          "text": "Data & Infrastructure"
+        },
+        {
+          "level": 2,
+          "text": "Credentials"
+        },
+        {
+          "level": 3,
+          "text": "Oracle Cloud Infrastructure 2025 Certified Data Science Professional"
+        },
+        {
+          "level": 3,
+          "text": "RDBMS PostgreSQL Training"
+        },
+        {
+          "level": 3,
+          "text": "Solidity and Blockchain Workshop"
+        },
+        {
+          "level": 2,
+          "text": "Building. Learning. Continuing."
+        },
+        {
+          "level": 3,
+          "text": "Smart India Hackathon 2025"
+        },
+        {
+          "level": 3,
+          "text": "On GitHub"
+        },
+        {
+          "level": 2,
+          "text": "Have a problem worth building?"
+        }
+      ],
+      "unlabelledImages": 0,
+      "blankLinks": 0,
+      "unsafeExternal": 0
+    },
+    {
+      "route": "/projects/leadsutra-ai",
+      "h1": 1,
+      "mains": 1,
+      "lang": "en",
+      "headings": [
+        {
+          "level": 1,
+          "text": "LeadSutra AI"
+        },
+        {
+          "level": 2,
+          "text": "The problem"
+        },
+        {
+          "level": 2,
+          "text": "How it works"
+        },
+        {
+          "level": 3,
+          "text": "Search request"
+        },
+        {
+          "level": 3,
+          "text": "Business discovery"
+        },
+        {
+          "level": 3,
+          "text": "Normalize and deduplicate"
+        },
+        {
+          "level": 3,
+          "text": "Enrich and extract"
+        },
+        {
+          "level": 3,
+          "text": "Qualify and profile"
+        },
+        {
+          "level": 3,
+          "text": "Return or persist"
+        },
+        {
+          "level": 2,
+          "text": "Architecture"
+        },
+        {
+          "level": 3,
+          "text": "FastAPI routes"
+        },
+        {
+          "level": 3,
+          "text": "Discovery service"
+        },
+        {
+          "level": 3,
+          "text": "Processing services"
+        },
+        {
+          "level": 3,
+          "text": "Persistence"
+        },
+        {
+          "level": 2,
+          "text": "Technology stack"
+        },
+        {
+          "level": 2,
+          "text": "Engineering notes"
+        },
+        {
+          "level": 3,
+          "text": "Provider failure handling"
+        },
+        {
+          "level": 3,
+          "text": "Composable processing"
+        },
+        {
+          "level": 3,
+          "text": "Non-destructive extraction"
+        }
+      ],
+      "unlabelledImages": 0,
+      "blankLinks": 0,
+      "unsafeExternal": 0
+    },
+    {
+      "route": "/projects/sentinel-ai",
+      "h1": 1,
+      "mains": 1,
+      "lang": "en",
+      "headings": [
+        {
+          "level": 1,
+          "text": "SentinelAI"
+        },
+        {
+          "level": 2,
+          "text": "The problem"
+        },
+        {
+          "level": 2,
+          "text": "How it works"
+        },
+        {
+          "level": 3,
+          "text": "PE file"
+        },
+        {
+          "level": 3,
+          "text": "Upload and analysis"
+        },
+        {
+          "level": 3,
+          "text": "ML prediction"
+        },
+        {
+          "level": 3,
+          "text": "Application record"
+        },
+        {
+          "level": 2,
+          "text": "Architecture"
+        },
+        {
+          "level": 3,
+          "text": "Next.js + Better Auth"
+        },
+        {
+          "level": 3,
+          "text": "FastAPI + Python"
+        },
+        {
+          "level": 3,
+          "text": "Random Forest + XGBoost"
+        },
+        {
+          "level": 3,
+          "text": "Prisma + Neon PostgreSQL"
+        },
+        {
+          "level": 2,
+          "text": "Technology stack"
+        },
+        {
+          "level": 2,
+          "text": "Engineering notes"
+        },
+        {
+          "level": 3,
+          "text": "Keep analysis behind an API"
+        },
+        {
+          "level": 3,
+          "text": "Make predictions reviewable"
+        },
+        {
+          "level": 3,
+          "text": "No unsupported performance claims"
+        }
+      ],
+      "unlabelledImages": 0,
+      "blankLinks": 0,
+      "unsafeExternal": 0
+    },
+    {
+      "route": "/projects/hospital-management",
+      "h1": 1,
+      "mains": 1,
+      "lang": "en",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Hospital Management System"
+        },
+        {
+          "level": 2,
+          "text": "The problem"
+        },
+        {
+          "level": 2,
+          "text": "How it works"
+        },
+        {
+          "level": 3,
+          "text": "Hospital workflows"
+        },
+        {
+          "level": 3,
+          "text": "Responsive interface"
+        },
+        {
+          "level": 3,
+          "text": "Django application"
+        },
+        {
+          "level": 3,
+          "text": "REST APIs"
+        },
+        {
+          "level": 2,
+          "text": "Architecture"
+        },
+        {
+          "level": 3,
+          "text": "Responsive UI"
+        },
+        {
+          "level": 3,
+          "text": "Django"
+        },
+        {
+          "level": 3,
+          "text": "REST API layer"
+        },
+        {
+          "level": 3,
+          "text": "Management workflows"
+        },
+        {
+          "level": 2,
+          "text": "Technology stack"
+        },
+        {
+          "level": 2,
+          "text": "Engineering notes"
+        },
+        {
+          "level": 3,
+          "text": "Keep workflows connected"
+        },
+        {
+          "level": 3,
+          "text": "Responsive access"
+        }
+      ],
+      "unlabelledImages": 0,
+      "blankLinks": 0,
+      "unsafeExternal": 0
+    },
+    {
+      "route": "/projects/emergency-navigation",
+      "h1": 1,
+      "mains": 1,
+      "lang": "en",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Emergency Navigation System"
+        },
+        {
+          "level": 2,
+          "text": "The problem"
+        },
+        {
+          "level": 2,
+          "text": "How it works"
+        },
+        {
+          "level": 3,
+          "text": "Start and destination"
+        },
+        {
+          "level": 3,
+          "text": "Road and map context"
+        },
+        {
+          "level": 3,
+          "text": "Route search"
+        },
+        {
+          "level": 3,
+          "text": "Traffic and ML"
+        },
+        {
+          "level": 3,
+          "text": "Route presentation"
+        },
+        {
+          "level": 2,
+          "text": "Architecture"
+        },
+        {
+          "level": 3,
+          "text": "Django application"
+        },
+        {
+          "level": 3,
+          "text": "A* route search"
+        },
+        {
+          "level": 3,
+          "text": "Traffic + ML"
+        },
+        {
+          "level": 3,
+          "text": "Interactive maps"
+        },
+        {
+          "level": 2,
+          "text": "Technology stack"
+        },
+        {
+          "level": 2,
+          "text": "Engineering notes"
+        },
+        {
+          "level": 3,
+          "text": "Route search in context"
+        },
+        {
+          "level": 3,
+          "text": "Keep the data boundary explicit"
+        }
+      ],
+      "unlabelledImages": 0,
+      "blankLinks": 0,
+      "unsafeExternal": 0
+    }
+  ],
+  "sitemap": "valid XML; zero URLs while production URL is missing",
+  "robots": "User-Agent: *\nDisallow: /\n\n",
+  "status": "pass"
+}

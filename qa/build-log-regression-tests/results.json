@@ -1,0 +1,193 @@
+{
+  "sourcePreservation": "pass: Modules 1–6 data and protected files unchanged; CSS only appended; More Experiments only gains anchor and shared profile URL/rel attributes",
+  "typecheck": "pass",
+  "build": "pass",
+  "lint": "not configured",
+  "results": [
+    {
+      "theme": "light",
+      "width": 1440,
+      "layout": "pass",
+      "overflow": false,
+      "consoleErrors": 0,
+      "keyboard": "pass",
+      "githubDestinations": "pass",
+      "existingModules": "pass",
+      "repositoryShowcase": "single existing grid plus two distinct compact links"
+    },
+    {
+      "theme": "light",
+      "width": 1280,
+      "layout": "pass",
+      "overflow": false,
+      "consoleErrors": 0,
+      "keyboard": "pass",
+      "githubDestinations": "pass",
+      "existingModules": "pass",
+      "repositoryShowcase": "single existing grid plus two distinct compact links"
+    },
+    {
+      "theme": "light",
+      "width": 1024,
+      "layout": "pass",
+      "overflow": false,
+      "consoleErrors": 0,
+      "keyboard": "pass",
+      "githubDestinations": "pass",
+      "existingModules": "pass",
+      "repositoryShowcase": "single existing grid plus two distinct compact links"
+    },
+    {
+      "theme": "light",
+      "width": 768,
+      "layout": "pass",
+      "overflow": false,
+      "consoleErrors": 0,
+      "keyboard": "pass",
+      "githubDestinations": "pass",
+      "existingModules": "pass",
+      "repositoryShowcase": "single existing grid plus two distinct compact links"
+    },
+    {
+      "theme": "light",
+      "width": 430,
+      "layout": "pass",
+      "overflow": false,
+      "consoleErrors": 0,
+      "keyboard": "pass",
+      "githubDestinations": "pass",
+      "existingModules": "pass",
+      "repositoryShowcase": "single existing grid plus two distinct compact links"
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "layout": "pass",
+      "overflow": false,
+      "consoleErrors": 0,
+      "keyboard": "pass",
+      "githubDestinations": "pass",
+      "existingModules": "pass",
+      "repositoryShowcase": "single existing grid plus two distinct compact links"
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "layout": "pass",
+      "overflow": false,
+      "consoleErrors": 0,
+      "keyboard": "pass",
+      "githubDestinations": "pass",
+      "existingModules": "pass",
+      "repositoryShowcase": "single existing grid plus two distinct compact links"
+    },
+    {
+      "theme": "dark",
+      "width": 1280,
+      "layout": "pass",
+      "overflow": false,
+      "consoleErrors": 0,
+      "keyboard": "pass",
+      "githubDestinations": "pass",
+      "existingModules": "pass",
+      "repositoryShowcase": "single existing grid plus two distinct compact links"
+    },
+    {
+      "theme": "dark",
+      "width": 1024,
+      "layout": "pass",
+      "overflow": false,
+      "consoleErrors": 0,
+      "keyboard": "pass",
+      "githubDestinations": "pass",
+      "existingModules": "pass",
+      "repositoryShowcase": "single existing grid plus two distinct compact links"
+    },
+    {
+      "theme": "dark",
+      "width": 768,
+      "layout": "pass",
+      "overflow": false,
+      "consoleErrors": 0,
+      "keyboard": "pass",
+      "githubDestinations": "pass",
+      "existingModules": "pass",
+      "repositoryShowcase": "single existing grid plus two distinct compact links"
+    },
+    {
+      "theme": "dark",
+      "width": 430,
+      "layout": "pass",
+      "overflow": false,
+      "consoleErrors": 0,
+      "keyboard": "pass",
+      "githubDestinations": "pass",
+      "existingModules": "pass",
+      "repositoryShowcase": "single existing grid plus two distinct compact links"
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "layout": "pass",
+      "overflow": false,
+      "consoleErrors": 0,
+      "keyboard": "pass",
+      "githubDestinations": "pass",
+      "existingModules": "pass",
+      "repositoryShowcase": "single existing grid plus two distinct compact links"
+    }
+  ],
+  "caseStudyRoutes": [
+    {
+      "theme": "light",
+      "width": 390,
+      "route": "/projects/leadsutra-ai",
+      "status": "pass"
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "route": "/projects/sentinel-ai",
+      "status": "pass"
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "route": "/projects/hospital-management",
+      "status": "pass"
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "route": "/projects/emergency-navigation",
+      "status": "pass"
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "route": "/projects/leadsutra-ai",
+      "status": "pass"
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "route": "/projects/sentinel-ai",
+      "status": "pass"
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "route": "/projects/hospital-management",
+      "status": "pass"
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "route": "/projects/emergency-navigation",
+      "status": "pass"
+    }
+  ],
+  "reducedMotion": "pass in both themes",
+  "serverRenderedContent": "pass with JavaScript disabled",
+  "unresolvedIssues": []
+}

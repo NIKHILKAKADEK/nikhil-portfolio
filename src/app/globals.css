@@ -1,0 +1,20 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.skip-link {
+  position: fixed;
+  inset: .75rem auto auto .75rem;
+  z-index: 100;
+  padding: .8rem 1rem;
+  border-radius: .5rem;
+  background: rgb(var(--color-surface));
+  color: rgb(var(--color-ink));
+  transform: translateY(-200%);
+}
+
+.skip-link:focus-visible { transform: none; }

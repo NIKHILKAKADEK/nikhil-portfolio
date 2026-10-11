@@ -1,0 +1,2636 @@
+{
+  "tool": "axe-core",
+  "version": "4.14.0",
+  "browser": "Chromium / Edge",
+  "results": [
+    {
+      "theme": "light",
+      "width": 1440,
+      "route": "/",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#f5f5f7",
+                    "contrastRatio": 3.68,
+                    "fontSize": "10.1pt (13.44px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<header class=\"site-header\" data-scrolled=\"false\">",
+                      "target": [
+                        "header"
+                      ]
+                    },
+                    {
+                      "html": "<body>",
+                      "target": [
+                        "body"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 10.1pt (13.44px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a class=\"nav-link\" href=\"#top\" aria-current=\"location\">Home</a>",
+              "target": [
+                ".nav-link[aria-current=\"location\"][href$=\"#top\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 10.1pt (13.44px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "10.3pt (13.76px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"project-copy\">",
+                      "target": [
+                        "article[aria-labelledby=\"project-leadsutra-ai-title\"] > .project-copy"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a class=\"project-case-link\" href=\"/projects/leadsutra-ai\" aria-label=\"View Case Study: LeadSutra AI\">",
+              "target": [
+                "a[href$=\"leadsutra-ai\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "10.3pt (13.76px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"project-copy\">",
+                      "target": [
+                        "article[aria-labelledby=\"project-leadsutra-ai-title\"] > .project-copy"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a class=\"project-github-link\" href=\"https://github.com/NIKHILKAKADEK/LeadSutra-AI\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LeadSutra AI on GitHub\">",
+              "target": [
+                "a[aria-label=\"LeadSutra AI on GitHub\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "10.3pt (13.76px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"project-copy\">",
+                      "target": [
+                        "article[aria-labelledby=\"project-sentinel-ai-title\"] > .project-copy"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a class=\"project-case-link\" href=\"/projects/sentinel-ai\" aria-label=\"View Case Study: SentinelAI\">",
+              "target": [
+                "a[aria-label=\"View Case Study: SentinelAI\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "10.3pt (13.76px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"project-copy\">",
+                      "target": [
+                        ".project-feature:nth-child(3) > .project-copy"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a class=\"project-case-link\" href=\"/projects/hospital-management\" aria-label=\"View Case Study: Hospital Management System\">",
+              "target": [
+                "a[href$=\"hospital-management\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "10.3pt (13.76px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"project-copy\">",
+                      "target": [
+                        ".project-feature-reverse.project-feature:nth-child(4) > .project-copy"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a class=\"project-case-link\" href=\"/projects/emergency-navigation\" aria-label=\"View Case Study: Emergency Navigation System\">",
+              "target": [
+                "a[href$=\"emergency-navigation\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "10.3pt (13.76px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"project-copy\">",
+                      "target": [
+                        ".project-feature-reverse.project-feature:nth-child(4) > .project-copy"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a class=\"project-github-link\" href=\"https://github.com/NIKHILKAKADEK/Emergency-Route-Navigator\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Emergency Navigation System on GitHub\">",
+              "target": [
+                ".project-feature-reverse.project-feature:nth-child(4) > .project-copy > .project-actions > .project-github-link[target=\"_blank\"][rel=\"noopener noreferrer\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#f5f5f7",
+                    "contrastRatio": 3.68,
+                    "fontSize": "10.3pt (13.76px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<section class=\"project-showcase\" id=\"work\" aria-labelledby=\"projects-heading\">",
+                      "target": [
+                        "#work"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a class=\"repositories-link\" href=\"https://github.com/NIKHILKAKADEK\" target=\"_blank\" rel=\"noopener noreferrer\">",
+              "target": [
+                ".repositories-link"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#f5f5f7",
+                    "contrastRatio": 3.68,
+                    "fontSize": "9.0pt (12px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<body>",
+                      "target": [
+                        "body"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<p class=\"ds-eyebrow\">Technical Focus</p>",
+              "target": [
+                ".technical-focus-intro > .section-index > .ds-eyebrow"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "9.4pt (12.48px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"ds-card technical-focus-card\">",
+                      "target": [
+                        ".technical-focus-card-wrap[data-reveal=\"up\"]:nth-child(1) > .technical-focus-card.ds-card"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"technical-focus-number\">01</span>",
+              "target": [
+                ".technical-focus-card-wrap[data-reveal=\"up\"]:nth-child(1) > .technical-focus-card.ds-card > .technical-focus-card-heading > .technical-focus-number"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "9.4pt (12.48px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"ds-card technical-focus-card technical-focus-card-emphasis\">",
+                      "target": [
+                        ".technical-focus-card-emphasis"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"technical-focus-number\">02</span>",
+              "target": [
+                ".technical-focus-card-emphasis > .technical-focus-card-heading > .technical-focus-number"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "bold",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<a class=\"focus-proof-link\" href=\"/projects/sentinel-ai\">",
+                      "target": [
+                        ".focus-proof-link"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<strong>SentinelAI</strong>",
+              "target": [
+                "span:nth-child(1) > strong"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "9.4pt (12.48px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"ds-card technical-focus-card\">",
+                      "target": [
+                        ".technical-focus-card-wrap[data-reveal=\"up\"]:nth-child(3) > .technical-focus-card.ds-card"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"technical-focus-number\">03</span>",
+              "target": [
+                ".technical-focus-card-wrap[data-reveal=\"up\"]:nth-child(3) > .technical-focus-card.ds-card > .technical-focus-card-heading > .technical-focus-number"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "9.4pt (12.48px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"ds-card technical-focus-card\">",
+                      "target": [
+                        ".technical-focus-card-wrap-supporting > .technical-focus-card.ds-card"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"technical-focus-number\">04</span>",
+              "target": [
+                ".technical-focus-card-wrap-supporting > .technical-focus-card.ds-card > .technical-focus-card-heading > .technical-focus-number"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#f5f5f7",
+                    "contrastRatio": 3.68,
+                    "fontSize": "9.0pt (12px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<body>",
+                      "target": [
+                        "body"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<p class=\"ds-eyebrow\">Credentials</p>",
+              "target": [
+                ".credentials-heading-row > .section-index > .ds-eyebrow"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "9.4pt (12.48px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"ds-card credential-card\">",
+                      "target": [
+                        "article[data-reveal=\"up\"]:nth-child(1) > .credential-card.ds-card"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"credential-index\">0<!-- -->1</span>",
+              "target": [
+                "article[data-reveal=\"up\"]:nth-child(1) > .credential-card.ds-card > .credential-card-top > .credential-index"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "9.4pt (12.48px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"ds-card credential-card\">",
+                      "target": [
+                        "article[data-reveal=\"up\"]:nth-child(2) > .credential-card.ds-card"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"credential-index\">0<!-- -->2</span>",
+              "target": [
+                "article[data-reveal=\"up\"]:nth-child(2) > .credential-card.ds-card > .credential-card-top > .credential-index"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "9.4pt (12.48px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"ds-card credential-card\">",
+                      "target": [
+                        "article[data-reveal=\"up\"]:nth-child(2) > .credential-card.ds-card"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<strong>75%</strong>",
+              "target": [
+                ".credential-score > strong"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "9.4pt (12.48px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"ds-card credential-card\">",
+                      "target": [
+                        "article[data-reveal=\"up\"]:nth-child(3) > .credential-card.ds-card"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"credential-index\">0<!-- -->3</span>",
+              "target": [
+                "article[data-reveal=\"up\"]:nth-child(3) > .credential-card.ds-card > .credential-card-top > .credential-index"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#f5f5f7",
+                    "contrastRatio": 3.68,
+                    "fontSize": "9.0pt (12px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<body>",
+                      "target": [
+                        "body"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<p class=\"ds-eyebrow\">Build Log</p>",
+              "target": [
+                ".build-log-intro > .section-index > .ds-eyebrow"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#f5f5f7",
+                    "contrastRatio": 3.68,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<body>",
+                      "target": [
+                        "body"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span>LeadSutra-AI</span>",
+              "target": [
+                ".build-log-repositories > li:nth-child(1) > a[target=\"_blank\"][rel=\"noopener noreferrer\"] > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#f5f5f7",
+                    "contrastRatio": 3.68,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<body>",
+                      "target": [
+                        "body"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span>SentinelAI-AI-Powered-Malware-Detection-Platform</span>",
+              "target": [
+                ".build-log-repositories > li:nth-child(2) > a[target=\"_blank\"][rel=\"noopener noreferrer\"] > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#f5f5f7",
+                    "contrastRatio": 3.68,
+                    "fontSize": "10.3pt (13.76px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<body>",
+                      "target": [
+                        "body"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a class=\"build-log-more-link\" href=\"#more-projects\" aria-label=\"View more project repositories in More Experiments\">",
+              "target": [
+                ".build-log-more-link"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<section class=\"editorial-section contact-section\" id=\"contact\" aria-labelledby=\"contact-heading\">",
+                      "target": [
+                        "#contact"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a href=\"https://www.linkedin.com/in/nikhilkakade28/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Nikhil Ajay Kakade on LinkedIn (opens in a new tab)\">",
+              "target": [
+                ".contact-social-links > li:nth-child(1) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<section class=\"editorial-section contact-section\" id=\"contact\" aria-labelledby=\"contact-heading\">",
+                      "target": [
+                        "#contact"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a href=\"https://github.com/NIKHILKAKADEK\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Nikhil Ajay Kakade on GitHub (opens in a new tab)\">",
+              "target": [
+                ".contact-social-links > li:nth-child(2) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [],
+      "passes": [
+        "aria-allowed-attr",
+        "aria-allowed-role",
+        "aria-conditional-attr",
+        "aria-deprecated-role",
+        "aria-hidden-body",
+        "aria-hidden-focus",
+        "aria-prohibited-attr",
+        "aria-required-attr",
+        "aria-roles",
+        "aria-valid-attr-value",
+        "aria-valid-attr",
+        "avoid-inline-spacing",
+        "button-name",
+        "bypass",
+        "color-contrast",
+        "document-title",
+        "duplicate-id-aria",
+        "empty-heading",
+        "heading-order",
+        "html-has-lang",
+        "html-lang-valid",
+        "image-alt",
+        "image-redundant-alt",
+        "label-content-name-mismatch",
+        "landmark-banner-is-top-level",
+        "landmark-contentinfo-is-top-level",
+        "landmark-main-is-top-level",
+        "landmark-no-duplicate-banner",
+        "landmark-no-duplicate-contentinfo",
+        "landmark-no-duplicate-main",
+        "landmark-one-main",
+        "landmark-unique",
+        "link-name",
+        "list",
+        "listitem",
+        "meta-viewport-large",
+        "meta-viewport",
+        "nested-interactive",
+        "page-has-heading-one",
+        "region",
+        "skip-link"
+      ]
+    },
+    {
+      "theme": "light",
+      "width": 1440,
+      "route": "/projects/leadsutra-ai",
+      "violations": [],
+      "incomplete": [],
+      "passes": [
+        "aria-allowed-attr",
+        "aria-allowed-role",
+        "aria-conditional-attr",
+        "aria-deprecated-role",
+        "aria-hidden-body",
+        "aria-hidden-focus",
+        "aria-prohibited-attr",
+        "aria-required-attr",
+        "aria-roles",
+        "aria-valid-attr-value",
+        "aria-valid-attr",
+        "avoid-inline-spacing",
+        "bypass",
+        "color-contrast",
+        "document-title",
+        "duplicate-id-aria",
+        "empty-heading",
+        "heading-order",
+        "html-has-lang",
+        "html-lang-valid",
+        "label-content-name-mismatch",
+        "landmark-contentinfo-is-top-level",
+        "landmark-main-is-top-level",
+        "landmark-no-duplicate-banner",
+        "landmark-no-duplicate-contentinfo",
+        "landmark-no-duplicate-main",
+        "landmark-one-main",
+        "landmark-unique",
+        "link-name",
+        "list",
+        "listitem",
+        "meta-viewport-large",
+        "meta-viewport",
+        "page-has-heading-one",
+        "region",
+        "skip-link"
+      ]
+    },
+    {
+      "theme": "light",
+      "width": 1440,
+      "route": "/projects/sentinel-ai",
+      "violations": [],
+      "incomplete": [],
+      "passes": [
+        "aria-allowed-attr",
+        "aria-allowed-role",
+        "aria-conditional-attr",
+        "aria-deprecated-role",
+        "aria-hidden-body",
+        "aria-hidden-focus",
+        "aria-prohibited-attr",
+        "aria-required-attr",
+        "aria-roles",
+        "aria-valid-attr-value",
+        "aria-valid-attr",
+        "avoid-inline-spacing",
+        "bypass",
+        "color-contrast",
+        "document-title",
+        "duplicate-id-aria",
+        "empty-heading",
+        "heading-order",
+        "html-has-lang",
+        "html-lang-valid",
+        "landmark-contentinfo-is-top-level",
+        "landmark-main-is-top-level",
+        "landmark-no-duplicate-banner",
+        "landmark-no-duplicate-contentinfo",
+        "landmark-no-duplicate-main",
+        "landmark-one-main",
+        "landmark-unique",
+        "link-name",
+        "list",
+        "listitem",
+        "meta-viewport-large",
+        "meta-viewport",
+        "page-has-heading-one",
+        "region",
+        "skip-link"
+      ]
+    },
+    {
+      "theme": "light",
+      "width": 1440,
+      "route": "/projects/hospital-management",
+      "violations": [],
+      "incomplete": [],
+      "passes": [
+        "aria-allowed-attr",
+        "aria-allowed-role",
+        "aria-conditional-attr",
+        "aria-deprecated-role",
+        "aria-hidden-body",
+        "aria-hidden-focus",
+        "aria-prohibited-attr",
+        "aria-required-attr",
+        "aria-roles",
+        "aria-valid-attr-value",
+        "aria-valid-attr",
+        "avoid-inline-spacing",
+        "bypass",
+        "color-contrast",
+        "document-title",
+        "duplicate-id-aria",
+        "empty-heading",
+        "heading-order",
+        "html-has-lang",
+        "html-lang-valid",
+        "landmark-contentinfo-is-top-level",
+        "landmark-main-is-top-level",
+        "landmark-no-duplicate-banner",
+        "landmark-no-duplicate-contentinfo",
+        "landmark-no-duplicate-main",
+        "landmark-one-main",
+        "landmark-unique",
+        "link-name",
+        "list",
+        "listitem",
+        "meta-viewport-large",
+        "meta-viewport",
+        "page-has-heading-one",
+        "region",
+        "skip-link"
+      ]
+    },
+    {
+      "theme": "light",
+      "width": 1440,
+      "route": "/projects/emergency-navigation",
+      "violations": [],
+      "incomplete": [],
+      "passes": [
+        "aria-allowed-attr",
+        "aria-allowed-role",
+        "aria-conditional-attr",
+        "aria-deprecated-role",
+        "aria-hidden-body",
+        "aria-hidden-focus",
+        "aria-prohibited-attr",
+        "aria-required-attr",
+        "aria-roles",
+        "aria-valid-attr-value",
+        "aria-valid-attr",
+        "avoid-inline-spacing",
+        "bypass",
+        "color-contrast",
+        "document-title",
+        "duplicate-id-aria",
+        "empty-heading",
+        "heading-order",
+        "html-has-lang",
+        "html-lang-valid",
+        "label-content-name-mismatch",
+        "landmark-contentinfo-is-top-level",
+        "landmark-main-is-top-level",
+        "landmark-no-duplicate-banner",
+        "landmark-no-duplicate-contentinfo",
+        "landmark-no-duplicate-main",
+        "landmark-one-main",
+        "landmark-unique",
+        "link-name",
+        "list",
+        "listitem",
+        "meta-viewport-large",
+        "meta-viewport",
+        "page-has-heading-one",
+        "region",
+        "skip-link"
+      ]
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "route": "/",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "10.3pt (13.76px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"project-copy\">",
+                      "target": [
+                        "article[aria-labelledby=\"project-leadsutra-ai-title\"] > .project-copy"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a class=\"project-case-link\" href=\"/projects/leadsutra-ai\" aria-label=\"View Case Study: LeadSutra AI\">",
+              "target": [
+                "a[href$=\"leadsutra-ai\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "10.3pt (13.76px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"project-copy\">",
+                      "target": [
+                        "article[aria-labelledby=\"project-leadsutra-ai-title\"] > .project-copy"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a class=\"project-github-link\" href=\"https://github.com/NIKHILKAKADEK/LeadSutra-AI\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LeadSutra AI on GitHub\">",
+              "target": [
+                "a[aria-label=\"LeadSutra AI on GitHub\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "10.3pt (13.76px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"project-copy\">",
+                      "target": [
+                        "article[aria-labelledby=\"project-sentinel-ai-title\"] > .project-copy"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a class=\"project-case-link\" href=\"/projects/sentinel-ai\" aria-label=\"View Case Study: SentinelAI\">",
+              "target": [
+                "a[aria-label=\"View Case Study: SentinelAI\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "10.3pt (13.76px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"project-copy\">",
+                      "target": [
+                        ".project-feature:nth-child(3) > .project-copy"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a class=\"project-case-link\" href=\"/projects/hospital-management\" aria-label=\"View Case Study: Hospital Management System\">",
+              "target": [
+                "a[href$=\"hospital-management\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "10.3pt (13.76px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"project-copy\">",
+                      "target": [
+                        ".project-feature-reverse.project-feature:nth-child(4) > .project-copy"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a class=\"project-case-link\" href=\"/projects/emergency-navigation\" aria-label=\"View Case Study: Emergency Navigation System\">",
+              "target": [
+                "a[href$=\"emergency-navigation\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "10.3pt (13.76px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"project-copy\">",
+                      "target": [
+                        ".project-feature-reverse.project-feature:nth-child(4) > .project-copy"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a class=\"project-github-link\" href=\"https://github.com/NIKHILKAKADEK/Emergency-Route-Navigator\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Emergency Navigation System on GitHub\">",
+              "target": [
+                ".project-feature-reverse.project-feature:nth-child(4) > .project-copy > .project-actions > .project-github-link[target=\"_blank\"][rel=\"noopener noreferrer\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#f5f5f7",
+                    "contrastRatio": 3.68,
+                    "fontSize": "10.3pt (13.76px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<section class=\"project-showcase\" id=\"work\" aria-labelledby=\"projects-heading\">",
+                      "target": [
+                        "#work"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a class=\"repositories-link\" href=\"https://github.com/NIKHILKAKADEK\" target=\"_blank\" rel=\"noopener noreferrer\">",
+              "target": [
+                ".repositories-link"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#f5f5f7",
+                    "contrastRatio": 3.68,
+                    "fontSize": "9.0pt (12px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<body>",
+                      "target": [
+                        "body"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<p class=\"ds-eyebrow\">Technical Focus</p>",
+              "target": [
+                ".technical-focus-intro > .section-index > .ds-eyebrow"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "9.4pt (12.48px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"ds-card technical-focus-card\">",
+                      "target": [
+                        ".technical-focus-card-wrap[data-reveal=\"up\"]:nth-child(1) > .technical-focus-card.ds-card"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"technical-focus-number\">01</span>",
+              "target": [
+                ".technical-focus-card-wrap[data-reveal=\"up\"]:nth-child(1) > .technical-focus-card.ds-card > .technical-focus-card-heading > .technical-focus-number"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "9.4pt (12.48px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"ds-card technical-focus-card technical-focus-card-emphasis\">",
+                      "target": [
+                        ".technical-focus-card-emphasis"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"technical-focus-number\">02</span>",
+              "target": [
+                ".technical-focus-card-emphasis > .technical-focus-card-heading > .technical-focus-number"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "bold",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<a class=\"focus-proof-link\" href=\"/projects/sentinel-ai\">",
+                      "target": [
+                        ".focus-proof-link"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<strong>SentinelAI</strong>",
+              "target": [
+                "span:nth-child(1) > strong"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "9.4pt (12.48px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"ds-card technical-focus-card\">",
+                      "target": [
+                        ".technical-focus-card-wrap[data-reveal=\"up\"]:nth-child(3) > .technical-focus-card.ds-card"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"technical-focus-number\">03</span>",
+              "target": [
+                ".technical-focus-card-wrap[data-reveal=\"up\"]:nth-child(3) > .technical-focus-card.ds-card > .technical-focus-card-heading > .technical-focus-number"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "9.4pt (12.48px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"ds-card technical-focus-card\">",
+                      "target": [
+                        ".technical-focus-card-wrap-supporting > .technical-focus-card.ds-card"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"technical-focus-number\">04</span>",
+              "target": [
+                ".technical-focus-card-wrap-supporting > .technical-focus-card.ds-card > .technical-focus-card-heading > .technical-focus-number"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#f5f5f7",
+                    "contrastRatio": 3.68,
+                    "fontSize": "9.0pt (12px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<body>",
+                      "target": [
+                        "body"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<p class=\"ds-eyebrow\">Credentials</p>",
+              "target": [
+                ".credentials-heading-row > .section-index > .ds-eyebrow"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "9.4pt (12.48px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"ds-card credential-card\">",
+                      "target": [
+                        "article[data-reveal=\"up\"]:nth-child(1) > .credential-card.ds-card"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"credential-index\">0<!-- -->1</span>",
+              "target": [
+                "article[data-reveal=\"up\"]:nth-child(1) > .credential-card.ds-card > .credential-card-top > .credential-index"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "9.4pt (12.48px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"ds-card credential-card\">",
+                      "target": [
+                        "article[data-reveal=\"up\"]:nth-child(2) > .credential-card.ds-card"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"credential-index\">0<!-- -->2</span>",
+              "target": [
+                "article[data-reveal=\"up\"]:nth-child(2) > .credential-card.ds-card > .credential-card-top > .credential-index"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "9.4pt (12.48px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"ds-card credential-card\">",
+                      "target": [
+                        "article[data-reveal=\"up\"]:nth-child(2) > .credential-card.ds-card"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<strong>75%</strong>",
+              "target": [
+                ".credential-score > strong"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "9.4pt (12.48px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"ds-card credential-card\">",
+                      "target": [
+                        "article[data-reveal=\"up\"]:nth-child(3) > .credential-card.ds-card"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"credential-index\">0<!-- -->3</span>",
+              "target": [
+                "article[data-reveal=\"up\"]:nth-child(3) > .credential-card.ds-card > .credential-card-top > .credential-index"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#f5f5f7",
+                    "contrastRatio": 3.68,
+                    "fontSize": "9.0pt (12px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<body>",
+                      "target": [
+                        "body"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<p class=\"ds-eyebrow\">Build Log</p>",
+              "target": [
+                ".build-log-intro > .section-index > .ds-eyebrow"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#f5f5f7",
+                    "contrastRatio": 3.68,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<body>",
+                      "target": [
+                        "body"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span>LeadSutra-AI</span>",
+              "target": [
+                ".build-log-repositories > li:nth-child(1) > a[target=\"_blank\"][rel=\"noopener noreferrer\"] > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#f5f5f7",
+                    "contrastRatio": 3.68,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<body>",
+                      "target": [
+                        "body"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span>SentinelAI-AI-Powered-Malware-Detection-Platform</span>",
+              "target": [
+                ".build-log-repositories > li:nth-child(2) > a[target=\"_blank\"][rel=\"noopener noreferrer\"] > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#f5f5f7",
+                    "contrastRatio": 3.68,
+                    "fontSize": "10.3pt (13.76px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<body>",
+                      "target": [
+                        "body"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a class=\"build-log-more-link\" href=\"#more-projects\" aria-label=\"View more project repositories in More Experiments\">",
+              "target": [
+                ".build-log-more-link"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.68 (foreground color: #007aff, background color: #f5f5f7, font size: 10.3pt (13.76px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<section class=\"editorial-section contact-section\" id=\"contact\" aria-labelledby=\"contact-heading\">",
+                      "target": [
+                        "#contact"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a href=\"https://www.linkedin.com/in/nikhilkakade28/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Nikhil Ajay Kakade on LinkedIn (opens in a new tab)\">",
+              "target": [
+                ".contact-social-links > li:nth-child(1) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#007aff",
+                    "bgColor": "#ffffff",
+                    "contrastRatio": 4.01,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<section class=\"editorial-section contact-section\" id=\"contact\" aria-labelledby=\"contact-heading\">",
+                      "target": [
+                        "#contact"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a href=\"https://github.com/NIKHILKAKADEK\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Nikhil Ajay Kakade on GitHub (opens in a new tab)\">",
+              "target": [
+                ".contact-social-links > li:nth-child(2) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #007aff, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [],
+      "passes": [
+        "aria-allowed-attr",
+        "aria-allowed-role",
+        "aria-conditional-attr",
+        "aria-deprecated-role",
+        "aria-hidden-body",
+        "aria-hidden-focus",
+        "aria-prohibited-attr",
+        "aria-required-attr",
+        "aria-roles",
+        "aria-valid-attr-value",
+        "aria-valid-attr",
+        "avoid-inline-spacing",
+        "button-name",
+        "bypass",
+        "color-contrast",
+        "document-title",
+        "duplicate-id-aria",
+        "empty-heading",
+        "heading-order",
+        "html-has-lang",
+        "html-lang-valid",
+        "image-alt",
+        "image-redundant-alt",
+        "label-content-name-mismatch",
+        "landmark-banner-is-top-level",
+        "landmark-contentinfo-is-top-level",
+        "landmark-main-is-top-level",
+        "landmark-no-duplicate-banner",
+        "landmark-no-duplicate-contentinfo",
+        "landmark-no-duplicate-main",
+        "landmark-one-main",
+        "landmark-unique",
+        "link-name",
+        "list",
+        "listitem",
+        "meta-viewport-large",
+        "meta-viewport",
+        "nested-interactive",
+        "page-has-heading-one",
+        "region",
+        "skip-link"
+      ]
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "route": "/projects/leadsutra-ai",
+      "violations": [],
+      "incomplete": [],
+      "passes": [
+        "aria-allowed-attr",
+        "aria-allowed-role",
+        "aria-conditional-attr",
+        "aria-deprecated-role",
+        "aria-hidden-body",
+        "aria-hidden-focus",
+        "aria-prohibited-attr",
+        "aria-required-attr",
+        "aria-roles",
+        "aria-valid-attr-value",
+        "aria-valid-attr",
+        "avoid-inline-spacing",
+        "bypass",
+        "color-contrast",
+        "document-title",
+        "duplicate-id-aria",
+        "empty-heading",
+        "heading-order",
+        "html-has-lang",
+        "html-lang-valid",
+        "label-content-name-mismatch",
+        "landmark-contentinfo-is-top-level",
+        "landmark-main-is-top-level",
+        "landmark-no-duplicate-banner",
+        "landmark-no-duplicate-contentinfo",
+        "landmark-no-duplicate-main",
+        "landmark-one-main",
+        "landmark-unique",
+        "link-name",
+        "list",
+        "listitem",
+        "meta-viewport-large",
+        "meta-viewport",
+        "page-has-heading-one",
+        "region",
+        "skip-link"
+      ]
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "route": "/projects/sentinel-ai",
+      "violations": [],
+      "incomplete": [],
+      "passes": [
+        "aria-allowed-attr",
+        "aria-allowed-role",
+        "aria-conditional-attr",
+        "aria-deprecated-role",
+        "aria-hidden-body",
+        "aria-hidden-focus",
+        "aria-prohibited-attr",
+        "aria-required-attr",
+        "aria-roles",
+        "aria-valid-attr-value",
+        "aria-valid-attr",
+        "avoid-inline-spacing",
+        "bypass",
+        "color-contrast",
+        "document-title",
+        "duplicate-id-aria",
+        "empty-heading",
+        "heading-order",
+        "html-has-lang",
+        "html-lang-valid",
+        "landmark-contentinfo-is-top-level",
+        "landmark-main-is-top-level",
+        "landmark-no-duplicate-banner",
+        "landmark-no-duplicate-contentinfo",
+        "landmark-no-duplicate-main",
+        "landmark-one-main",
+        "landmark-unique",
+        "link-name",
+        "list",
+        "listitem",
+        "meta-viewport-large",
+        "meta-viewport",
+        "page-has-heading-one",
+        "region",
+        "skip-link"
+      ]
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "route": "/projects/hospital-management",
+      "violations": [],
+      "incomplete": [],
+      "passes": [
+        "aria-allowed-attr",
+        "aria-allowed-role",
+        "aria-conditional-attr",
+        "aria-deprecated-role",
+        "aria-hidden-body",
+        "aria-hidden-focus",
+        "aria-prohibited-attr",
+        "aria-required-attr",
+        "aria-roles",
+        "aria-valid-attr-value",
+        "aria-valid-attr",
+        "avoid-inline-spacing",
+        "bypass",
+        "color-contrast",
+        "document-title",
+        "duplicate-id-aria",
+        "empty-heading",
+        "heading-order",
+        "html-has-lang",
+        "html-lang-valid",
+        "landmark-contentinfo-is-top-level",
+        "landmark-main-is-top-level",
+        "landmark-no-duplicate-banner",
+        "landmark-no-duplicate-contentinfo",
+        "landmark-no-duplicate-main",
+        "landmark-one-main",
+        "landmark-unique",
+        "link-name",
+        "list",
+        "listitem",
+        "meta-viewport-large",
+        "meta-viewport",
+        "page-has-heading-one",
+        "region",
+        "skip-link"
+      ]
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "route": "/projects/emergency-navigation",
+      "violations": [],
+      "incomplete": [],
+      "passes": [
+        "aria-allowed-attr",
+        "aria-allowed-role",
+        "aria-conditional-attr",
+        "aria-deprecated-role",
+        "aria-hidden-body",
+        "aria-hidden-focus",
+        "aria-prohibited-attr",
+        "aria-required-attr",
+        "aria-roles",
+        "aria-valid-attr-value",
+        "aria-valid-attr",
+        "avoid-inline-spacing",
+        "bypass",
+        "color-contrast",
+        "document-title",
+        "duplicate-id-aria",
+        "empty-heading",
+        "heading-order",
+        "html-has-lang",
+        "html-lang-valid",
+        "label-content-name-mismatch",
+        "landmark-contentinfo-is-top-level",
+        "landmark-main-is-top-level",
+        "landmark-no-duplicate-banner",
+        "landmark-no-duplicate-contentinfo",
+        "landmark-no-duplicate-main",
+        "landmark-one-main",
+        "landmark-unique",
+        "link-name",
+        "list",
+        "listitem",
+        "meta-viewport-large",
+        "meta-viewport",
+        "page-has-heading-one",
+        "region",
+        "skip-link"
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "route": "/",
+      "violations": [],
+      "incomplete": [],
+      "passes": [
+        "aria-allowed-attr",
+        "aria-allowed-role",
+        "aria-conditional-attr",
+        "aria-deprecated-role",
+        "aria-hidden-body",
+        "aria-hidden-focus",
+        "aria-prohibited-attr",
+        "aria-required-attr",
+        "aria-roles",
+        "aria-valid-attr-value",
+        "aria-valid-attr",
+        "avoid-inline-spacing",
+        "button-name",
+        "bypass",
+        "color-contrast",
+        "document-title",
+        "duplicate-id-aria",
+        "empty-heading",
+        "heading-order",
+        "html-has-lang",
+        "html-lang-valid",
+        "image-alt",
+        "image-redundant-alt",
+        "label-content-name-mismatch",
+        "landmark-banner-is-top-level",
+        "landmark-contentinfo-is-top-level",
+        "landmark-main-is-top-level",
+        "landmark-no-duplicate-banner",
+        "landmark-no-duplicate-contentinfo",
+        "landmark-no-duplicate-main",
+        "landmark-one-main",
+        "landmark-unique",
+        "link-name",
+        "list",
+        "listitem",
+        "meta-viewport-large",
+        "meta-viewport",
+        "nested-interactive",
+        "page-has-heading-one",
+        "region",
+        "skip-link"
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "route": "/projects/leadsutra-ai",
+      "violations": [],
+      "incomplete": [],
+      "passes": [
+        "aria-allowed-attr",
+        "aria-allowed-role",
+        "aria-conditional-attr",
+        "aria-deprecated-role",
+        "aria-hidden-body",
+        "aria-hidden-focus",
+        "aria-prohibited-attr",
+        "aria-required-attr",
+        "aria-roles",
+        "aria-valid-attr-value",
+        "aria-valid-attr",
+        "avoid-inline-spacing",
+        "bypass",
+        "color-contrast",
+        "document-title",
+        "duplicate-id-aria",
+        "empty-heading",
+        "heading-order",
+        "html-has-lang",
+        "html-lang-valid",
+        "label-content-name-mismatch",
+        "landmark-contentinfo-is-top-level",
+        "landmark-main-is-top-level",
+        "landmark-no-duplicate-banner",
+        "landmark-no-duplicate-contentinfo",
+        "landmark-no-duplicate-main",
+        "landmark-one-main",
+        "landmark-unique",
+        "link-name",
+        "list",
+        "listitem",
+        "meta-viewport-large",
+        "meta-viewport",
+        "page-has-heading-one",
+        "region",
+        "skip-link"
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "route": "/projects/sentinel-ai",
+      "violations": [],
+      "incomplete": [],
+      "passes": [
+        "aria-allowed-attr",
+        "aria-allowed-role",
+        "aria-conditional-attr",
+        "aria-deprecated-role",
+        "aria-hidden-body",
+        "aria-hidden-focus",
+        "aria-prohibited-attr",
+        "aria-required-attr",
+        "aria-roles",
+        "aria-valid-attr-value",
+        "aria-valid-attr",
+        "avoid-inline-spacing",
+        "bypass",
+        "color-contrast",
+        "document-title",
+        "duplicate-id-aria",
+        "empty-heading",
+        "heading-order",
+        "html-has-lang",
+        "html-lang-valid",
+        "landmark-contentinfo-is-top-level",
+        "landmark-main-is-top-level",
+        "landmark-no-duplicate-banner",
+        "landmark-no-duplicate-contentinfo",
+        "landmark-no-duplicate-main",
+        "landmark-one-main",
+        "landmark-unique",
+        "link-name",
+        "list",
+        "listitem",
+        "meta-viewport-large",
+        "meta-viewport",
+        "page-has-heading-one",
+        "region",
+        "skip-link"
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "route": "/projects/hospital-management",
+      "violations": [],
+      "incomplete": [],
+      "passes": [
+        "aria-allowed-attr",
+        "aria-allowed-role",
+        "aria-conditional-attr",
+        "aria-deprecated-role",
+        "aria-hidden-body",
+        "aria-hidden-focus",
+        "aria-prohibited-attr",
+        "aria-required-attr",
+        "aria-roles",
+        "aria-valid-attr-value",
+        "aria-valid-attr",
+        "avoid-inline-spacing",
+        "bypass",
+        "color-contrast",
+        "document-title",
+        "duplicate-id-aria",
+        "empty-heading",
+        "heading-order",
+        "html-has-lang",
+        "html-lang-valid",
+        "landmark-contentinfo-is-top-level",
+        "landmark-main-is-top-level",
+        "landmark-no-duplicate-banner",
+        "landmark-no-duplicate-contentinfo",
+        "landmark-no-duplicate-main",
+        "landmark-one-main",
+        "landmark-unique",
+        "link-name",
+        "list",
+        "listitem",
+        "meta-viewport-large",
+        "meta-viewport",
+        "page-has-heading-one",
+        "region",
+        "skip-link"
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "route": "/projects/emergency-navigation",
+      "violations": [],
+      "incomplete": [],
+      "passes": [
+        "aria-allowed-attr",
+        "aria-allowed-role",
+        "aria-conditional-attr",
+        "aria-deprecated-role",
+        "aria-hidden-body",
+        "aria-hidden-focus",
+        "aria-prohibited-attr",
+        "aria-required-attr",
+        "aria-roles",
+        "aria-valid-attr-value",
+        "aria-valid-attr",
+        "avoid-inline-spacing",
+        "bypass",
+        "color-contrast",
+        "document-title",
+        "duplicate-id-aria",
+        "empty-heading",
+        "heading-order",
+        "html-has-lang",
+        "html-lang-valid",
+        "label-content-name-mismatch",
+        "landmark-contentinfo-is-top-level",
+        "landmark-main-is-top-level",
+        "landmark-no-duplicate-banner",
+        "landmark-no-duplicate-contentinfo",
+        "landmark-no-duplicate-main",
+        "landmark-one-main",
+        "landmark-unique",
+        "link-name",
+        "list",
+        "listitem",
+        "meta-viewport-large",
+        "meta-viewport",
+        "page-has-heading-one",
+        "region",
+        "skip-link"
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "route": "/",
+      "violations": [],
+      "incomplete": [],
+      "passes": [
+        "aria-allowed-attr",
+        "aria-allowed-role",
+        "aria-conditional-attr",
+        "aria-deprecated-role",
+        "aria-hidden-body",
+        "aria-hidden-focus",
+        "aria-prohibited-attr",
+        "aria-required-attr",
+        "aria-roles",
+        "aria-valid-attr-value",
+        "aria-valid-attr",
+        "avoid-inline-spacing",
+        "button-name",
+        "bypass",
+        "color-contrast",
+        "document-title",
+        "duplicate-id-aria",
+        "empty-heading",
+        "heading-order",
+        "html-has-lang",
+        "html-lang-valid",
+        "image-alt",
+        "image-redundant-alt",
+        "label-content-name-mismatch",
+        "landmark-banner-is-top-level",
+        "landmark-contentinfo-is-top-level",
+        "landmark-main-is-top-level",
+        "landmark-no-duplicate-banner",
+        "landmark-no-duplicate-contentinfo",
+        "landmark-no-duplicate-main",
+        "landmark-one-main",
+        "landmark-unique",
+        "link-name",
+        "list",
+        "listitem",
+        "meta-viewport-large",
+        "meta-viewport",
+        "nested-interactive",
+        "page-has-heading-one",
+        "region",
+        "skip-link"
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "route": "/projects/leadsutra-ai",
+      "violations": [],
+      "incomplete": [],
+      "passes": [
+        "aria-allowed-attr",
+        "aria-allowed-role",
+        "aria-conditional-attr",
+        "aria-deprecated-role",
+        "aria-hidden-body",
+        "aria-hidden-focus",
+        "aria-prohibited-attr",
+        "aria-required-attr",
+        "aria-roles",
+        "aria-valid-attr-value",
+        "aria-valid-attr",
+        "avoid-inline-spacing",
+        "bypass",
+        "color-contrast",
+        "document-title",
+        "duplicate-id-aria",
+        "empty-heading",
+        "heading-order",
+        "html-has-lang",
+        "html-lang-valid",
+        "label-content-name-mismatch",
+        "landmark-contentinfo-is-top-level",
+        "landmark-main-is-top-level",
+        "landmark-no-duplicate-banner",
+        "landmark-no-duplicate-contentinfo",
+        "landmark-no-duplicate-main",
+        "landmark-one-main",
+        "landmark-unique",
+        "link-name",
+        "list",
+        "listitem",
+        "meta-viewport-large",
+        "meta-viewport",
+        "page-has-heading-one",
+        "region",
+        "skip-link"
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "route": "/projects/sentinel-ai",
+      "violations": [],
+      "incomplete": [],
+      "passes": [
+        "aria-allowed-attr",
+        "aria-allowed-role",
+        "aria-conditional-attr",
+        "aria-deprecated-role",
+        "aria-hidden-body",
+        "aria-hidden-focus",
+        "aria-prohibited-attr",
+        "aria-required-attr",
+        "aria-roles",
+        "aria-valid-attr-value",
+        "aria-valid-attr",
+        "avoid-inline-spacing",
+        "bypass",
+        "color-contrast",
+        "document-title",
+        "duplicate-id-aria",
+        "empty-heading",
+        "heading-order",
+        "html-has-lang",
+        "html-lang-valid",
+        "landmark-contentinfo-is-top-level",
+        "landmark-main-is-top-level",
+        "landmark-no-duplicate-banner",
+        "landmark-no-duplicate-contentinfo",
+        "landmark-no-duplicate-main",
+        "landmark-one-main",
+        "landmark-unique",
+        "link-name",
+        "list",
+        "listitem",
+        "meta-viewport-large",
+        "meta-viewport",
+        "page-has-heading-one",
+        "region",
+        "skip-link"
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "route": "/projects/hospital-management",
+      "violations": [],
+      "incomplete": [],
+      "passes": [
+        "aria-allowed-attr",
+        "aria-allowed-role",
+        "aria-conditional-attr",
+        "aria-deprecated-role",
+        "aria-hidden-body",
+        "aria-hidden-focus",
+        "aria-prohibited-attr",
+        "aria-required-attr",
+        "aria-roles",
+        "aria-valid-attr-value",
+        "aria-valid-attr",
+        "avoid-inline-spacing",
+        "bypass",
+        "color-contrast",
+        "document-title",
+        "duplicate-id-aria",
+        "empty-heading",
+        "heading-order",
+        "html-has-lang",
+        "html-lang-valid",
+        "landmark-contentinfo-is-top-level",
+        "landmark-main-is-top-level",
+        "landmark-no-duplicate-banner",
+        "landmark-no-duplicate-contentinfo",
+        "landmark-no-duplicate-main",
+        "landmark-one-main",
+        "landmark-unique",
+        "link-name",
+        "list",
+        "listitem",
+        "meta-viewport-large",
+        "meta-viewport",
+        "page-has-heading-one",
+        "region",
+        "skip-link"
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "route": "/projects/emergency-navigation",
+      "violations": [],
+      "incomplete": [],
+      "passes": [
+        "aria-allowed-attr",
+        "aria-allowed-role",
+        "aria-conditional-attr",
+        "aria-deprecated-role",
+        "aria-hidden-body",
+        "aria-hidden-focus",
+        "aria-prohibited-attr",
+        "aria-required-attr",
+        "aria-roles",
+        "aria-valid-attr-value",
+        "aria-valid-attr",
+        "avoid-inline-spacing",
+        "bypass",
+        "color-contrast",
+        "document-title",
+        "duplicate-id-aria",
+        "empty-heading",
+        "heading-order",
+        "html-has-lang",
+        "html-lang-valid",
+        "label-content-name-mismatch",
+        "landmark-contentinfo-is-top-level",
+        "landmark-main-is-top-level",
+        "landmark-no-duplicate-banner",
+        "landmark-no-duplicate-contentinfo",
+        "landmark-no-duplicate-main",
+        "landmark-one-main",
+        "landmark-unique",
+        "link-name",
+        "list",
+        "listitem",
+        "meta-viewport-large",
+        "meta-viewport",
+        "page-has-heading-one",
+        "region",
+        "skip-link"
+      ]
+    }
+  ],
+  "caveat": "Automated checks do not establish full accessibility compliance. Incomplete items require manual review."
+}

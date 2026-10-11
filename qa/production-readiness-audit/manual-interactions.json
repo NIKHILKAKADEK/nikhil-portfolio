@@ -1,0 +1,19 @@
+{
+  "rows": [
+    {
+      "theme": "light",
+      "skipLink": "first keyboard stop; following Tab enters main on homepage and case study",
+      "mobileMenuAxeViolations": 0,
+      "escapeFocus": "pass",
+      "consoleErrors": 0
+    },
+    {
+      "theme": "dark",
+      "skipLink": "first keyboard stop; following Tab enters main on homepage and case study",
+      "mobileMenuAxeViolations": 0,
+      "escapeFocus": "pass",
+      "consoleErrors": 0
+    }
+  ],
+  "status": "pass"
+}

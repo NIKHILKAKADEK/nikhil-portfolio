@@ -1,0 +1,15 @@
+{
+  "method": "Lighthouse actual resource-summary script transfer sizes in the recorded local mobile homepage runs. Single runs; performance score changes are not a controlled benchmark.",
+  "before": {
+    "resourceType": "script",
+    "label": "Script",
+    "requestCount": 8,
+    "transferSize": 191735
+  },
+  "after": {
+    "resourceType": "script",
+    "label": "Script",
+    "requestCount": 8,
+    "transferSize": 178357
+  }
+}

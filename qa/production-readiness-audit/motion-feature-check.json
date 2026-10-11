@@ -1,0 +1,87 @@
+{
+  "desktopReveal": "plays",
+  "serverAndAnimatedContent": "visible",
+  "liveReducedMotion": "pass",
+  "samples": [
+    {
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "opacity": "0.96",
+      "transform": "matrix(1, 0, 0, 1, 0, 6)"
+    },
+    {
+      "opacity": "0.974703",
+      "transform": "matrix(1, 0, 0, 1, 0, 3.78535)"
+    },
+    {
+      "opacity": "0.981294",
+      "transform": "matrix(1, 0, 0, 1, 0, 2.20296)"
+    },
+    {
+      "opacity": "0.993216",
+      "transform": "matrix(1, 0, 0, 1, 0, 1.00651)"
+    },
+    {
+      "opacity": "0.995267",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.695353)"
+    },
+    {
+      "opacity": "0.997797",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.327029)"
+    },
+    {
+      "opacity": "0.998539",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.214342)"
+    },
+    {
+      "opacity": "0.999411",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.0870498)"
+    },
+    {
+      "opacity": "0.999806",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.0290583)"
+    },
+    {
+      "opacity": "0.999902",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.01429)"
+    },
+    {
+      "opacity": "0.999986",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.0019372)"
+    },
+    {
+      "opacity": "0.999997",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.0003922)"
+    },
+    {
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "opacity": "1",
+      "transform": "none"
+    }
+  ]
+}

@@ -1,0 +1,1306 @@
+{
+  "sourcePreservation": "Portfolio data, résumé bytes, routes, UI primitives, themes, and Modules 6–8 components unchanged; earlier component edits confined to motion and menu behavior.",
+  "typecheck": "pass",
+  "build": "pass",
+  "lint": "not configured",
+  "home": [
+    {
+      "theme": "light",
+      "width": 1440,
+      "geometry": "pass: no overflow, clipped containers, widget/nav overlap",
+      "content": "visible before scrolling",
+      "hover": "pointer-gated with matching keyboard treatment",
+      "keyboard": "pass",
+      "menu": "desktop anchors: pass",
+      "resume": "original PDF response and download: pass",
+      "reducedMotion": "live preference change: pass",
+      "consoleErrors": 0
+    },
+    {
+      "theme": "light",
+      "width": 1280,
+      "geometry": "pass: no overflow, clipped containers, widget/nav overlap",
+      "content": "visible before scrolling",
+      "hover": "pointer-gated with matching keyboard treatment",
+      "keyboard": "pass",
+      "menu": "desktop anchors: pass",
+      "resume": "original PDF response and download: pass",
+      "reducedMotion": "live preference change: pass",
+      "consoleErrors": 0
+    },
+    {
+      "theme": "light",
+      "width": 1024,
+      "geometry": "pass: no overflow, clipped containers, widget/nav overlap",
+      "content": "visible before scrolling",
+      "hover": "pointer-gated with matching keyboard treatment",
+      "keyboard": "pass",
+      "menu": "desktop anchors: pass",
+      "resume": "original PDF response and download: pass",
+      "reducedMotion": "live preference change: pass",
+      "consoleErrors": 0
+    },
+    {
+      "theme": "light",
+      "width": 768,
+      "geometry": "pass: no overflow, clipped containers, widget/nav overlap",
+      "content": "visible before scrolling",
+      "hover": "pointer-gated with matching keyboard treatment",
+      "keyboard": "pass",
+      "menu": "desktop anchors: pass",
+      "resume": "original PDF response and download: pass",
+      "reducedMotion": "live preference change: pass",
+      "consoleErrors": 0
+    },
+    {
+      "theme": "light",
+      "width": 430,
+      "geometry": "pass: no overflow, clipped containers, widget/nav overlap",
+      "content": "visible before scrolling",
+      "hover": "pointer-gated with matching keyboard treatment",
+      "keyboard": "pass",
+      "menu": "Escape, outside click, tab exit, focus handoff, resize: pass",
+      "resume": "original PDF response and download: pass",
+      "reducedMotion": "live preference change: pass",
+      "consoleErrors": 0
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "geometry": "pass: no overflow, clipped containers, widget/nav overlap",
+      "content": "visible before scrolling",
+      "hover": "pointer-gated with matching keyboard treatment",
+      "keyboard": "pass",
+      "menu": "Escape, outside click, tab exit, focus handoff, resize: pass",
+      "resume": "original PDF response and download: pass",
+      "reducedMotion": "live preference change: pass",
+      "consoleErrors": 0
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "geometry": "pass: no overflow, clipped containers, widget/nav overlap",
+      "content": "visible before scrolling",
+      "hover": "pointer-gated with matching keyboard treatment",
+      "keyboard": "pass",
+      "menu": "desktop anchors: pass",
+      "resume": "original PDF response and download: pass",
+      "reducedMotion": "live preference change: pass",
+      "consoleErrors": 0
+    },
+    {
+      "theme": "dark",
+      "width": 1280,
+      "geometry": "pass: no overflow, clipped containers, widget/nav overlap",
+      "content": "visible before scrolling",
+      "hover": "pointer-gated with matching keyboard treatment",
+      "keyboard": "pass",
+      "menu": "desktop anchors: pass",
+      "resume": "original PDF response and download: pass",
+      "reducedMotion": "live preference change: pass",
+      "consoleErrors": 0
+    },
+    {
+      "theme": "dark",
+      "width": 1024,
+      "geometry": "pass: no overflow, clipped containers, widget/nav overlap",
+      "content": "visible before scrolling",
+      "hover": "pointer-gated with matching keyboard treatment",
+      "keyboard": "pass",
+      "menu": "desktop anchors: pass",
+      "resume": "original PDF response and download: pass",
+      "reducedMotion": "live preference change: pass",
+      "consoleErrors": 0
+    },
+    {
+      "theme": "dark",
+      "width": 768,
+      "geometry": "pass: no overflow, clipped containers, widget/nav overlap",
+      "content": "visible before scrolling",
+      "hover": "pointer-gated with matching keyboard treatment",
+      "keyboard": "pass",
+      "menu": "desktop anchors: pass",
+      "resume": "original PDF response and download: pass",
+      "reducedMotion": "live preference change: pass",
+      "consoleErrors": 0
+    },
+    {
+      "theme": "dark",
+      "width": 430,
+      "geometry": "pass: no overflow, clipped containers, widget/nav overlap",
+      "content": "visible before scrolling",
+      "hover": "pointer-gated with matching keyboard treatment",
+      "keyboard": "pass",
+      "menu": "Escape, outside click, tab exit, focus handoff, resize: pass",
+      "resume": "original PDF response and download: pass",
+      "reducedMotion": "live preference change: pass",
+      "consoleErrors": 0
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "geometry": "pass: no overflow, clipped containers, widget/nav overlap",
+      "content": "visible before scrolling",
+      "hover": "pointer-gated with matching keyboard treatment",
+      "keyboard": "pass",
+      "menu": "Escape, outside click, tab exit, focus handoff, resize: pass",
+      "resume": "original PDF response and download: pass",
+      "reducedMotion": "live preference change: pass",
+      "consoleErrors": 0
+    }
+  ],
+  "cases": [
+    {
+      "route": "/projects/leadsutra-ai",
+      "theme": "light",
+      "width": 1440,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/sentinel-ai",
+      "theme": "light",
+      "width": 1440,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/hospital-management",
+      "theme": "light",
+      "width": 1440,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/emergency-navigation",
+      "theme": "light",
+      "width": 1440,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/leadsutra-ai",
+      "theme": "light",
+      "width": 1280,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/sentinel-ai",
+      "theme": "light",
+      "width": 1280,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/hospital-management",
+      "theme": "light",
+      "width": 1280,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/emergency-navigation",
+      "theme": "light",
+      "width": 1280,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/leadsutra-ai",
+      "theme": "light",
+      "width": 1024,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/sentinel-ai",
+      "theme": "light",
+      "width": 1024,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/hospital-management",
+      "theme": "light",
+      "width": 1024,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/emergency-navigation",
+      "theme": "light",
+      "width": 1024,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/leadsutra-ai",
+      "theme": "light",
+      "width": 768,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/sentinel-ai",
+      "theme": "light",
+      "width": 768,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/hospital-management",
+      "theme": "light",
+      "width": 768,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/emergency-navigation",
+      "theme": "light",
+      "width": 768,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/leadsutra-ai",
+      "theme": "light",
+      "width": 430,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/sentinel-ai",
+      "theme": "light",
+      "width": 430,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/hospital-management",
+      "theme": "light",
+      "width": 430,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/emergency-navigation",
+      "theme": "light",
+      "width": 430,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/leadsutra-ai",
+      "theme": "light",
+      "width": 390,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/sentinel-ai",
+      "theme": "light",
+      "width": 390,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/hospital-management",
+      "theme": "light",
+      "width": 390,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/emergency-navigation",
+      "theme": "light",
+      "width": 390,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/leadsutra-ai",
+      "theme": "dark",
+      "width": 1440,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/sentinel-ai",
+      "theme": "dark",
+      "width": 1440,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/hospital-management",
+      "theme": "dark",
+      "width": 1440,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/emergency-navigation",
+      "theme": "dark",
+      "width": 1440,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/leadsutra-ai",
+      "theme": "dark",
+      "width": 1280,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/sentinel-ai",
+      "theme": "dark",
+      "width": 1280,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/hospital-management",
+      "theme": "dark",
+      "width": 1280,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/emergency-navigation",
+      "theme": "dark",
+      "width": 1280,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/leadsutra-ai",
+      "theme": "dark",
+      "width": 1024,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/sentinel-ai",
+      "theme": "dark",
+      "width": 1024,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/hospital-management",
+      "theme": "dark",
+      "width": 1024,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/emergency-navigation",
+      "theme": "dark",
+      "width": 1024,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/leadsutra-ai",
+      "theme": "dark",
+      "width": 768,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/sentinel-ai",
+      "theme": "dark",
+      "width": 768,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/hospital-management",
+      "theme": "dark",
+      "width": 768,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/emergency-navigation",
+      "theme": "dark",
+      "width": 768,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/leadsutra-ai",
+      "theme": "dark",
+      "width": 430,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/sentinel-ai",
+      "theme": "dark",
+      "width": 430,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/hospital-management",
+      "theme": "dark",
+      "width": 430,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/emergency-navigation",
+      "theme": "dark",
+      "width": 430,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/leadsutra-ai",
+      "theme": "dark",
+      "width": 390,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/sentinel-ai",
+      "theme": "dark",
+      "width": 390,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/hospital-management",
+      "theme": "dark",
+      "width": 390,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    },
+    {
+      "route": "/projects/emergency-navigation",
+      "theme": "dark",
+      "width": 390,
+      "diagrams": "pass",
+      "focus": "pass",
+      "footerLinks": "pass",
+      "overflow": false,
+      "consoleErrors": 0
+    }
+  ],
+  "accessibility": [
+    {
+      "scenario": "touch phone",
+      "theme": "light",
+      "width": 390,
+      "taps": "menu, section, theme and download pass",
+      "stickyHover": "none",
+      "continuousMotion": "none",
+      "consoleErrors": 0
+    },
+    {
+      "scenario": "touch phone",
+      "theme": "dark",
+      "width": 390,
+      "taps": "menu, section, theme and download pass",
+      "stickyHover": "none",
+      "continuousMotion": "none",
+      "consoleErrors": 0
+    },
+    {
+      "scenario": "no-javascript",
+      "width": 390,
+      "serverContent": "visible",
+      "nativeFooterNavigation": "pass",
+      "nativeResumeDownload": "pass"
+    },
+    {
+      "scenario": "blocked-application-javascript",
+      "width": 390,
+      "serverContent": "visible",
+      "nativeFooterNavigation": "pass",
+      "nativeResumeDownload": "pass"
+    },
+    {
+      "scenario": "next-project navigation with Enter",
+      "routes": 4,
+      "status": "pass"
+    }
+  ],
+  "measurements": {
+    "method": "Chromium Layout Instability API during the recorded automation scenario. Value sums are observations, not a CLS or Lighthouse score.",
+    "rows": [
+      {
+        "page": "home",
+        "theme": "light",
+        "width": 1440,
+        "supported": true,
+        "observedDurationMs": 13327,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0,
+        "hoverAndFocusLayoutDimensions": "unchanged",
+        "maxLayoutCoordinateDifferencePx": 1
+      },
+      {
+        "page": "home",
+        "theme": "light",
+        "width": 1280,
+        "supported": true,
+        "observedDurationMs": 12635,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0,
+        "hoverAndFocusLayoutDimensions": "unchanged",
+        "maxLayoutCoordinateDifferencePx": 1
+      },
+      {
+        "page": "home",
+        "theme": "light",
+        "width": 1024,
+        "supported": true,
+        "observedDurationMs": 12312,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0,
+        "hoverAndFocusLayoutDimensions": "unchanged",
+        "maxLayoutCoordinateDifferencePx": 1
+      },
+      {
+        "page": "home",
+        "theme": "light",
+        "width": 768,
+        "supported": true,
+        "observedDurationMs": 12235,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0,
+        "hoverAndFocusLayoutDimensions": "unchanged",
+        "maxLayoutCoordinateDifferencePx": 1
+      },
+      {
+        "page": "home",
+        "theme": "light",
+        "width": 430,
+        "supported": true,
+        "observedDurationMs": 15874,
+        "recordedEntries": 2,
+        "valueSum": 1.9964374999999999,
+        "valueSumWithoutRecentInput": 0,
+        "hoverAndFocusLayoutDimensions": "unchanged",
+        "maxLayoutCoordinateDifferencePx": 1
+      },
+      {
+        "page": "home",
+        "theme": "light",
+        "width": 390,
+        "supported": true,
+        "observedDurationMs": 15933,
+        "recordedEntries": 2,
+        "valueSum": 1.9964374999999999,
+        "valueSumWithoutRecentInput": 0,
+        "hoverAndFocusLayoutDimensions": "unchanged",
+        "maxLayoutCoordinateDifferencePx": 1
+      },
+      {
+        "page": "home",
+        "theme": "dark",
+        "width": 1440,
+        "supported": true,
+        "observedDurationMs": 13127,
+        "recordedEntries": 2,
+        "valueSum": 1.9936666666666667,
+        "valueSumWithoutRecentInput": 0,
+        "hoverAndFocusLayoutDimensions": "unchanged",
+        "maxLayoutCoordinateDifferencePx": 1
+      },
+      {
+        "page": "home",
+        "theme": "dark",
+        "width": 1280,
+        "supported": true,
+        "observedDurationMs": 12491,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0,
+        "hoverAndFocusLayoutDimensions": "unchanged",
+        "maxLayoutCoordinateDifferencePx": 1
+      },
+      {
+        "page": "home",
+        "theme": "dark",
+        "width": 1024,
+        "supported": true,
+        "observedDurationMs": 12311,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0,
+        "hoverAndFocusLayoutDimensions": "unchanged",
+        "maxLayoutCoordinateDifferencePx": 1
+      },
+      {
+        "page": "home",
+        "theme": "dark",
+        "width": 768,
+        "supported": true,
+        "observedDurationMs": 12185,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0,
+        "hoverAndFocusLayoutDimensions": "unchanged",
+        "maxLayoutCoordinateDifferencePx": 1
+      },
+      {
+        "page": "home",
+        "theme": "dark",
+        "width": 430,
+        "supported": true,
+        "observedDurationMs": 15800,
+        "recordedEntries": 2,
+        "valueSum": 1.9964374999999999,
+        "valueSumWithoutRecentInput": 0,
+        "hoverAndFocusLayoutDimensions": "unchanged",
+        "maxLayoutCoordinateDifferencePx": 1
+      },
+      {
+        "page": "home",
+        "theme": "dark",
+        "width": 390,
+        "supported": true,
+        "observedDurationMs": 15735,
+        "recordedEntries": 2,
+        "valueSum": 1.9964374999999999,
+        "valueSumWithoutRecentInput": 0,
+        "hoverAndFocusLayoutDimensions": "unchanged",
+        "maxLayoutCoordinateDifferencePx": 1
+      },
+      {
+        "page": "/projects/leadsutra-ai",
+        "theme": "light",
+        "width": 1440,
+        "supported": true,
+        "observedDurationMs": 1538,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/sentinel-ai",
+        "theme": "light",
+        "width": 1440,
+        "supported": true,
+        "observedDurationMs": 1331,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/hospital-management",
+        "theme": "light",
+        "width": 1440,
+        "supported": true,
+        "observedDurationMs": 1308,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/emergency-navigation",
+        "theme": "light",
+        "width": 1440,
+        "supported": true,
+        "observedDurationMs": 1352,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/leadsutra-ai",
+        "theme": "light",
+        "width": 1280,
+        "supported": true,
+        "observedDurationMs": 1470,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/sentinel-ai",
+        "theme": "light",
+        "width": 1280,
+        "supported": true,
+        "observedDurationMs": 1275,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/hospital-management",
+        "theme": "light",
+        "width": 1280,
+        "supported": true,
+        "observedDurationMs": 1289,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/emergency-navigation",
+        "theme": "light",
+        "width": 1280,
+        "supported": true,
+        "observedDurationMs": 1273,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/leadsutra-ai",
+        "theme": "light",
+        "width": 1024,
+        "supported": true,
+        "observedDurationMs": 1434,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/sentinel-ai",
+        "theme": "light",
+        "width": 1024,
+        "supported": true,
+        "observedDurationMs": 1267,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/hospital-management",
+        "theme": "light",
+        "width": 1024,
+        "supported": true,
+        "observedDurationMs": 1290,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/emergency-navigation",
+        "theme": "light",
+        "width": 1024,
+        "supported": true,
+        "observedDurationMs": 1281,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/leadsutra-ai",
+        "theme": "light",
+        "width": 768,
+        "supported": true,
+        "observedDurationMs": 1443,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/sentinel-ai",
+        "theme": "light",
+        "width": 768,
+        "supported": true,
+        "observedDurationMs": 1236,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/hospital-management",
+        "theme": "light",
+        "width": 768,
+        "supported": true,
+        "observedDurationMs": 1246,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/emergency-navigation",
+        "theme": "light",
+        "width": 768,
+        "supported": true,
+        "observedDurationMs": 1285,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/leadsutra-ai",
+        "theme": "light",
+        "width": 430,
+        "supported": true,
+        "observedDurationMs": 1450,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/sentinel-ai",
+        "theme": "light",
+        "width": 430,
+        "supported": true,
+        "observedDurationMs": 1259,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/hospital-management",
+        "theme": "light",
+        "width": 430,
+        "supported": true,
+        "observedDurationMs": 1285,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/emergency-navigation",
+        "theme": "light",
+        "width": 430,
+        "supported": true,
+        "observedDurationMs": 1242,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/leadsutra-ai",
+        "theme": "light",
+        "width": 390,
+        "supported": true,
+        "observedDurationMs": 1491,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/sentinel-ai",
+        "theme": "light",
+        "width": 390,
+        "supported": true,
+        "observedDurationMs": 1235,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/hospital-management",
+        "theme": "light",
+        "width": 390,
+        "supported": true,
+        "observedDurationMs": 1238,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/emergency-navigation",
+        "theme": "light",
+        "width": 390,
+        "supported": true,
+        "observedDurationMs": 1291,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/leadsutra-ai",
+        "theme": "dark",
+        "width": 1440,
+        "supported": true,
+        "observedDurationMs": 1627,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/sentinel-ai",
+        "theme": "dark",
+        "width": 1440,
+        "supported": true,
+        "observedDurationMs": 1358,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/hospital-management",
+        "theme": "dark",
+        "width": 1440,
+        "supported": true,
+        "observedDurationMs": 1319,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/emergency-navigation",
+        "theme": "dark",
+        "width": 1440,
+        "supported": true,
+        "observedDurationMs": 1307,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/leadsutra-ai",
+        "theme": "dark",
+        "width": 1280,
+        "supported": true,
+        "observedDurationMs": 1451,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/sentinel-ai",
+        "theme": "dark",
+        "width": 1280,
+        "supported": true,
+        "observedDurationMs": 1295,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/hospital-management",
+        "theme": "dark",
+        "width": 1280,
+        "supported": true,
+        "observedDurationMs": 1272,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/emergency-navigation",
+        "theme": "dark",
+        "width": 1280,
+        "supported": true,
+        "observedDurationMs": 1286,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/leadsutra-ai",
+        "theme": "dark",
+        "width": 1024,
+        "supported": true,
+        "observedDurationMs": 1439,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/sentinel-ai",
+        "theme": "dark",
+        "width": 1024,
+        "supported": true,
+        "observedDurationMs": 1289,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/hospital-management",
+        "theme": "dark",
+        "width": 1024,
+        "supported": true,
+        "observedDurationMs": 1333,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/emergency-navigation",
+        "theme": "dark",
+        "width": 1024,
+        "supported": true,
+        "observedDurationMs": 1375,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/leadsutra-ai",
+        "theme": "dark",
+        "width": 768,
+        "supported": true,
+        "observedDurationMs": 1408,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/sentinel-ai",
+        "theme": "dark",
+        "width": 768,
+        "supported": true,
+        "observedDurationMs": 1216,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/hospital-management",
+        "theme": "dark",
+        "width": 768,
+        "supported": true,
+        "observedDurationMs": 1223,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/emergency-navigation",
+        "theme": "dark",
+        "width": 768,
+        "supported": true,
+        "observedDurationMs": 1214,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/leadsutra-ai",
+        "theme": "dark",
+        "width": 430,
+        "supported": true,
+        "observedDurationMs": 1361,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/sentinel-ai",
+        "theme": "dark",
+        "width": 430,
+        "supported": true,
+        "observedDurationMs": 1239,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/hospital-management",
+        "theme": "dark",
+        "width": 430,
+        "supported": true,
+        "observedDurationMs": 1210,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/emergency-navigation",
+        "theme": "dark",
+        "width": 430,
+        "supported": true,
+        "observedDurationMs": 1226,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/leadsutra-ai",
+        "theme": "dark",
+        "width": 390,
+        "supported": true,
+        "observedDurationMs": 1397,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/sentinel-ai",
+        "theme": "dark",
+        "width": 390,
+        "supported": true,
+        "observedDurationMs": 1220,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/hospital-management",
+        "theme": "dark",
+        "width": 390,
+        "supported": true,
+        "observedDurationMs": 1218,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      },
+      {
+        "page": "/projects/emergency-navigation",
+        "theme": "dark",
+        "width": 390,
+        "supported": true,
+        "observedDurationMs": 1231,
+        "recordedEntries": 0,
+        "valueSum": 0,
+        "valueSumWithoutRecentInput": 0
+      }
+    ],
+    "totalRows": 60,
+    "maxObservedValueSumWithoutRecentInput": 0
+  },
+  "unresolvedIssues": [],
+  "status": "pass"
+}

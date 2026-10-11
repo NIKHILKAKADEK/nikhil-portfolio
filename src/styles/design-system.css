@@ -1,0 +1,329 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --theme-bg: #F5F5F7; --theme-surface: #FFFFFF; --theme-surface-raised: #FFFFFF;
+  --theme-ink: #1D1D1F; --theme-muted: #6E6E73; --theme-tag: #6E6E73;
+  --theme-accent: #007AFF; --theme-accent-hover: #0067D6; --theme-border: #E5E5EA; --theme-border-strong: #D6D6DC;
+  color-scheme: light;
+  --background: 245 245 247;
+  --surface: 255 255 255;
+  --surface-elevated: 255 255 255;
+  --foreground: 29 29 31;
+  --foreground-muted: 110 110 115;
+  --foreground-subtle: 110 110 115;
+  --border: 229 229 234;
+  --border-strong: 214 214 220;
+  --accent: 0 122 255;
+  --accent-hover: 0 103 214;
+  --accent-soft: 232 242 255;
+  --accent-foreground: 255 255 255;
+  --hero-grid: 229 229 234;
+  --panel-border: 214 214 220;
+  --accent-highlight: 0 103 214;
+  --status-good: 38 130 75;
+  --status-idle: 156 101 30;
+  --shadow: 0 8px 28px rgb(0 0 0 / 0.07), 0 1px 2px rgb(0 0 0 / 0.05);
+  --shadow-elevated: 0 18px 48px rgb(0 0 0 / 0.10), 0 3px 10px rgb(0 0 0 / 0.06);
+  --shadow-node: 0 3px 12px rgb(0 0 0 / 0.06);
+
+  /* Existing component tokens alias the semantic theme tokens. */
+  --color-canvas: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-elevated);
+  --color-ink: var(--foreground);
+  --color-muted: var(--foreground-muted);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-line: var(--border);
+  --color-line-strong: var(--border-strong);
+  --color-accent-soft: var(--accent-soft);
+
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --measure-reading: 66ch;
+  --radius-control: 999px;
+  --radius-tag: 999px;
+  --radius-card: 1.25rem;
+  --radius-panel: 1.5rem;
+  --shadow-soft: var(--shadow);
+  --shadow-float: var(--shadow-elevated);
+  --motion-fast: 160ms;
+  --motion-reveal: 320ms;
+  --anchor-offset: 92px;
+  --focus-ring: 0 0 0 3px rgb(var(--color-accent) / 0.2);
+}
+
+:root[data-theme="dark"] {
+  --theme-bg: #181B20; --theme-surface: #20242B; --theme-surface-raised: #252A32;
+  --theme-ink: #F5F7FA; --theme-muted: #AEB8C7; --theme-tag: #C1CAD7;
+  --theme-accent: #8AB4FF; --theme-accent-hover: #A5C6FF; --theme-border: #363C46; --theme-border-strong: #596B85;
+  color-scheme: dark;
+  --background: 24 27 32;
+  --surface: 32 36 43;
+  --surface-elevated: 35 40 48;
+  --foreground: 245 247 250;
+  --foreground-muted: 174 184 199;
+  --foreground-subtle: 135 149 168;
+  --border: 54 60 70;
+  --border-strong: 68 76 88;
+  --accent: 138 180 255;
+  --accent-hover: 165 198 255;
+  --accent-soft: 39 49 65;
+  --accent-foreground: 24 27 32;
+  --hero-grid: 54 60 70;
+  --panel-border: 68 76 88;
+  --accent-highlight: 165 198 255;
+  --status-good: 157 190 170;
+  --status-idle: 189 160 120;
+  --shadow: 0 8px 28px rgb(0 0 0 / 0.18), 0 1px 2px rgb(0 0 0 / 0.14);
+  --shadow-elevated: 0 18px 48px rgb(0 0 0 / 0.28), 0 3px 10px rgb(0 0 0 / 0.18);
+  --shadow-node: 0 3px 12px rgb(0 0 0 / 0.16);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: rgb(var(--color-canvas));
+  color: rgb(var(--color-ink));
+  font-family: var(--font-sans);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color var(--motion-fast) ease, color var(--motion-fast) ease;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: rgb(var(--color-canvas));
+  transition: background-color var(--motion-fast) ease, color var(--motion-fast) ease;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+::selection {
+  color: rgb(var(--color-ink));
+  background: rgb(var(--color-accent) / 0.16);
+}
+
+:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+@layer components {
+  .ds-display {
+    max-width: 14ch;
+    margin: 0;
+    color: rgb(var(--color-ink));
+    font-size: clamp(3.25rem, 10vw, 7.75rem);
+    font-weight: 560;
+    letter-spacing: -0.075em;
+    line-height: 0.96;
+    text-wrap: balance;
+  }
+
+  .ds-heading {
+    max-width: 18ch;
+    margin: 0;
+    color: rgb(var(--color-ink));
+    font-size: clamp(2rem, 5vw, 4rem);
+    font-weight: 540;
+    letter-spacing: -0.06em;
+    line-height: 1.04;
+    text-wrap: balance;
+  }
+
+  .ds-body {
+    max-width: var(--measure-reading);
+    margin: 0;
+    color: rgb(var(--color-ink));
+    font-size: clamp(1rem, 1.3vw, 1.125rem);
+    font-weight: 400;
+    letter-spacing: -0.015em;
+    line-height: 1.75;
+  }
+
+  .ds-muted {
+    color: rgb(var(--color-muted));
+  }
+
+  .ds-eyebrow {
+    margin: 0;
+    color: rgb(var(--color-muted));
+    font-size: 0.75rem;
+    font-weight: 650;
+    letter-spacing: 0.12em;
+    line-height: 1.4;
+    text-transform: uppercase;
+  }
+
+  .ds-button {
+    display: inline-flex;
+    min-height: 2.875rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    border: 1px solid transparent;
+    border-radius: var(--radius-control);
+    padding: 0.75rem 1.15rem;
+    font-size: 0.9rem;
+    font-weight: 580;
+    letter-spacing: -0.01em;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color var(--motion-fast) ease, border-color var(--motion-fast) ease, color var(--motion-fast) ease, transform var(--motion-fast) ease;
+  }
+
+  .ds-button:active {
+    transform: translateY(1px);
+  }
+
+  .ds-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.48;
+  }
+
+  .ds-button-primary {
+    background: rgb(var(--color-accent));
+    color: rgb(var(--accent-foreground));
+  }
+
+  .ds-button-primary:focus-visible:not(:disabled) {
+    background: rgb(var(--color-accent-hover));
+  }
+@media (hover: hover) and (pointer: fine) {
+.ds-button-primary:hover:not(:disabled) {
+    background: rgb(var(--color-accent-hover));
+  }
+}
+
+  .ds-button-secondary {
+    border-color: rgb(var(--color-line-strong));
+    background: rgb(var(--color-surface));
+    color: rgb(var(--color-ink));
+  }
+
+  .ds-button-secondary:focus-visible:not(:disabled) {
+    border-color: rgb(var(--color-ink) / 0.28);
+    background: rgb(var(--color-surface-raised));
+  }
+@media (hover: hover) and (pointer: fine) {
+.ds-button-secondary:hover:not(:disabled) {
+    border-color: rgb(var(--color-ink) / 0.28);
+    background: rgb(var(--color-surface-raised));
+  }
+}
+
+  .ds-button-quiet {
+    min-height: 2.5rem;
+    background: transparent;
+    color: rgb(var(--color-accent));
+  }
+
+  .ds-button-quiet:focus-visible:not(:disabled) {
+    background: rgb(var(--color-accent) / 0.07);
+  }
+@media (hover: hover) and (pointer: fine) {
+.ds-button-quiet:hover:not(:disabled) {
+    background: rgb(var(--color-accent) / 0.07);
+  }
+}
+
+  .ds-tag {
+    display: inline-flex;
+    min-height: 1.8rem;
+    align-items: center;
+    border: 1px solid rgb(var(--color-line));
+    border-radius: var(--radius-tag);
+    padding: 0.35rem 0.7rem;
+    background: rgb(var(--color-surface) / 0.72);
+    color: rgb(var(--color-muted));
+    font-size: 0.75rem;
+    font-weight: 550;
+    letter-spacing: 0.005em;
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  .ds-tag-accent {
+    border-color: rgb(var(--color-accent) / 0.12);
+    background: rgb(var(--color-accent-soft));
+    color: rgb(var(--color-accent));
+  }
+
+  .ds-border {
+    border: 1px solid rgb(var(--color-line));
+  }
+
+  .ds-divider {
+    width: 100%;
+    height: 1px;
+    border: 0;
+    background: rgb(var(--color-line));
+  }
+
+  .ds-card {
+    overflow: hidden;
+    border: 1px solid rgb(var(--color-line));
+    border-radius: var(--radius-card);
+    background: rgb(var(--color-surface));
+    box-shadow: var(--shadow-soft);
+  }
+
+  .ds-floating-panel {
+    border: 1px solid rgb(var(--panel-border) / 0.75);
+    border-radius: var(--radius-panel);
+    background: rgb(var(--color-surface-raised) / 0.96);
+    box-shadow: var(--shadow-float);
+  }
+}
+
+.ds-card,
+.ds-floating-panel,
+.ds-button-secondary {
+  transition: background-color var(--motion-fast) ease, border-color var(--motion-fast) ease, color var(--motion-fast) ease, box-shadow var(--motion-fast) ease;
+}
+
+@media (max-width: 640px) {
+  :root {
+    --radius-card: 1rem;
+    --radius-panel: 1.125rem;
+  }
+
+  .ds-display {
+    max-width: 11ch;
+    font-size: clamp(3rem, 16vw, 5rem);
+    letter-spacing: -0.068em;
+    line-height: 0.99;
+  }
+
+  .ds-heading {
+    font-size: clamp(2rem, 9vw, 3rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0s !important;
+    animation-duration: 0s !important;
+    animation-iteration-count: 1 !important;
+    animation: none !important;
+  }
+}

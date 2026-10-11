@@ -1,0 +1,771 @@
+{
+  "portfolio": {
+    "personal": {
+      "name": "Nikhil Ajay Kakade",
+      "shortName": "Nikhil",
+      "role": "AI & Data Science Student",
+      "location": "Nashik, Maharashtra, India",
+      "email": "kakden19@gmail.com",
+      "phone": "+91 9673217349"
+    },
+    "about": {
+      "heading": "Building with curiosity. Learning by shipping.",
+      "introduction": "Nikhil Ajay Kakade is an AI & Data Science student focused on machine learning and full-stack development, with an interest in building real-time, user-focused solutions."
+    },
+    "journey": [
+      {
+        "label": "Then",
+        "description": "Programming, web development and building foundational projects."
+      },
+      {
+        "label": "Now",
+        "description": "B.Tech in AI & Data Science at K.K. Wagh Institute of Engineering Education and Research.",
+        "details": [
+          "AI / ML",
+          "Full-stack development",
+          "Databases",
+          "Automation"
+        ]
+      },
+      {
+        "label": "Next",
+        "description": "Exploring what comes next in AI, intelligent automation and software engineering."
+      }
+    ],
+    "socialLinks": [
+      {
+        "label": "GitHub",
+        "href": "https://github.com/NIKHILKAKADEK"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/nikhilkakade28/"
+      },
+      {
+        "label": "Email",
+        "href": "mailto:kakden19@gmail.com"
+      }
+    ],
+    "projects": [
+      {
+        "id": "leadsutra-ai",
+        "number": "01",
+        "category": "AI Sales Automation",
+        "name": "LeadSutra AI",
+        "title": "LeadSutra AI",
+        "heroDescription": "AI Sales Automation Platform",
+        "description": "AI-powered platform for business lead generation, proposal creation and email workflows, combining lead discovery, AI research, CRM capabilities and automation.",
+        "technologies": [
+          "Next.js",
+          "FastAPI",
+          "Gemini API",
+          "LangChain",
+          "PostgreSQL"
+        ],
+        "github": "https://github.com/NIKHILKAKADEK/LeadSutra-AI",
+        "liveDemo": null,
+        "caseStudy": "/projects/leadsutra-ai",
+        "visualType": "lead-flow",
+        "visualNodes": [
+          "Lead Discovery",
+          "Enrichment",
+          "Contact Extraction",
+          "Qualification",
+          "CRM",
+          "Outreach / Automation"
+        ],
+        "caseStudyDetails": {
+          "problem": "Business lead generation can involve discovering businesses, collecting useful information, enriching contact details, qualifying prospects and organizing them for outreach. Repeating those steps by hand creates avoidable operational work.",
+          "idea": "LeadSutra’s inspected discovery backend turns a search request into a configurable lead-processing workflow. It can return discovered records through an API or persist processed leads and business profiles.",
+          "flowNote": "The stages are optional processing steps after discovery. Foursquare is used only when the primary provider raises a provider-level error; an empty successful Google result does not trigger fallback.",
+          "flow": [
+            {
+              "title": "Search request",
+              "detail": "FastAPI accepts query and location inputs with options for deduplication, enrichment, extraction, scoring and persistence."
+            },
+            {
+              "title": "Business discovery",
+              "detail": "Google Places is the primary provider; Foursquare is a fallback for provider-level failures."
+            },
+            {
+              "title": "Normalize and deduplicate",
+              "detail": "Provider results are normalized as business leads, with optional duplicate removal."
+            },
+            {
+              "title": "Enrich and extract",
+              "detail": "Optional website enrichment and contact extraction add information when available."
+            },
+            {
+              "title": "Qualify and profile",
+              "detail": "Optional lead scoring and business-profile extraction prepare structured results."
+            },
+            {
+              "title": "Return or persist",
+              "detail": "The API returns results, or the persistence path stores leads and profiles."
+            }
+          ],
+          "architectureNote": "This describes the LeadSutra discovery backend source inspected for this case study. The portfolio’s listed stack remains visible separately; unverified modules are not assigned implementation details here.",
+          "architecture": [
+            {
+              "title": "FastAPI routes",
+              "detail": "Search, lead listing and lead detail endpoints expose the service to callers."
+            },
+            {
+              "title": "Discovery service",
+              "detail": "Coordinates Google Places and Foursquare providers and handles provider fallback."
+            },
+            {
+              "title": "Processing services",
+              "detail": "Separate services handle scraping, contact extraction, scoring and profile extraction."
+            },
+            {
+              "title": "Persistence",
+              "detail": "MongoDB repositories store leads and profiles; an in-memory async collection is used when MongoDB is unavailable."
+            }
+          ],
+          "engineering": [
+            {
+              "title": "Provider failure handling",
+              "detail": "Fallback is tied to provider-level errors, while successful empty results remain valid responses."
+            },
+            {
+              "title": "Composable processing",
+              "detail": "Deduplication, enrichment, extraction, scoring and persistence are controlled as separate workflow options."
+            },
+            {
+              "title": "Non-destructive extraction",
+              "detail": "Extracted contact data fills gaps without replacing an existing provider-supplied phone value."
+            }
+          ]
+        }
+      },
+      {
+        "id": "sentinel-ai",
+        "number": "02",
+        "category": "Machine Learning",
+        "name": "SentinelAI",
+        "title": "SentinelAI",
+        "subtitle": "AI-Powered Malware Detection Platform",
+        "description": "AI-powered malware detection platform for Windows PE files using machine learning, with authentication, file upload, scan history, admin dashboard and prediction analytics.",
+        "technologies": [
+          "Next.js",
+          "FastAPI",
+          "Python",
+          "Random Forest",
+          "XGBoost",
+          "Better Auth",
+          "Prisma",
+          "Neon PostgreSQL",
+          "Docker"
+        ],
+        "github": null,
+        "liveDemo": null,
+        "caseStudy": "/projects/sentinel-ai",
+        "visualType": "sentinel-flow",
+        "visualNodes": [
+          "PE File",
+          "File Upload",
+          "Analysis",
+          "ML Model",
+          "Prediction",
+          "Scan History / Analytics"
+        ],
+        "caseStudyDetails": {
+          "problem": "Windows PE files need to be examined before a useful malware-risk prediction can be presented. A product flow also needs to connect scans with authenticated access and a reviewable history.",
+          "idea": "SentinelAI is described as a machine-learning malware detection platform that accepts PE files and presents predictions alongside scan history and analytics.",
+          "flowNote": "Conceptual flow based on the supplied project description and stack. The precise feature extraction pipeline, API contract and model evaluation are not specified in the available project source.",
+          "flow": [
+            {
+              "title": "PE file",
+              "detail": "A Windows Portable Executable is the input described for scanning."
+            },
+            {
+              "title": "Upload and analysis",
+              "detail": "The application accepts a file and analyzes it; exact extracted features are not specified."
+            },
+            {
+              "title": "ML prediction",
+              "detail": "Random Forest and XGBoost are the listed model technologies."
+            },
+            {
+              "title": "Application record",
+              "detail": "The prediction is presented with scan history and prediction analytics."
+            }
+          ],
+          "architectureNote": "Conceptual responsibilities derived from the listed technologies; exact service boundaries and data contracts were not available for verification.",
+          "architecture": [
+            {
+              "title": "Next.js + Better Auth",
+              "detail": "Listed application and authentication technologies for the user-facing product."
+            },
+            {
+              "title": "FastAPI + Python",
+              "detail": "Listed backend technologies associated with file analysis and model access."
+            },
+            {
+              "title": "Random Forest + XGBoost",
+              "detail": "Listed machine-learning models for the prediction step."
+            },
+            {
+              "title": "Prisma + Neon PostgreSQL",
+              "detail": "Listed persistence technologies for application data; exact schema is not specified."
+            }
+          ],
+          "engineering": [
+            {
+              "title": "Keep analysis behind an API",
+              "detail": "A backend API provides a boundary between file handling, model inference and the product interface."
+            },
+            {
+              "title": "Make predictions reviewable",
+              "detail": "Scan history and analytics place model output in an application context."
+            },
+            {
+              "title": "No unsupported performance claims",
+              "detail": "No model accuracy, throughput or benchmark figures are included because none were provided."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hospital-management",
+        "number": "03",
+        "category": "Full-stack",
+        "name": "Hospital Management System",
+        "title": "Hospital Management System",
+        "description": "Full-stack Django-based web application for managing patient records, appointments and hospital operations through REST APIs and a responsive interface.",
+        "technologies": [
+          "Django",
+          "REST APIs"
+        ],
+        "github": null,
+        "liveDemo": null,
+        "caseStudy": "/projects/hospital-management",
+        "visualType": "hospital-flow",
+        "visualNodes": [
+          "Patients",
+          "Appointments",
+          "Operations",
+          "Web App",
+          "REST APIs"
+        ],
+        "caseStudyDetails": {
+          "problem": "Patient records, appointments and hospital operations are related workflows. A single web application can bring those management tasks into a consistent interface.",
+          "idea": "The project is described as a Django full-stack application that manages patient records, appointments and hospital operations through REST APIs and a responsive interface.",
+          "flowNote": "Conceptual system view based only on the supplied project description. Storage choices, API resources and user roles are not specified.",
+          "flow": [
+            {
+              "title": "Hospital workflows",
+              "detail": "Patient records, appointments and operational tasks form the project’s stated scope."
+            },
+            {
+              "title": "Responsive interface",
+              "detail": "A responsive UI provides the described web application entry point."
+            },
+            {
+              "title": "Django application",
+              "detail": "Django is the listed full-stack application framework."
+            },
+            {
+              "title": "REST APIs",
+              "detail": "REST APIs are part of the stated implementation; endpoint details are not available."
+            }
+          ],
+          "architectureNote": "The diagram stays at the verified framework and API level. No database, authentication model or deployment topology is assumed.",
+          "architecture": [
+            {
+              "title": "Responsive UI",
+              "detail": "The supplied description identifies a responsive user interface."
+            },
+            {
+              "title": "Django",
+              "detail": "The application is described as Django-based."
+            },
+            {
+              "title": "REST API layer",
+              "detail": "REST APIs support the application; their specific resources are not documented here."
+            },
+            {
+              "title": "Management workflows",
+              "detail": "Patient records, appointments and hospital operations are the stated product areas."
+            }
+          ],
+          "engineering": [
+            {
+              "title": "Keep workflows connected",
+              "detail": "The described scope brings patient, appointment and operational management into one application."
+            },
+            {
+              "title": "Responsive access",
+              "detail": "The responsive interface is a stated part of the project, without an assumed device-specific feature set."
+            }
+          ]
+        }
+      },
+      {
+        "id": "emergency-navigation",
+        "number": "04",
+        "category": "Algorithms + ML",
+        "name": "Emergency Navigation System",
+        "title": "Emergency Navigation System",
+        "description": "Django application using the A* algorithm and machine learning for real-time traffic-based route optimization with interactive maps.",
+        "technologies": [
+          "Django",
+          "A* Algorithm",
+          "Machine Learning",
+          "Interactive Maps"
+        ],
+        "github": "https://github.com/NIKHILKAKADEK/Emergency-Route-Navigator",
+        "liveDemo": null,
+        "caseStudy": "/projects/emergency-navigation",
+        "visualType": "emergency-flow",
+        "visualNodes": [
+          "Start",
+          "Road Network",
+          "A* Routing",
+          "Traffic / ML",
+          "Optimized Route",
+          "Destination"
+        ],
+        "caseStudyDetails": {
+          "problem": "Emergency navigation needs to identify a route between locations while accounting for changing traffic conditions, then make the result understandable on a map.",
+          "idea": "The project is described as a Django application combining A* routing, machine learning, real-time traffic-based route optimization and interactive maps.",
+          "flowNote": "Conceptual flow from the supplied description. The traffic source, map provider, route-cost formula and precise relationship between ML and A* are not specified.",
+          "flow": [
+            {
+              "title": "Start and destination",
+              "detail": "The route request defines the endpoints to connect."
+            },
+            {
+              "title": "Road and map context",
+              "detail": "The project uses interactive maps; the underlying map and road-data providers are unspecified."
+            },
+            {
+              "title": "Route search",
+              "detail": "A* is the stated route-search algorithm, used to find a path through the route network."
+            },
+            {
+              "title": "Traffic and ML",
+              "detail": "The project describes real-time traffic-based optimization using machine learning; exact inputs and weighting are unspecified."
+            },
+            {
+              "title": "Route presentation",
+              "detail": "An optimized route is shown through the interactive map experience."
+            }
+          ],
+          "architectureNote": "Conceptual system view based on the project description; data providers, model design and runtime sequence require source verification.",
+          "architecture": [
+            {
+              "title": "Django application",
+              "detail": "The listed web application framework for the project."
+            },
+            {
+              "title": "A* route search",
+              "detail": "Searches for a path between locations within the route problem."
+            },
+            {
+              "title": "Traffic + ML",
+              "detail": "Listed as part of the route optimization approach; implementation details are not specified."
+            },
+            {
+              "title": "Interactive maps",
+              "detail": "The project’s stated map interface for presenting navigation."
+            }
+          ],
+          "engineering": [
+            {
+              "title": "Route search in context",
+              "detail": "A* is presented only as the route-search component of this navigation project."
+            },
+            {
+              "title": "Keep the data boundary explicit",
+              "detail": "Traffic feeds, map providers and the ML model are not named in the available description."
+            }
+          ]
+        }
+      }
+    ],
+    "projectShowcase": {
+      "eyebrow": "Selected Work",
+      "heading": "Things I've built.",
+      "introduction": "From AI-powered automation to machine-learning systems and full-stack applications, these projects are where I turn ideas into working software.",
+      "moreHeading": "More Experiments",
+      "repositories": [
+        {
+          "name": "HABITX_APP",
+          "github": "https://github.com/NIKHILKAKADEK/HABITX_APP"
+        },
+        {
+          "name": "swasthya_hospital_website",
+          "github": "https://github.com/NIKHILKAKADEK/swasthya_hospital_website"
+        },
+        {
+          "name": "Emergency-Route-Navigator",
+          "github": "https://github.com/NIKHILKAKADEK/Emergency-Route-Navigator"
+        },
+        {
+          "name": "work_zone",
+          "github": "https://github.com/NIKHILKAKADEK/work_zone"
+        },
+        {
+          "name": "amazon-prime-clone",
+          "github": "https://github.com/NIKHILKAKADEK/amazon-prime-clone"
+        },
+        {
+          "name": "Python-Programming-Concepts-Programs-Practice",
+          "github": "https://github.com/NIKHILKAKADEK/Python-Programming-Concepts-Programs-Practice"
+        }
+      ]
+    },
+    "technicalFocus": {
+      "eyebrow": "Technical Focus",
+      "heading": "What I build with.",
+      "introduction": "AI systems, security-focused applications and full-stack products.",
+      "index": "05",
+      "indexLabel": "Practice",
+      "primaryLabel": "Primary focus",
+      "supportingLabel": "Supporting tools",
+      "areas": [
+        {
+          "number": "01",
+          "title": "AI / Machine Learning",
+          "description": "Building practical machine-learning and AI applications that turn data and models into usable software.",
+          "flow": [
+            "Model",
+            "Data",
+            "Prediction",
+            "Application"
+          ],
+          "skills": [
+            "python",
+            "machine-learning",
+            "random-forest",
+            "xgboost",
+            "scikit-learn",
+            "gemini-api",
+            "langchain"
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Cybersecurity & AI Security",
+          "description": "Exploring security-focused software and machine-learning systems, including AI-powered malware detection.",
+          "flow": [
+            "Windows PE files",
+            "Analysis",
+            "Machine learning",
+            "Prediction",
+            "Security analytics"
+          ],
+          "skills": [
+            "python",
+            "random-forest",
+            "xgboost",
+            "fastapi",
+            "nextjs",
+            "better-auth",
+            "prisma",
+            "neon-postgresql",
+            "docker"
+          ],
+          "emphasis": true,
+          "proof": {
+            "title": "SentinelAI",
+            "subtitle": "AI-Powered Malware Detection",
+            "href": "/projects/sentinel-ai",
+            "flow": [
+              "Windows PE files",
+              "Analysis",
+              "Machine Learning",
+              "Prediction",
+              "Security Analytics"
+            ]
+          }
+        },
+        {
+          "number": "03",
+          "title": "Full-Stack Engineering",
+          "description": "Building responsive interfaces and backend systems that connect product experiences with real application logic.",
+          "flow": [
+            "Frontend",
+            "API",
+            "Business logic",
+            "Database"
+          ],
+          "skills": [
+            "nextjs",
+            "react",
+            "tailwind-css",
+            "html",
+            "css",
+            "fastapi",
+            "nodejs",
+            "rest-apis",
+            "prisma",
+            "javascript",
+            "typescript"
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Data & Infrastructure",
+          "supporting": true,
+          "description": "Working with data stores and development tools that support application workflows.",
+          "flow": [
+            "Data",
+            "Persistence",
+            "Tooling",
+            "Application"
+          ],
+          "skills": [
+            "postgresql",
+            "neon-postgresql",
+            "sqlite",
+            "mongodb",
+            "docker",
+            "git",
+            "github",
+            "postman",
+            "vscode",
+            "figma",
+            "sql"
+          ]
+        }
+      ]
+    },
+    "credentials": {
+      "eyebrow": "Credentials",
+      "heading": "Credentials",
+      "introduction": "Selected certifications and training.",
+      "index": "06",
+      "indexLabel": "Learning",
+      "scoreLabel": "Score"
+    },
+    "skills": [
+      "AI / ML",
+      "Full Stack",
+      "Data"
+    ],
+    "skillCatalog": [
+      {
+        "id": "python",
+        "name": "Python",
+        "group": "Languages & AI"
+      },
+      {
+        "id": "javascript",
+        "name": "JavaScript",
+        "group": "Languages & AI"
+      },
+      {
+        "id": "typescript",
+        "name": "TypeScript",
+        "group": "Languages & AI"
+      },
+      {
+        "id": "sql",
+        "name": "SQL",
+        "group": "Languages & AI"
+      },
+      {
+        "id": "cpp",
+        "name": "C++",
+        "group": "Languages & AI"
+      },
+      {
+        "id": "machine-learning",
+        "name": "Machine Learning",
+        "group": "Languages & AI"
+      },
+      {
+        "id": "random-forest",
+        "name": "Random Forest",
+        "group": "Languages & AI"
+      },
+      {
+        "id": "xgboost",
+        "name": "XGBoost",
+        "group": "Languages & AI"
+      },
+      {
+        "id": "scikit-learn",
+        "name": "Scikit-learn",
+        "group": "Languages & AI"
+      },
+      {
+        "id": "gemini-api",
+        "name": "Gemini API",
+        "group": "Languages & AI"
+      },
+      {
+        "id": "langchain",
+        "name": "LangChain",
+        "group": "Languages & AI"
+      },
+      {
+        "id": "nextjs",
+        "name": "Next.js",
+        "group": "Product Engineering"
+      },
+      {
+        "id": "react",
+        "name": "React",
+        "group": "Product Engineering"
+      },
+      {
+        "id": "tailwind-css",
+        "name": "Tailwind CSS",
+        "group": "Product Engineering"
+      },
+      {
+        "id": "html",
+        "name": "HTML",
+        "group": "Product Engineering"
+      },
+      {
+        "id": "css",
+        "name": "CSS",
+        "group": "Product Engineering"
+      },
+      {
+        "id": "fastapi",
+        "name": "FastAPI",
+        "group": "Product Engineering"
+      },
+      {
+        "id": "nodejs",
+        "name": "Node.js",
+        "group": "Product Engineering"
+      },
+      {
+        "id": "rest-apis",
+        "name": "REST APIs",
+        "group": "Product Engineering"
+      },
+      {
+        "id": "prisma",
+        "name": "Prisma",
+        "group": "Product Engineering"
+      },
+      {
+        "id": "better-auth",
+        "name": "Better Auth",
+        "group": "Product Engineering"
+      },
+      {
+        "id": "postgresql",
+        "name": "PostgreSQL",
+        "group": "Data & Tools"
+      },
+      {
+        "id": "neon-postgresql",
+        "name": "Neon PostgreSQL",
+        "group": "Data & Tools"
+      },
+      {
+        "id": "sqlite",
+        "name": "SQLite",
+        "group": "Data & Tools"
+      },
+      {
+        "id": "mongodb",
+        "name": "MongoDB",
+        "group": "Data & Tools"
+      },
+      {
+        "id": "docker",
+        "name": "Docker",
+        "group": "Data & Tools"
+      },
+      {
+        "id": "git",
+        "name": "Git",
+        "group": "Data & Tools"
+      },
+      {
+        "id": "github",
+        "name": "GitHub",
+        "group": "Data & Tools"
+      },
+      {
+        "id": "postman",
+        "name": "Postman",
+        "group": "Data & Tools"
+      },
+      {
+        "id": "vscode",
+        "name": "VS Code",
+        "group": "Data & Tools"
+      },
+      {
+        "id": "figma",
+        "name": "Figma",
+        "group": "Data & Tools"
+      }
+    ],
+    "education": [
+      {
+        "qualification": "B.Tech in AI & Data Science",
+        "institution": "K.K. Wagh Institute of Engineering Education and Research",
+        "period": "2023–2027",
+        "result": "7.23",
+        "resultLabel": "CGPA"
+      },
+      {
+        "qualification": "HSC",
+        "period": "2023",
+        "result": "79.00%"
+      },
+      {
+        "qualification": "SSC",
+        "period": "2021",
+        "result": "80.20%"
+      }
+    ],
+    "certifications": [
+      {
+        "title": "Oracle Cloud Infrastructure 2025 Certified Data Science Professional",
+        "issuer": "Oracle",
+        "skills": [
+          "Data Science",
+          "Cloud Computing",
+          "OCI"
+        ]
+      },
+      {
+        "title": "RDBMS PostgreSQL Training",
+        "issuer": "EduPyramids · SINE IIT Bombay",
+        "skills": [
+          "PostgreSQL",
+          "Database Management",
+          "SQL"
+        ],
+        "score": "75%"
+      },
+      {
+        "title": "Solidity and Blockchain Workshop",
+        "issuer": "Debuggers' Club · KKWIEER",
+        "skills": [],
+        "description": "Smart contracts and blockchain fundamentals"
+      }
+    ],
+    "achievements": []
+  },
+  "hashes": {
+    "src/components/hero.tsx": "61c7642ae7e55b21d4b34007fc5a134f44f95c7f687ead4371a32dc19ee8b48a",
+    "src/components/navbar.tsx": "c0725ef1c3f81a978c40d4f09a440bfd118fc47343a1cf4d988442e70d014d11",
+    "src/components/footer.tsx": "e4b56f6662a3713499b3715eeaf5f8f9f5af82eba74875cef6d5c089d41b9e58",
+    "src/components/about-journey-education.tsx": "d9485960556eba3300696af17b85c1e63afda1d4ed66bb2d9dc3744178653ddf",
+    "src/components/technical-focus.tsx": "36ea8f601b686feba562a2f249812a9b306bb8bbbfc0a790fe4865cf3ac94d6b",
+    "src/components/ui.tsx": "f23be44e505f7fde422310612ae0e6589a33e0bf298eb6f70e7bd1a37d3920ae",
+    "src/components/case-study.tsx": "87ef6bf92a34a401063af167f73a119d446d0e82eaa1b032e1c5ba2ac4c4e67a",
+    "src/app/layout.tsx": "d8bd1401b7247c238887b21fe95d651275eadd6542fd8028c8fd42d5546dead3",
+    "src/styles/design-system.css": "5c811c0f47b70e00ecaf155781bf9e026890d607d0fccb3d96c75052e12b254e",
+    "src/app/globals.css": "b2e4aed3ec00e98733298707535fff623c1f9099e12c1f8427c1dac2183f657f",
+    "src/app/projects/[slug]/page.tsx": "473a65deaacf85cd79a9ade1c2cda7808ed3c36c4e4030fe1381f5dc8e76157a",
+    "package.json": "82d4e04eb664a0de589c4b34a466973376b88f80b275b2200b0e4a1e67ca2057",
+    "package-lock.json": "d436b72daebc2cc2471649a243abea2ecdda5e76ac23bb2be946f0167c92f0b9"
+  },
+  "css": ".site-header {\n  position: sticky;\n  z-index: 20;\n  top: 0;\n  border-bottom: 1px solid rgb(var(--color-line) / 0.76);\n  background: rgb(var(--color-canvas) / 0.92);\n  backdrop-filter: blur(14px);\n}\n\n.site-nav {\n  display: flex;\n  width: min(100% - 3rem, 1440px);\n  height: 76px;\n  align-items: center;\n  justify-content: space-between;\n  margin: 0 auto;\n}\n\n.nav-brand {\n  color: rgb(var(--color-ink));\n  font-size: 1.1rem;\n  font-weight: 650;\n  letter-spacing: -0.055em;\n  text-decoration: none;\n}\n\n.nav-brand-period { color: rgb(var(--color-accent)); }\n\n.nav-links, .nav-actions { display: flex; align-items: center; }\n.nav-links { gap: clamp(1.1rem, 2vw, 2rem); }\n.nav-actions { gap: 0.7rem; }\n.theme-toggle { display: grid; width: 40px; height: 40px; flex: 0 0 auto; place-items: center; border: 1px solid rgb(var(--color-line)); border-radius: 50%; background: rgb(var(--color-surface)); color: rgb(var(--color-ink)); cursor: pointer; transition: background-color 180ms ease, border-color 180ms ease, color 180ms ease, transform 160ms ease; }\n.theme-toggle:hover { transform: translateY(-1px); border-color: rgb(var(--color-accent) / 0.42); color: rgb(var(--color-accent)); }\n.theme-toggle:focus-visible { outline: none; box-shadow: var(--focus-ring); }\n\n.nav-link {\n  color: rgb(var(--color-muted));\n  font-size: 0.83rem;\n  font-weight: 520;\n  text-decoration: none;\n}\n\n.nav-link-pending { cursor: default; opacity: 0.82; }\n.nav-resume { min-height: 2.55rem; padding: 0.65rem 0.9rem; font-size: 0.82rem; }\n.mobile-menu-toggle, .mobile-nav { display: none; }\n\n.hero-main { width: 100%; }\n.hero {\n  position: relative;\n  display: grid;\n  width: min(100% - 3rem, 1440px);\n  min-height: min(790px, calc(100svh - 76px));\n  grid-template-columns: minmax(0, 1fr) minmax(420px, 0.92fr);\n  align-items: center;\n  margin: 0 auto;\n  padding: clamp(4rem, 7vw, 7rem) 0 clamp(5.5rem, 8vw, 8rem);\n}\n\n.hero-copy { position: relative; z-index: 2; padding: 0 0 0 clamp(0px, 3vw, 44px); }\n.hero-eyebrow { display: flex; align-items: center; gap: 0.65rem; margin-bottom: 1.65rem; }\n.eyebrow-mark { width: 7px; height: 7px; border-radius: 50%; background: rgb(var(--color-accent)); }\n.hero-title { max-width: 10ch; font-size: clamp(4rem, 7.3vw, 7.3rem); line-height: 0.99; }\n.hero-title span { color: rgb(var(--color-accent)); }\n.hero-description { margin-top: 1.8rem; max-width: 38rem; color: rgb(var(--color-muted)); font-size: clamp(1rem, 1.25vw, 1.12rem); }\n.hero-actions { display: flex; flex-wrap: wrap; gap: 0.7rem; margin-top: 2rem; }\n.hero-scroll { display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 4.4rem; color: rgb(var(--color-muted)); font-size: 0.76rem; text-decoration: none; }\n.hero-scroll:hover { color: rgb(var(--color-accent)); }\n.hero-eyebrow, .hero-copy > div, .hero-scroll { animation: reveal-up 700ms both; }\n.hero-eyebrow { animation-delay: 40ms; }\n.hero-copy > div:nth-of-type(1) { animation-delay: 130ms; }\n.hero-copy > div:nth-of-type(2) { animation-delay: 220ms; }\n.hero-copy > div:nth-of-type(3) { animation-delay: 310ms; }\n.hero-scroll { animation-delay: 410ms; }\n\n.hero-stage { position: relative; min-height: 550px; isolation: isolate; }\n.hero-stage { animation: reveal-up 800ms 150ms both; }\n.stage-orbit { position: absolute; z-index: -1; top: 50%; left: 51%; border: 1px solid rgb(var(--hero-grid) / 0.66); border-radius: 50%; transform: translate(-50%, -50%); }\n.stage-orbit-one { width: min(88%, 470px); aspect-ratio: 1; }\n.stage-orbit-two { width: min(67%, 360px); aspect-ratio: 1; border-style: dashed; opacity: 0.58; }\n.float-card { position: absolute; display: flex; flex-direction: column; }\n.float-label { color: rgb(var(--color-muted)); font-size: 0.63rem; font-weight: 650; letter-spacing: 0.1em; text-transform: uppercase; }\n.identity-card { top: 8%; left: 10%; width: 300px; min-height: 102px; flex-direction: row; align-items: center; gap: 0.85rem; padding: 1rem; animation: drift-a 7s ease-in-out infinite; }\n.identity-symbol { display: flex; width: 46px; height: 46px; flex: 0 0 auto; align-items: center; justify-content: center; border-radius: 15px; background: rgb(var(--color-accent)); color: rgb(var(--accent-foreground)); font-size: 1.35rem; font-weight: 550; letter-spacing: -0.08em; }\n.identity-symbol span { color: rgb(var(--accent-highlight)); }\n.float-card-copy { display: flex; min-width: 0; flex-direction: column; gap: 0.18rem; }\n.float-card-copy strong { overflow: hidden; color: rgb(var(--color-ink)); font-size: 0.81rem; font-weight: 620; text-overflow: ellipsis; white-space: nowrap; }\n.float-card-copy > span:last-child { color: rgb(var(--color-muted)); font-size: 0.68rem; }\n.identity-presence { width: 7px; height: 7px; flex: 0 0 auto; align-self: flex-start; margin: 0.28rem 0 0 auto; border-radius: 50%; background: rgb(var(--status-good)); box-shadow: 0 0 0 3px rgb(var(--status-good) / 0.12); }\n.build-card { top: 32%; right: 0; width: 250px; min-height: 184px; padding: 1.05rem 1.1rem; animation: drift-b 8s ease-in-out infinite; }\n.card-topline { display: flex; align-items: center; justify-content: space-between; gap: 0.4rem; }\n.build-status { display: inline-flex; align-items: center; gap: 0.3rem; color: rgb(var(--color-muted)); font-size: 0.61rem; white-space: nowrap; }\n.build-status span { width: 5px; height: 5px; border-radius: 50%; background: rgb(var(--status-idle)); }\n.build-project-icon { display: grid; width: 35px; height: 35px; place-items: center; margin: 1.1rem 0 0.55rem; border-radius: 11px; background: rgb(var(--color-accent-soft)); color: rgb(var(--color-accent)); }\n.build-card > strong { color: rgb(var(--color-ink)); font-size: 0.93rem; font-weight: 620; letter-spacing: -0.025em; }\n.build-card > span:last-child { margin-top: 0.2rem; color: rgb(var(--color-muted)); font-size: 0.72rem; }\n.stack-card { top: 67%; left: 4%; width: 260px; gap: 0.75rem; padding: 1rem 1.05rem; animation: drift-c 7.5s ease-in-out infinite; }\n.stack-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }\n.stack-tags .ds-tag { min-height: 1.55rem; padding: 0.3rem 0.55rem; font-size: 0.64rem; }\n.terminal-card { top: 45%; left: 0; width: 196px; gap: 0.32rem; padding: 0.8rem 0.9rem 0.9rem; background: rgb(var(--surface-elevated) / 0.98); animation: drift-a 8.5s ease-in-out infinite; }\n.terminal-top { display: flex; align-items: center; gap: 4px; margin-bottom: 0.4rem; }\n.terminal-top > span { width: 5px; height: 5px; border-radius: 50%; background: rgb(var(--color-line-strong)); }\n.terminal-top small { margin-left: auto; color: rgb(var(--color-muted)); font-size: 0.56rem; }\n.terminal-card code { color: rgb(var(--color-ink)); font-size: 0.68rem; }\n.terminal-card code i { color: rgb(var(--color-accent)); font-style: normal; }\n.terminal-card strong { margin-top: 0.2rem; color: rgb(var(--color-ink)); font-size: 0.75rem; font-weight: 580; }\n.terminal-card > span { color: rgb(var(--color-muted)); font-size: 0.65rem; }\n.social-card { top: 9%; right: 2%; width: 165px; gap: 0.8rem; padding: 0.9rem; animation: drift-b 8s ease-in-out infinite; }\n.social-icons { display: flex; gap: 0.45rem; }\n.social-icons a { display: grid; width: 32px; height: 32px; place-items: center; border: 1px solid rgb(var(--color-line)); border-radius: 50%; color: rgb(var(--color-ink)); transition: color 150ms ease, background 150ms ease, border-color 150ms ease; }\n.social-icons a:hover { border-color: rgb(var(--color-accent) / 0.2); background: rgb(var(--color-accent-soft)); color: rgb(var(--color-accent)); }\n.hero-index { position: absolute; right: 0; bottom: 2rem; display: flex; align-items: center; gap: 0.6rem; color: rgb(var(--color-muted)); font-size: 0.62rem; letter-spacing: 0.09em; }\n.hero-index-line { width: 34px; height: 1px; background: rgb(var(--color-line-strong)); }\n.site-footer { display: flex; width: min(100% - 3rem, 1440px); align-items: center; justify-content: space-between; margin: 0 auto; border-top: 1px solid rgb(var(--color-line)); padding: 1.1rem 0 1.4rem; color: rgb(var(--color-muted)); font-size: 0.7rem; }\n\n@keyframes drift-a { 0%, 100% { translate: 0 0; } 50% { translate: 0 -6px; } }\n@keyframes drift-b { 0%, 100% { translate: 0 0; } 50% { translate: 0 5px; } }\n@keyframes drift-c { 0%, 100% { translate: 0 0; } 50% { translate: 0 -4px; } }\n@keyframes reveal-up { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }\n\n@media (max-width: 1100px) {\n  .hero { grid-template-columns: minmax(0, 1fr) minmax(350px, 0.8fr); }\n  .hero-title { font-size: clamp(4rem, 7.8vw, 6.3rem); }\n  .hero-stage { min-height: 500px; transform: scale(0.92); transform-origin: center right; }\n  .social-card { display: none; }\n  .identity-card { left: 1%; }\n  .build-card { right: -2%; }\n  .stack-card { left: 0; }\n  .stack-card, .terminal-card { display: none; }\n}\n\n@media (max-width: 760px) {\n  .site-nav { width: min(100% - 2rem, 1440px); height: 64px; }\n  .nav-links, .nav-resume { display: none; }\n  .mobile-menu-toggle { display: grid; width: 40px; height: 40px; place-items: center; border: 1px solid rgb(var(--color-line)); border-radius: 50%; background: rgb(var(--color-surface)); color: rgb(var(--color-ink)); }\n  .mobile-nav { position: absolute; top: calc(100% + 0.45rem); right: 1rem; left: 1rem; display: grid; gap: 0.15rem; border: 1px solid rgb(var(--color-line)); border-radius: 1.15rem; padding: 0.65rem; background: rgb(var(--color-surface-raised)); box-shadow: var(--shadow-float); }\n  .mobile-nav-link { padding: 0.7rem 0.65rem; color: rgb(var(--color-muted)); font-size: 0.9rem; }\n  .mobile-nav .ds-button { margin-top: 0.35rem; }\n  .hero { display: flex; min-height: unset; flex-direction: column; align-items: stretch; width: min(100% - 2rem, 600px); padding: clamp(4rem, 12vw, 6rem) 0 3rem; }\n  .hero-copy { width: 100%; min-width: 0; padding: 0; }\n  .hero-eyebrow { margin-bottom: 1.35rem; font-size: 0.67rem; }\n  .hero-title { max-width: 10ch; font-size: clamp(3.55rem, 12.7vw, 5.7rem); }\n  .hero-description { width: 100%; max-width: 100%; min-width: 0; margin-top: 1.25rem; font-size: 1rem; line-height: 1.65; }\n  .hero-actions { gap: 0.55rem; margin-top: 1.55rem; }\n  .hero-actions .ds-button { min-height: 2.75rem; padding: 0.7rem 0.9rem; font-size: 0.82rem; }\n  .hero-scroll { margin-top: 1.5rem; }\n  .hero-stage { width: 100%; max-width: 100%; min-width: 0; min-height: 280px; overflow: clip; margin-top: 1.2rem; transform: none; }\n  .stage-orbit-one { width: 68%; }\n  .stage-orbit-two { width: 48%; }\n  .identity-card { top: 8%; left: 0; width: min(260px, 70%); min-height: 82px; padding: 0.75rem; }\n  .identity-symbol { width: 38px; height: 38px; border-radius: 12px; font-size: 1.1rem; }\n  .float-card-copy strong { max-width: 145px; font-size: 0.72rem; }\n  .float-card-copy > span:last-child { font-size: 0.61rem; }\n  .float-label { font-size: 0.56rem; }\n  .build-card { top: 43%; right: 0; width: min(220px, 61%); min-height: 154px; padding: 0.8rem; }\n  .build-card > strong { font-size: 0.82rem; }\n  .build-card > span:last-child { font-size: 0.65rem; }\n  .build-status { font-size: 0.54rem; }\n  .build-project-icon { width: 30px; height: 30px; margin-top: 0.8rem; }\n  .stack-card, .social-card, .terminal-card { display: none; }\n  .terminal-card code { font-size: 0.6rem; }\n  .terminal-card strong { font-size: 0.67rem; }\n  .terminal-card > span { font-size: 0.58rem; }\n  .hero-index { right: 0; bottom: 0.7rem; }\n  .site-footer { width: min(100% - 2rem, 600px); gap: 0.75rem; font-size: 0.62rem; }\n}\n\n@media (max-width: 390px) {\n  .hero-title { font-size: clamp(3.25rem, 13vw, 3.7rem); }\n  .hero-actions { align-items: stretch; }\n  .hero-actions .ds-button { flex: 1; gap: 0.35rem; padding-inline: 0.65rem; }\n  .hero-stage { min-height: 250px; }\n  .build-card { width: 59%; }\n}\n\n@media (prefers-reduced-motion: reduce) {\n  html { scroll-behavior: auto; }\n  .identity-card, .build-card, .stack-card, .terminal-card, .social-card { animation: none; }\n  .social-icons a { transition: none; }\n}\n\n.about-journey-education {\n  padding-bottom: clamp(5rem, 10vw, 9rem);\n}\n\n.editorial-section {\n  width: min(100% - 3rem, 1320px);\n  margin: 0 auto;\n  border-top: 1px solid rgb(var(--color-line));\n}\n\n.about-section {\n  display: grid;\n  grid-template-columns: minmax(150px, 0.55fr) minmax(0, 1.45fr);\n  gap: clamp(2rem, 6vw, 6rem);\n  padding-top: clamp(5rem, 10vw, 9rem);\n  padding-bottom: clamp(5rem, 8vw, 7rem);\n}\n\n.section-index { display: flex; flex-direction: column; align-items: flex-start; gap: 0.8rem; padding-top: 0.7rem; }\n.section-index > span { display: inline-flex; align-items: center; gap: 0.5rem; color: rgb(var(--color-muted)); font-size: 0.69rem; letter-spacing: 0.06em; }\n.section-index i { width: 21px; height: 1px; background: rgb(var(--color-line-strong)); }\n.about-copy { max-width: 860px; }\n.about-heading { max-width: 13ch; font-size: clamp(3rem, 6vw, 6.25rem); letter-spacing: -0.07em; line-height: 0.99; }\n.about-introduction { max-width: 56ch; margin-top: clamp(1.5rem, 3vw, 2.5rem); color: rgb(var(--color-muted)); font-size: clamp(1.05rem, 1.5vw, 1.22rem); line-height: 1.75; }\n\n.journey-section { padding-top: clamp(3.5rem, 6vw, 5rem); padding-bottom: clamp(5rem, 8vw, 7rem); }\n.journey-heading { margin-bottom: 2.2rem; }\n.journey-grid { position: relative; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(0.85rem, 2vw, 1.5rem); margin: 0; padding: 1.8rem 0 0; list-style: none; }\n.journey-grid::before { position: absolute; top: 6px; right: 16.66%; left: 16.66%; height: 1px; background: rgb(var(--color-line-strong)); content: \"\"; }\n.journey-item { position: relative; min-width: 0; padding-top: 1.15rem; }\n.journey-node { position: absolute; z-index: 1; top: 0; left: 50%; width: 13px; height: 13px; border: 3px solid rgb(var(--color-canvas)); border-radius: 50%; background: rgb(var(--color-accent)); box-shadow: 0 0 0 1px rgb(var(--color-line-strong)); transform: translateX(-50%); }\n.journey-card { min-height: 245px; padding: clamp(1.2rem, 2vw, 1.65rem); }\n.journey-item-now .journey-card { border-color: rgb(var(--color-accent) / 0.2); box-shadow: var(--shadow-float); }\n.journey-card-top { display: flex; align-items: center; justify-content: space-between; }\n.journey-index { display: inline-flex; align-items: center; gap: 0.45rem; color: rgb(var(--color-muted)); font-size: 0.67rem; letter-spacing: 0.08em; }\n.journey-index i { width: 16px; height: 1px; background: rgb(var(--color-line-strong)); }\n.journey-card h3 { margin: 1.55rem 0 0.65rem; color: rgb(var(--color-ink)); font-size: clamp(1.55rem, 2.4vw, 2.1rem); font-weight: 560; letter-spacing: -0.055em; line-height: 1; }\n.journey-description { max-width: 34ch; margin: 0; color: rgb(var(--color-muted)); font-size: 0.94rem; line-height: 1.65; }\n.journey-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 1.1rem; }\n.journey-tags .ds-tag { min-height: 1.65rem; padding: 0.32rem 0.58rem; font-size: 0.67rem; }\n\n.education-section { padding-top: clamp(4rem, 7vw, 6.5rem); }\n.education-heading-row { display: grid; grid-template-columns: minmax(150px, 0.55fr) minmax(0, 1.45fr); gap: clamp(2rem, 6vw, 6rem); align-items: start; margin-bottom: 2.5rem; }\n.education-heading { font-size: clamp(2.8rem, 5.5vw, 5.5rem); }\n.education-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }\n.education-primary-wrap { grid-column: 1 / -1; }\n.education-card { height: 100%; padding: clamp(1.25rem, 3vw, 2.25rem); }\n.education-card-primary { min-height: 250px; }\n.education-card-top { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }\n.education-period { color: rgb(var(--color-muted)); font-size: 0.77rem; letter-spacing: 0.04em; white-space: nowrap; }\n.education-primary-content { display: flex; align-items: flex-end; justify-content: space-between; gap: 2rem; margin-top: clamp(2rem, 4vw, 3.5rem); }\n.education-card h3 { margin: 0; color: rgb(var(--color-ink)); font-size: clamp(1.8rem, 4vw, 3.5rem); font-weight: 560; letter-spacing: -0.06em; line-height: 1.04; }\n.education-institution { max-width: 58ch; margin-top: 0.75rem; font-size: 0.95rem; line-height: 1.6; }\n.education-result-primary { display: flex; flex: 0 0 auto; flex-direction: column; align-items: flex-end; gap: 0.15rem; border-left: 1px solid rgb(var(--color-line)); padding-left: 1.5rem; }\n.education-result-primary span { color: rgb(var(--color-muted)); font-size: 0.67rem; letter-spacing: 0.11em; text-transform: uppercase; }\n.education-result-primary strong { color: rgb(var(--color-accent)); font-size: clamp(2rem, 4vw, 3.2rem); font-weight: 540; letter-spacing: -0.07em; line-height: 1; }\n.education-secondary-wrap { min-height: 178px; }\n.education-card-secondary { display: grid; grid-template-columns: 1fr auto; grid-template-rows: auto 1fr; align-items: start; background: rgb(var(--color-surface) / 0.72); box-shadow: none; }\n.education-card-secondary .education-card-top { grid-column: 1 / -1; }\n.education-secondary-title { align-self: end; margin-top: 2.1rem !important; font-size: clamp(1.8rem, 3vw, 2.55rem) !important; }\n.education-secondary-result { align-self: end; margin: 0 0 0 1rem; color: rgb(var(--color-accent)); font-size: clamp(1.2rem, 2.2vw, 1.65rem); font-weight: 560; letter-spacing: -0.045em; white-space: nowrap; }\n\n.project-showcase { padding-bottom: clamp(5rem, 9vw, 8rem); }\n.projects-intro { display: flex; align-items: flex-end; justify-content: space-between; gap: 2rem; padding-top: clamp(4.5rem, 8vw, 7rem); padding-bottom: clamp(3rem, 5vw, 4.5rem); }\n.projects-intro-copy { max-width: 820px; }\n.projects-heading { margin-top: 1.1rem; font-size: clamp(3.25rem, 7.3vw, 6.6rem); }\n.projects-introduction { max-width: 58ch; margin-top: 1.35rem; color: rgb(var(--color-muted)); font-size: clamp(1rem, 1.35vw, 1.13rem); }\n.projects-intro-index { display: inline-flex; align-items: center; gap: 0.6rem; flex: 0 0 auto; margin-bottom: 0.3rem; color: rgb(var(--color-muted)); font-size: 0.67rem; letter-spacing: 0.09em; text-transform: uppercase; }\n.projects-intro-index i { width: 23px; height: 1px; background: rgb(var(--color-line-strong)); }\n.projects-list { width: 100%; }\n.project-feature { display: grid; grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); align-items: center; gap: clamp(2.5rem, 7vw, 7rem); border-top: 1px solid rgb(var(--color-line)); padding-top: clamp(3rem, 6vw, 5.5rem); padding-bottom: clamp(3.5rem, 7vw, 6rem); }\n.project-feature-reverse { grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr); }\n.project-feature-reverse .project-copy { grid-column: 2; grid-row: 1; }\n.project-feature-reverse .project-preview { grid-column: 1; grid-row: 1; }\n.project-copy { min-width: 0; }\n.project-meta { display: flex; align-items: center; gap: 0.62rem; margin: 0; color: rgb(var(--color-muted)); font-size: 0.69rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; }\n.project-meta > span { color: rgb(var(--color-accent)); }\n.project-meta i { width: 20px; height: 1px; background: rgb(var(--color-line-strong)); }\n.project-title { max-width: 16ch; margin: 1.35rem 0 0; color: rgb(var(--color-ink)); font-size: clamp(2.25rem, 4.1vw, 4.15rem); font-weight: 540; letter-spacing: -0.07em; line-height: 1.01; text-wrap: balance; }\n.project-subtitle { margin: 0.55rem 0 0; color: rgb(var(--color-ink) / 0.78); font-size: clamp(0.94rem, 1.4vw, 1.1rem); font-weight: 540; letter-spacing: -0.025em; }\n.project-description { max-width: 53ch; margin: 1.2rem 0 0; color: rgb(var(--color-muted)); font-size: 0.98rem; line-height: 1.75; }\n.project-technologies { display: flex; flex-wrap: wrap; gap: 0.45rem; margin: 1.4rem 0 0; padding: 0; list-style: none; }\n.project-technologies .ds-tag { min-height: 1.7rem; padding: 0.3rem 0.6rem; font-size: 0.68rem; }\n.project-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1.35rem; margin-top: 1.65rem; }\n.project-case-link, .project-github-link, .repositories-link { display: inline-flex; align-items: center; gap: 0.42rem; color: rgb(var(--color-accent)); font-size: 0.83rem; font-weight: 580; text-decoration: none; transition: color 160ms ease; }\n.project-github-link { color: rgb(var(--color-muted)); }\n.project-case-link svg, .repositories-link svg { transition: transform 180ms ease; }\n.project-case-link:hover, .project-github-link:hover, .repositories-link:hover { color: rgb(var(--color-accent-hover)); }\n.project-case-link:hover svg, .repositories-link:hover svg { transform: translate(2px, -2px); }\n.project-preview { min-width: 0; border-radius: clamp(1.15rem, 2vw, 1.7rem); background: rgb(var(--color-surface) / 0.78); box-shadow: var(--shadow-soft); transition: border-color 220ms ease, box-shadow 220ms ease; }\n.project-feature:hover .project-preview { border-color: rgb(var(--color-accent) / 0.2); box-shadow: var(--shadow-float); }\n.project-visual { position: relative; display: flex; min-height: clamp(340px, 36vw, 465px); flex-direction: column; justify-content: space-between; overflow: hidden; padding: clamp(1.2rem, 2.8vw, 2rem); background: radial-gradient(ellipse at 50% 52%, rgb(var(--color-accent-soft) / 0.5), transparent 60%), rgb(var(--color-canvas) / 0.62); }\n.project-visual-top { display: flex; align-items: center; justify-content: space-between; color: rgb(var(--color-muted)); font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase; }\n.project-visual-kicker { display: inline-flex; align-items: center; gap: 0.5rem; }\n.project-visual-kicker::before { width: 6px; height: 6px; border-radius: 50%; background: rgb(var(--color-accent)); content: \"\"; }\n.project-visual-index { opacity: 0.75; }\n.project-flow { display: flex; max-width: 410px; flex-direction: column; align-items: stretch; align-self: center; gap: 0; width: min(100%, 410px); padding: 1.25rem 0; transition: transform 220ms ease; }\n.project-feature:hover .project-flow { transform: scale(1.01); }\n.project-flow-step { display: flex; min-height: 40px; flex-direction: column; align-items: center; justify-content: center; gap: 0.28rem; }\n.project-flow-node { display: flex; min-height: 39px; align-items: center; justify-content: center; gap: 0.55rem; border: 1px solid rgb(var(--color-line)); border-radius: 0.85rem; padding: 0.55rem 0.9rem; background: rgb(var(--color-surface) / 0.9); box-shadow: var(--shadow-node); color: rgb(var(--color-ink)); font-size: 0.78rem; font-weight: 530; letter-spacing: -0.01em; text-align: center; transition: transform 220ms ease, border-color 220ms ease, box-shadow 220ms ease; }\n.project-feature:hover .project-flow-node { transform: scale(1.015); border-color: rgb(var(--color-accent) / 0.18); box-shadow: var(--shadow-soft); }\n.project-flow-dot { width: 6px; height: 6px; flex: 0 0 auto; border-radius: 50%; background: rgb(var(--color-accent) / 0.62); }\n.project-flow-node-final { border-color: rgb(var(--color-accent) / 0.19); background: rgb(var(--color-accent-soft) / 0.72); color: rgb(var(--color-accent)); }\n.project-flow-arrow { color: rgb(var(--color-accent) / 0.64); }\n.project-flow-plus { display: grid; width: 20px; height: 20px; place-items: center; border: 1px solid rgb(var(--color-line)); border-radius: 50%; background: rgb(var(--color-surface)); color: rgb(var(--color-accent)); font-size: 0.8rem; }\n.project-flow-hospital { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: start; gap: 0 0.45rem; width: min(100%, 440px); }\n.project-flow-hospital .project-flow-source { min-height: 48px; }\n.project-flow-hospital .project-flow-source .project-flow-node { width: 100%; min-height: 52px; padding: 0.5rem 0.35rem; font-size: 0.69rem; }\n.project-flow-hospital .project-flow-source:nth-child(3) { grid-column: 3; }\n.project-flow-hospital .project-flow-source:nth-child(4) { grid-column: 1 / -1; grid-row: 2; }\n.project-flow-hospital .project-flow-source:nth-child(5) { grid-column: 1 / -1; grid-row: 3; }\n.project-flow-hospital .project-flow-source:nth-child(1), .project-flow-hospital .project-flow-source:nth-child(2), .project-flow-hospital .project-flow-source:nth-child(3) { position: relative; padding-bottom: 1.4rem; }\n.project-flow-hospital .project-flow-source:nth-child(-n+3)::after { position: absolute; right: 50%; bottom: 0.28rem; width: 1px; height: 0.95rem; background: rgb(var(--color-accent) / 0.5); content: \"\"; }\n.project-flow-hospital .project-flow-source:nth-child(4), .project-flow-hospital .project-flow-source:nth-child(5) { min-height: 42px; }\n.project-flow-hospital .project-flow-source:nth-child(4) .project-flow-node, .project-flow-hospital .project-flow-source:nth-child(5) .project-flow-node { width: min(100%, 240px); }\n.project-flow-hospital .project-flow-source:nth-child(4) .project-flow-arrow { transform: rotate(90deg); }\n.project-flow-hospital .project-flow-source:nth-child(5) .project-flow-arrow { display: none; }\n.project-visual-note { align-self: flex-end; color: rgb(var(--color-muted)); font-size: 0.61rem; letter-spacing: 0.06em; text-transform: uppercase; }\n.more-projects { border-top: 1px solid rgb(var(--color-line)); padding-top: clamp(3.5rem, 6vw, 5rem); }\n.more-projects-heading-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 2rem; margin-bottom: 1.7rem; }\n.more-projects-heading { margin-top: 0.75rem; font-size: clamp(2.2rem, 4.4vw, 3.7rem); }\n.repositories-link { flex: 0 0 auto; margin-bottom: 0.45rem; }\n.repository-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.65rem 0.85rem; margin: 0; padding: 0; list-style: none; }\n.repository-row { display: grid; min-height: 68px; grid-template-columns: 2rem minmax(0, 1fr) auto 1.25rem; align-items: center; gap: 0.7rem; border: 1px solid rgb(var(--color-line)); border-radius: 0.95rem; padding: 0.8rem 0.95rem; background: rgb(var(--color-surface) / 0.72); color: inherit; text-decoration: none; transition: border-color 160ms ease, background-color 160ms ease, transform 160ms ease; }\n.repository-row:hover { transform: translateY(-1px); border-color: rgb(var(--color-accent) / 0.24); background: rgb(var(--color-surface)); }\n.repository-index { color: rgb(var(--color-muted)); font-size: 0.63rem; letter-spacing: 0.08em; }\n.repository-name { overflow-wrap: anywhere; color: rgb(var(--color-ink)); font-size: 0.82rem; font-weight: 540; letter-spacing: -0.02em; }\n.repository-language { color: rgb(var(--color-muted)); font-size: 0.67rem; }\n.repository-arrow { color: rgb(var(--color-muted)); transition: color 160ms ease, transform 160ms ease; }\n.repository-row:hover .repository-arrow { transform: translate(2px, -2px); color: rgb(var(--color-accent)); }\n.case-placeholder { display: flex; width: min(100% - 3rem, 880px); min-height: calc(100svh - 140px); flex-direction: column; align-items: flex-start; justify-content: center; gap: 1.2rem; margin: 0 auto; padding: 5rem 0; }\n.case-placeholder h1 { font-size: clamp(3rem, 7vw, 5.7rem); }\n.case-placeholder > .ds-muted { margin: 0; color: rgb(var(--color-muted)); font-size: 1rem; }\n.case-placeholder .project-case-link { margin-top: 0.4rem; }\n\n@media (max-width: 960px) {\n  .editorial-section { width: min(100% - 2.5rem, 1320px); }\n  .about-section, .education-heading-row { grid-template-columns: minmax(120px, 0.42fr) minmax(0, 1.58fr); gap: 2.25rem; }\n  .journey-grid { gap: 0.75rem; }\n  .journey-card { min-height: 270px; padding: 1.15rem; }\n  .journey-description { font-size: 0.88rem; }\n  .education-card-primary { min-height: 225px; }\n}\n\n@media (max-width: 960px) {\n  .project-feature, .project-feature-reverse { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: 2rem; }\n  .project-title { font-size: clamp(2.15rem, 4vw, 3rem); }\n  .project-description { font-size: 0.91rem; }\n  .project-visual { min-height: 355px; }\n}\n\n@media (max-width: 700px) {\n  .about-journey-education { padding-bottom: 4.5rem; }\n  .editorial-section { width: min(100% - 2rem, 600px); }\n  .about-section { grid-template-columns: 1fr; gap: 1.8rem; padding-top: 4.5rem; padding-bottom: 4.5rem; }\n  .section-index { flex-direction: row; align-items: center; justify-content: space-between; padding-top: 0; }\n  .about-heading { max-width: 12ch; font-size: clamp(2.8rem, 11vw, 4.2rem); }\n  .about-introduction { margin-top: 1.3rem; font-size: 1rem; line-height: 1.7; }\n  .journey-section { padding-top: 3.5rem; padding-bottom: 4.5rem; }\n  .journey-heading { margin-bottom: 1.5rem; }\n  .journey-grid { grid-template-columns: 1fr; gap: 0.9rem; padding: 0 0 0 1.2rem; }\n  .journey-grid::before { top: 0.5rem; right: auto; bottom: 0.5rem; left: 5px; width: 1px; height: auto; }\n  .journey-item { padding: 0 0 0 0.9rem; }\n  .journey-node { top: 1.3rem; left: 5px; }\n  .journey-card { min-height: 0; padding: 1.2rem; }\n  .journey-card h3 { margin-top: 1rem; font-size: 1.7rem; }\n  .journey-description { max-width: 46ch; font-size: 0.92rem; }\n  .journey-tags { margin-top: 0.9rem; }\n  .education-section { padding-top: 3.5rem; }\n  .education-heading-row { grid-template-columns: 1fr; gap: 1.4rem; margin-bottom: 1.5rem; }\n  .education-heading { font-size: clamp(2.8rem, 10vw, 4rem); }\n  .education-grid { grid-template-columns: 1fr; gap: 0.75rem; }\n  .education-primary-wrap { grid-column: auto; }\n  .education-card { padding: 1.2rem; }\n  .education-card-primary { min-height: 0; }\n  .education-primary-content { align-items: flex-start; gap: 1.3rem; margin-top: 2rem; }\n  .education-card h3 { font-size: clamp(1.65rem, 7vw, 2.5rem); }\n  .education-institution { font-size: 0.86rem; }\n  .education-result-primary { padding-left: 0.9rem; }\n  .education-result-primary strong { font-size: 2.2rem; }\n  .education-secondary-wrap { min-height: 140px; }\n  .education-secondary-title { margin-top: 1.5rem !important; }\n}\n\n@media (max-width: 700px) {\n  .project-showcase { padding-bottom: 4.5rem; }\n  .projects-intro { align-items: flex-start; flex-direction: column; gap: 1.3rem; padding-top: 4.3rem; padding-bottom: 2.8rem; }\n  .projects-heading { margin-top: 0.85rem; font-size: clamp(3rem, 12vw, 4.25rem); }\n  .projects-introduction { margin-top: 1rem; font-size: 0.97rem; line-height: 1.7; }\n  .projects-intro-index { display: none; }\n  .project-feature, .project-feature-reverse { display: flex; flex-direction: column; align-items: stretch; gap: 1.7rem; padding-top: 2.6rem; padding-bottom: 3.2rem; }\n  .project-copy { order: 0; }\n  .project-preview { order: 1; }\n  .project-title { margin-top: 1rem; font-size: clamp(2.2rem, 9vw, 3.15rem); }\n  .project-subtitle { font-size: 0.95rem; }\n  .project-description { margin-top: 0.9rem; font-size: 0.91rem; }\n  .project-technologies { gap: 0.4rem; margin-top: 1.05rem; }\n  .project-technologies .ds-tag { font-size: 0.65rem; }\n  .project-actions { margin-top: 1.25rem; }\n  .project-visual { min-height: 345px; padding: 1.15rem; }\n  .project-flow { max-width: 350px; }\n  .project-flow-hospital { gap: 0 0.35rem; }\n  .project-flow-node { max-width: 100%; font-size: 0.73rem; }\n  .project-flow-hospital .project-flow-source .project-flow-node { font-size: 0.64rem; }\n  .more-projects { padding-top: 3.3rem; }\n  .more-projects-heading-row { align-items: flex-start; flex-direction: column; gap: 1rem; margin-bottom: 1.25rem; }\n  .repositories-link { margin-bottom: 0; }\n  .repository-list { grid-template-columns: 1fr; gap: 0.55rem; }\n  .case-placeholder { width: min(100% - 2rem, 600px); }\n}\n\n@media (max-width: 390px) {\n  .project-visual { min-height: 320px; }\n  .project-flow-node { padding-inline: 0.7rem; font-size: 0.7rem; }\n  .project-flow-hospital .project-flow-source .project-flow-node { font-size: 0.6rem; }\n  .repository-row { grid-template-columns: 1.6rem minmax(0, 1fr) auto; gap: 0.5rem; padding-inline: 0.8rem; }\n  .repository-language { display: none; }\n}\n\n@media (prefers-reduced-motion: reduce) {\n  .about-journey-education * { scroll-behavior: auto; }\n  .project-showcase * { scroll-behavior: auto; }\n}\n\n/* Project case studies */\n.case-study { width: min(100% - 3rem, 1320px); margin: 0 auto; padding-bottom: clamp(4rem, 8vw, 7rem); }\n.case-study-hero { position: relative; display: flex; min-height: min(760px, calc(100svh - 80px)); flex-direction: column; justify-content: center; padding: 5rem 0 clamp(5rem, 10vw, 9rem); }\n.case-back-link { display: inline-flex; width: fit-content; align-items: center; gap: .5rem; color: rgb(var(--color-muted)); font-size: .8rem; text-decoration: none; transition: color 160ms ease; }\n.case-back-link:hover { color: rgb(var(--color-accent)); }\n.case-hero-copy { max-width: 990px; margin-top: clamp(4rem, 9vw, 8rem); }\n.case-study-kicker { display: flex; align-items: center; gap: .7rem; margin: 0; color: rgb(var(--color-muted)); font-size: .7rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; }\n.case-study-kicker span { color: rgb(var(--color-accent)); }\n.case-study-kicker i { width: 22px; height: 1px; background: rgb(var(--color-line-strong)); }\n.case-title { max-width: 12ch; margin: 1.2rem 0 0; color: rgb(var(--color-ink)); font-size: clamp(4rem, 10vw, 9.4rem); font-weight: 540; letter-spacing: -.085em; line-height: .91; text-wrap: balance; }\n.case-subtitle { margin: 1.25rem 0 0; color: rgb(var(--color-ink) / .76); font-size: clamp(1.05rem, 2vw, 1.45rem); font-weight: 520; letter-spacing: -.03em; }\n.case-intro { max-width: 57ch; margin: 1.2rem 0 0; color: rgb(var(--color-muted)); font-size: clamp(.98rem, 1.35vw, 1.12rem); line-height: 1.8; }\n.case-link-row { display: flex; flex-wrap: wrap; gap: 1.25rem; margin-top: 1.6rem; }\n.case-study-link { display: inline-flex; align-items: center; gap: .35rem; color: rgb(var(--color-accent)); font-size: .82rem; font-weight: 580; text-decoration: none; }\n.case-study-link:hover { color: rgb(var(--color-accent-hover)); }\n.case-hero-index { position: absolute; right: 0; bottom: clamp(5rem, 10vw, 9rem); display: flex; align-items: baseline; gap: .4rem; color: rgb(var(--color-accent) / .8); font-size: clamp(3rem, 7vw, 6.5rem); font-weight: 450; letter-spacing: -.09em; line-height: 1; }\n.case-hero-index span { color: rgb(var(--color-muted)); font-size: .75rem; letter-spacing: .06em; }\n.case-section { display: grid; grid-template-columns: minmax(135px, .42fr) minmax(0, 1.58fr); gap: clamp(2rem, 6vw, 6rem); border-top: 1px solid rgb(var(--color-line)); padding: clamp(3.5rem, 7vw, 6rem) 0; }\n.case-section-label { display: flex; align-items: flex-start; gap: .65rem; padding-top: .65rem; color: rgb(var(--color-muted)); font-size: .66rem; letter-spacing: .08em; text-transform: uppercase; }\n.case-section-label span:first-child { color: rgb(var(--color-accent)); }\n.case-section-main { min-width: 0; }\n.case-section-main > .ds-heading, .case-section-heading > .ds-heading { font-size: clamp(2.5rem, 5.1vw, 5rem); }\n.case-lead { max-width: 56ch; margin: 1.6rem 0 0; color: rgb(var(--color-ink) / .83); font-size: clamp(1.15rem, 2vw, 1.55rem); letter-spacing: -.025em; line-height: 1.6; }\n.case-idea-block { max-width: 62ch; margin-top: clamp(2.2rem, 5vw, 4rem); border-left: 1px solid rgb(var(--color-accent) / .5); padding-left: 1.2rem; }\n.case-idea-block .ds-eyebrow { margin-bottom: .65rem; }\n.case-idea-block > p:last-child { margin: 0; color: rgb(var(--color-muted)); font-size: .98rem; line-height: 1.75; }\n.case-section-heading { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, .72fr); align-items: end; gap: 2rem; margin-bottom: 2rem; }\n.case-section-aside { max-width: 43ch; margin: 0 0 .25rem; color: rgb(var(--color-muted)); font-size: .82rem; line-height: 1.65; }\n.case-flow-list { position: relative; display: grid; gap: .65rem; margin: 0; padding: 0; list-style: none; }\n.case-flow-item { position: relative; display: grid; grid-template-columns: 2.2rem minmax(0, 1fr); align-items: stretch; gap: .85rem; }\n.case-flow-item:not(:last-child)::after { position: absolute; top: 2.5rem; bottom: -.65rem; left: 1.02rem; width: 1px; background: rgb(var(--color-line-strong)); content: \"\"; }\n.case-flow-number { z-index: 1; display: grid; width: 2.1rem; height: 2.1rem; place-items: center; align-self: start; border: 1px solid rgb(var(--color-line)); border-radius: 50%; background: rgb(var(--color-canvas)); color: rgb(var(--color-accent)); font-size: .63rem; }\n.case-flow-card { min-width: 0; padding: 1.1rem 1.25rem; }\n.case-flow-card h3, .case-architecture-card h3, .case-engineering-item h3 { margin: 0; color: rgb(var(--color-ink)); font-size: 1rem; font-weight: 570; letter-spacing: -.025em; }\n.case-flow-card p, .case-architecture-card p, .case-engineering-item p { margin: .42rem 0 0; color: rgb(var(--color-muted)); font-size: .84rem; line-height: 1.65; }\n.case-architecture-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; }\n.case-architecture-card { min-height: 155px; padding: 1.25rem; }\n.case-card-index { display: block; margin-bottom: 1.5rem; color: rgb(var(--color-accent)); font-size: .66rem; letter-spacing: .08em; }\n.case-stack-main { padding: .15rem 0; }\n.case-stack-note { margin: .7rem 0 0; color: rgb(var(--color-muted)); font-size: .87rem; }\n.case-tech-list { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.35rem 0 0; padding: 0; list-style: none; }\n.case-engineering-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 2rem; border-top: 1px solid rgb(var(--color-line)); }\n.case-engineering-item { border-bottom: 1px solid rgb(var(--color-line)); padding: 1.2rem 0 1.35rem; }\n.case-project-navigation { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; border-top: 1px solid rgb(var(--color-line)); padding-top: 1.2rem; }\n.case-nav-card { display: flex; min-height: 125px; flex-direction: column; justify-content: space-between; gap: 1rem; border: 1px solid rgb(var(--color-line)); border-radius: 1rem; padding: 1.15rem 1.25rem; background: rgb(var(--color-surface) / .65); color: inherit; text-decoration: none; transition: border-color 160ms ease, transform 160ms ease, background-color 160ms ease; }\n.case-nav-card:hover { transform: translateY(-2px); border-color: rgb(var(--color-accent) / .3); background: rgb(var(--color-surface)); }\n.case-nav-card span { display: flex; align-items: center; gap: .35rem; color: rgb(var(--color-muted)); font-size: .69rem; letter-spacing: .04em; text-transform: uppercase; }\n.case-nav-card strong { color: rgb(var(--color-ink)); font-size: clamp(1.05rem, 2.2vw, 1.45rem); font-weight: 540; letter-spacing: -.04em; }\n.case-nav-next { text-align: right; }\n.case-nav-next span { justify-content: flex-end; }\n\n@media (max-width: 960px) {\n  .case-study { width: min(100% - 2.5rem, 1320px); }\n  .case-study-hero { min-height: 650px; }\n  .case-section { grid-template-columns: minmax(100px, .32fr) minmax(0, 1.68fr); gap: 2rem; }\n  .case-section-heading { grid-template-columns: 1fr; align-items: start; gap: .8rem; }\n}\n@media (max-width: 700px) {\n  .case-study { width: min(100% - 2rem, 600px); padding-bottom: 4rem; }\n  .case-study-hero { min-height: 0; padding: 2rem 0 5rem; }\n  .case-hero-copy { margin-top: 4rem; }\n  .case-title { font-size: clamp(3.5rem, 15vw, 5.5rem); }\n  .case-hero-index { right: 0; bottom: 1.5rem; font-size: 3rem; }\n  .case-section { grid-template-columns: 1fr; gap: 1.2rem; padding: 3.4rem 0; }\n  .case-section-label { justify-content: space-between; padding-top: 0; }\n  .case-section-main > .ds-heading, .case-section-heading > .ds-heading { font-size: clamp(2.7rem, 11vw, 4rem); }\n  .case-section-heading { margin-bottom: 1.4rem; }\n  .case-lead { margin-top: 1rem; font-size: 1.12rem; }\n  .case-idea-block { margin-top: 2rem; }\n  .case-flow-item { grid-template-columns: 1.8rem minmax(0, 1fr); gap: .55rem; }\n  .case-flow-number { width: 1.8rem; height: 1.8rem; font-size: .58rem; }\n  .case-flow-item:not(:last-child)::after { top: 2rem; left: .87rem; }\n  .case-flow-card { padding: 1rem; }\n  .case-architecture-grid, .case-engineering-list { grid-template-columns: 1fr; }\n  .case-architecture-card { min-height: 0; }\n  .case-card-index { margin-bottom: 1rem; }\n  .case-project-navigation { gap: .55rem; }\n  .case-nav-card { min-height: 110px; padding: .9rem; }\n}\n@media (max-width: 390px) {\n  .case-nav-card strong { font-size: .95rem; }\n}\n@media (prefers-reduced-motion: reduce) {\n  .case-study * { scroll-behavior: auto; transition-duration: .01ms !important; }\n}\n\n/* Technical focus and credentials */\n.technical-focus-module { padding-bottom: clamp(4.5rem, 9vw, 8rem); }\n.technical-focus-section { padding-top: clamp(4.5rem, 8vw, 7rem); }\n.technical-focus-intro, .credentials-heading-row { display: grid; grid-template-columns: minmax(150px, .55fr) minmax(0, 1.45fr); align-items: start; gap: clamp(2rem, 6vw, 6rem); margin-bottom: clamp(2rem, 4vw, 3rem); }\n.technical-focus-heading { font-size: clamp(3rem, 6vw, 5.8rem); }\n.technical-focus-lede { max-width: 54ch; margin: 1rem 0 0; color: rgb(var(--color-muted)); font-size: clamp(1rem, 1.5vw, 1.2rem); line-height: 1.7; }\n.technical-focus-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .9rem; }\n.technical-focus-card-wrap { min-width: 0; }\n.technical-focus-card-wrap-emphasis { grid-column: 2; grid-row: 1 / span 2; }\n.technical-focus-card-wrap-supporting { grid-column: 1 / -1; }\n.technical-focus-card-wrap-supporting .technical-focus-card h3 { font-size: clamp(1.4rem, 2vw, 1.8rem); }\n.technical-focus-card { height: 100%; min-width: 0; padding: clamp(1.25rem, 2.5vw, 2rem); transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease, background-color 180ms ease; }\n.technical-focus-card-wrap:is(:hover, :focus-within) .technical-focus-card { transform: translateY(-2px); border-color: rgb(var(--color-accent) / .3); box-shadow: var(--shadow-soft); }\n.technical-focus-card-emphasis { border-color: rgb(var(--color-accent) / .28); background: rgb(var(--color-accent-soft) / .42); }\n:root[data-theme=\"dark\"] .technical-focus-card-emphasis { border-color: rgb(var(--color-accent) / .34); background: rgb(var(--color-accent-soft) / .55); box-shadow: var(--shadow-soft); }\n.technical-focus-card-heading { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }\n.technical-focus-number { color: rgb(var(--color-accent)); font-size: .72rem; font-weight: 620; letter-spacing: .08em; }\n.technical-focus-label { color: rgb(var(--color-muted)); font-size: .64rem; letter-spacing: .09em; text-transform: uppercase; }\n.technical-focus-card h3 { max-width: 22ch; margin: 1.35rem 0 0; color: rgb(var(--color-ink)); font-size: clamp(1.6rem, 3vw, 2.35rem); font-weight: 550; letter-spacing: -.055em; line-height: 1.05; text-wrap: balance; }\n.technical-focus-description { max-width: 53ch; margin: .75rem 0 0; color: rgb(var(--color-muted)); font-size: .9rem; line-height: 1.7; }\n.focus-flow { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem; margin: 1.25rem 0 0; padding: .7rem 0; list-style: none; }\n.focus-flow li { display: inline-flex; min-width: 0; align-items: center; gap: .35rem; color: rgb(var(--color-accent)); font-size: .67rem; font-weight: 560; }\n.focus-flow li span { border: 1px solid rgb(var(--color-line)); border-radius: 999px; padding: .35rem .55rem; background: rgb(var(--color-surface) / .72); color: rgb(var(--color-ink) / .83); white-space: normal; }\n.focus-flow li svg { flex: 0 0 auto; color: rgb(var(--color-muted)); }\n.focus-tech-list, .credential-skills { display: flex; flex-wrap: wrap; gap: .4rem; margin: 1rem 0 0; padding: 0; list-style: none; }\n.focus-tech-list .ds-tag, .credential-skills .ds-tag { min-height: 1.65rem; padding: .3rem .58rem; font-size: .66rem; transition: transform 160ms ease, border-color 160ms ease, color 160ms ease; }\n.focus-tech-list li:hover .ds-tag, .credential-skills li:hover .ds-tag { transform: translateY(-2px); border-color: rgb(var(--color-accent) / .3); color: rgb(var(--color-accent)); }\n.focus-proof-layout { display: grid; grid-template-columns: minmax(0, 1fr); align-items: center; gap: 2rem; margin-top: 1.35rem; }\n.focus-proof-copy { min-width: 0; }\n.focus-proof-link { display: flex; align-items: center; justify-content: space-between; gap: 1rem; border: 1px solid rgb(var(--color-line)); border-radius: .95rem; padding: .85rem 1rem; background: rgb(var(--color-surface) / .72); color: rgb(var(--color-ink)); text-decoration: none; transition: border-color 160ms ease, background-color 160ms ease; }\n.focus-proof-link:is(:hover, :focus-visible) { border-color: rgb(var(--color-accent) / .35); background: rgb(var(--color-surface)); }\n.focus-proof-link > span { display: grid; gap: .18rem; }\n.focus-proof-link strong { font-size: 1.02rem; font-weight: 580; letter-spacing: -.03em; }\n.focus-proof-link small { color: rgb(var(--color-muted)); font-size: .73rem; }\n.focus-proof-link > svg { flex: 0 0 auto; color: rgb(var(--color-accent)); transition: transform 160ms ease; }\n.focus-proof-link:is(:hover, :focus-visible) > svg { transform: translate(2px, -2px); }\n.focus-flow-security { display: grid; justify-items: center; gap: .2rem; margin: 0; padding: 0; }\n.focus-flow-security li { display: flex; flex-direction: column; align-items: center; gap: .05rem; font-size: .66rem; }\n.focus-flow-security li span { min-width: 160px; border-color: rgb(var(--color-accent) / .18); padding: .38rem .7rem; text-align: center; }\n.focus-flow-security li svg { color: rgb(var(--color-accent) / .7); }\n.credentials-section { border-top: 1px solid rgb(var(--color-line)); padding-top: clamp(4rem, 7vw, 6rem); }\n.credentials-heading { font-size: clamp(2.8rem, 5.5vw, 5.5rem); }\n.credentials-heading-copy > p { margin: .8rem 0 0; color: rgb(var(--color-muted)); font-size: .95rem; }\n.credentials-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; }\n.credential-card { display: flex; height: 100%; min-height: 250px; flex-direction: column; align-items: flex-start; padding: clamp(1.2rem, 2.3vw, 1.7rem); transition: border-color 180ms ease, transform 180ms ease, box-shadow 180ms ease; }\n.credentials-grid article:hover .credential-card { transform: translateY(-2px); border-color: rgb(var(--color-accent) / .27); box-shadow: var(--shadow-soft); }\n.credential-card-top { display: flex; width: 100%; align-items: center; justify-content: space-between; gap: .8rem; }\n.credential-index { color: rgb(var(--color-accent)); font-size: .7rem; font-weight: 620; letter-spacing: .08em; }\n.credential-score { display: inline-flex; align-items: center; gap: .4rem; color: rgb(var(--color-muted)); font-size: .67rem; }\n.credential-score strong { color: rgb(var(--color-accent)); font-size: .86rem; font-weight: 580; }\n.credential-card h3 { margin: 1.7rem 0 0; color: rgb(var(--color-ink)); font-size: clamp(1.15rem, 1.8vw, 1.5rem); font-weight: 560; letter-spacing: -.04em; line-height: 1.18; text-wrap: balance; }\n.credential-issuer { margin: .55rem 0 0; color: rgb(var(--color-muted)); font-size: .8rem; line-height: 1.55; }\n.credential-description { margin: .8rem 0 0; color: rgb(var(--color-ink) / .78); font-size: .82rem; line-height: 1.6; }\n.credential-skills { margin-top: auto; padding-top: 1rem; }\n\n@media (max-width: 960px) {\n  .technical-focus-intro, .credentials-heading-row { grid-template-columns: minmax(120px, .42fr) minmax(0, 1.58fr); gap: 2.25rem; }\n  .credentials-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }\n  .credential-card { min-height: 230px; }\n}\n@media (max-width: 700px) {\n  .technical-focus-section { padding-top: 4.2rem; }\n  .technical-focus-intro, .credentials-heading-row { grid-template-columns: 1fr; gap: 1.35rem; margin-bottom: 1.6rem; }\n  .technical-focus-heading { font-size: clamp(2.9rem, 10.5vw, 4.1rem); }\n  .technical-focus-lede { margin-top: .8rem; font-size: .97rem; }\n  .technical-focus-grid { grid-template-columns: 1fr; gap: .7rem; }\n  .technical-focus-card-wrap-emphasis { grid-column: auto; grid-row: auto; }\n  .technical-focus-card { padding: 1.2rem; }\n  .technical-focus-card h3 { font-size: 1.8rem; }\n  .technical-focus-description { font-size: .87rem; }\n  .focus-proof-layout { grid-template-columns: minmax(0, 1fr) minmax(118px, .7fr); gap: .7rem; }\n  .focus-flow-security li span { min-width: 0; width: 100%; padding-inline: .4rem; font-size: .61rem; }\n  .focus-flow-security li { width: 100%; }\n  .focus-tech-list { gap: .35rem; }\n  .focus-tech-list .ds-tag { font-size: .62rem; }\n  .credentials-section { padding-top: 3.5rem; }\n  .credentials-heading { font-size: clamp(2.8rem, 10vw, 4rem); }\n  .credentials-grid { grid-template-columns: 1fr; gap: .7rem; }\n  .credential-card { min-height: 0; padding: 1.2rem; }\n  .credential-card h3 { margin-top: 1.3rem; font-size: 1.35rem; }\n  .credential-skills { margin-top: .9rem; padding-top: 0; }\n}\n@media (max-width: 480px) {\n  .focus-proof-layout { grid-template-columns: 1fr; }\n  .focus-flow-security { grid-template-columns: 1fr; }\n  .focus-flow-security li { max-width: 220px; }\n  .focus-flow-security li span { min-height: 2.2rem; display: grid; place-items: center; }\n}\n@media (prefers-reduced-motion: reduce) {\n  .technical-focus-module *, .technical-focus-module *::before, .technical-focus-module *::after { scroll-behavior: auto; transition-duration: .01ms !important; }\n  .technical-focus-module .technical-focus-card, .technical-focus-module .credential-card, .technical-focus-module .ds-tag, .technical-focus-module .focus-proof-link > svg { transform: none !important; }\n}\n",
+  "showcase": "\"use client\";\n\nimport { motion, useReducedMotion, type Variants } from \"framer-motion\";\nimport { ArrowDown, ArrowRight, ArrowUpRight, Github } from \"lucide-react\";\nimport { BodyText, Card, SectionHeading, Tag } from \"@/components/ui\";\nimport { portfolio, type Project } from \"@/data/portfolio\";\n\nconst reveal: Variants = {\n  hidden: { opacity: 0, y: 22 },\n  visible: { opacity: 1, y: 0, transition: { duration: 0.62, ease: [0.22, 1, 0.36, 1] } },\n};\n\nfunction ProjectVisual({ project }: { project: Project }) {\n  const isHospital = project.visualType === \"hospital-flow\";\n  const isEmergency = project.visualType === \"emergency-flow\";\n  const isLead = project.visualType === \"lead-flow\";\n\n  return (\n    <div className={`project-visual project-visual-${project.visualType}`} role=\"img\" aria-label={`${project.title} conceptual system diagram: ${project.visualNodes.join(\", then \")}`}>\n      <div className=\"project-visual-top\" aria-hidden=\"true\">\n        <span className=\"project-visual-kicker\">System map</span>\n        <span className=\"project-visual-index\">{project.number} / 04</span>\n      </div>\n      <div className={`project-flow ${isHospital ? \"project-flow-hospital\" : \"\"}`} aria-hidden=\"true\">\n        {project.visualNodes.map((node, index) => {\n          const grouped = isHospital && index < 3;\n          const connector = index < project.visualNodes.length - 1;\n          const shouldDown = !isHospital;\n          return (\n            <div className={`project-flow-step ${grouped ? \"project-flow-source\" : \"\"} ${isEmergency && index === 3 ? \"project-flow-branch\" : \"\"}`} key={node}>\n              <span className={`project-flow-node ${index === project.visualNodes.length - 1 ? \"project-flow-node-final\" : \"\"}`}>\n                {!grouped && <span className=\"project-flow-dot\" />}\n                {node}\n              </span>\n              {connector && (isEmergency && index === 2 ? <span className=\"project-flow-plus\">+</span> : shouldDown ? <ArrowDown className=\"project-flow-arrow\" size={15} /> : <ArrowRight className=\"project-flow-arrow\" size={15} />)}\n            </div>\n          );\n        })}\n      </div>\n      <span className=\"project-visual-note\" aria-hidden=\"true\">Conceptual flow</span>\n    </div>\n  );\n}\n\nfunction ProjectLinks({ project }: { project: Project }) {\n  return (\n    <div className=\"project-actions\">\n      <a className=\"project-case-link\" href={project.caseStudy} aria-label={`View ${project.title} case study`}>\n        View Case Study <ArrowRight size={16} strokeWidth={1.8} aria-hidden=\"true\" />\n      </a>\n      {project.github && (\n        <a className=\"project-github-link\" href={project.github} target=\"_blank\" rel=\"noreferrer\" aria-label={`${project.title} on GitHub`}>\n          <Github size={16} strokeWidth={1.8} aria-hidden=\"true\" /> GitHub <ArrowUpRight size={14} strokeWidth={1.8} aria-hidden=\"true\" />\n        </a>\n      )}\n    </div>\n  );\n}\n\nexport function ProjectShowcase() {\n  const reduceMotion = useReducedMotion();\n  const initial = reduceMotion ? false : \"hidden\";\n  const { projectShowcase, projects } = portfolio;\n\n  return (\n    <section className=\"project-showcase\" id=\"work\" aria-labelledby=\"projects-heading\">\n      <div className=\"editorial-section projects-intro\">\n        <motion.div className=\"projects-intro-copy\" variants={reveal} initial={initial} whileInView=\"visible\" viewport={{ once: true, amount: 0.4 }}>\n          <p className=\"ds-eyebrow\">{projectShowcase.eyebrow}</p>\n          <SectionHeading id=\"projects-heading\" className=\"projects-heading\">{projectShowcase.heading}</SectionHeading>\n          <BodyText className=\"projects-introduction\">{projectShowcase.introduction}</BodyText>\n        </motion.div>\n        <span className=\"projects-intro-index\" aria-hidden=\"true\">04 <i /> Work</span>\n      </div>\n\n      <div className=\"projects-list\">\n        {projects.map((project, index) => {\n          const reverse = index % 2 === 1;\n          return (\n            <motion.article\n              className={`editorial-section project-feature ${reverse ? \"project-feature-reverse\" : \"\"}`}\n              key={project.id}\n              variants={reveal}\n              initial={initial}\n              whileInView=\"visible\"\n              viewport={{ once: true, amount: 0.18 }}\n              aria-labelledby={`project-${project.id}-title`}\n            >\n              <div className=\"project-copy\">\n                <p className=\"project-meta\"><span>{project.number}</span><i />{project.category}</p>\n                <h3 className=\"project-title\" id={`project-${project.id}-title`}>{project.title}</h3>\n                {project.subtitle && <p className=\"project-subtitle\">{project.subtitle}</p>}\n                <p className=\"project-description\">{project.description}</p>\n                <ul className=\"project-technologies\" aria-label={`${project.title} technologies`}>\n                  {project.technologies.map((technology) => <li key={technology}><Tag>{technology}</Tag></li>)}\n                </ul>\n                <ProjectLinks project={project} />\n              </div>\n              <Card className=\"project-preview\"><ProjectVisual project={project} /></Card>\n            </motion.article>\n          );\n        })}\n      </div>\n\n      <div className=\"editorial-section more-projects\" aria-labelledby=\"more-projects-heading\">\n        <div className=\"more-projects-heading-row\">\n          <div>\n            <p className=\"ds-eyebrow\">Beyond the featured work</p>\n            <SectionHeading id=\"more-projects-heading\" className=\"more-projects-heading\">{projectShowcase.moreHeading}</SectionHeading>\n          </div>\n          <a className=\"repositories-link\" href=\"https://github.com/NIKHILKAKADEK\" target=\"_blank\" rel=\"noreferrer\">\n            Explore all repositories <ArrowUpRight size={15} aria-hidden=\"true\" />\n          </a>\n        </div>\n        <ul className=\"repository-list\">\n          {projectShowcase.repositories.map((repository, index) => (\n            <li key={repository.name}>\n              <a className=\"repository-row\" href={repository.github} target=\"_blank\" rel=\"noreferrer\" aria-label={`${repository.name} repository on GitHub`}>\n                <span className=\"repository-index\">0{index + 1}</span>\n                <span className=\"repository-name\">{repository.name}</span>\n                {repository.language && <span className=\"repository-language\">{repository.language}</span>}\n                <ArrowUpRight className=\"repository-arrow\" size={17} aria-hidden=\"true\" />\n              </a>\n            </li>\n          ))}\n        </ul>\n      </div>\n    </section>\n  );\n}\n"
+}

@@ -1,0 +1,147 @@
+{
+  "module": 10,
+  "status": "local verification passed; deployment requirements remain",
+  "productionServer": true,
+  "typecheck": "pass",
+  "build": "pass",
+  "lint": "not configured",
+  "responsive": {
+    "home": 12,
+    "caseStudies": 48,
+    "status": "pass"
+  },
+  "automatedAccessibility": {
+    "pageAudits": 20,
+    "violations": 0,
+    "openMenuAudits": 2,
+    "fullComplianceClaim": false
+  },
+  "seo": "pass",
+  "productionUrlConfigured": false,
+  "requiredEnvironmentVariables": [
+    "NEXT_PUBLIC_SITE_URL"
+  ],
+  "screenshots": 78,
+  "lighthouse": [
+    {
+      "scenario": "home-mobile",
+      "scores": {
+        "performance": 81,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 63
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 1419.4711,
+          "unit": "millisecond",
+          "display": "1.4 s"
+        },
+        "largest-contentful-paint": {
+          "value": 2611.9422,
+          "unit": "millisecond",
+          "display": "2.6 s"
+        },
+        "total-blocking-time": {
+          "value": 605.5,
+          "unit": "millisecond",
+          "display": "610 ms"
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "unit": "unitless",
+          "display": "0"
+        },
+        "speed-index": {
+          "value": 2179.181840025368,
+          "unit": "millisecond",
+          "display": "2.2 s"
+        }
+      }
+    },
+    {
+      "scenario": "home-desktop",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 63
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 352.6993,
+          "unit": "millisecond",
+          "display": "0.4 s"
+        },
+        "largest-contentful-paint": {
+          "value": 613.3986,
+          "unit": "millisecond",
+          "display": "0.6 s"
+        },
+        "total-blocking-time": {
+          "value": 95,
+          "unit": "millisecond",
+          "display": "100 ms"
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "unit": "unitless",
+          "display": "0"
+        },
+        "speed-index": {
+          "value": 606.1466261341021,
+          "unit": "millisecond",
+          "display": "0.6 s"
+        }
+      }
+    },
+    {
+      "scenario": "case-mobile",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 63
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 848.21025,
+          "unit": "millisecond",
+          "display": "0.8 s"
+        },
+        "largest-contentful-paint": {
+          "value": 1584.4205,
+          "unit": "millisecond",
+          "display": "1.6 s"
+        },
+        "total-blocking-time": {
+          "value": 142,
+          "unit": "millisecond",
+          "display": "140 ms"
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "unit": "unitless",
+          "display": "0"
+        },
+        "speed-index": {
+          "value": 848.21025,
+          "unit": "millisecond",
+          "display": "0.8 s"
+        }
+      }
+    }
+  ],
+  "untested": [
+    "Firefox",
+    "WebKit",
+    "real Safari",
+    "physical devices",
+    "deployed origin"
+  ],
+  "remaining": [
+    "Supply actual HTTPS origin before building",
+    "Mobile homepage simulated TBT: 605.5 ms; further JavaScript optimization remains"
+  ],
+  "deployed": false
+}

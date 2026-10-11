@@ -1,0 +1,1183 @@
+{
+  "method": "Supplemental computed-color checks for axe incomplete homepage text items. Ancestor solid backgrounds are alpha-composited. Does not sample pseudo elements, gradients, shadows or anti-aliased glyph pixels; visual inspection is still required.",
+  "reviews": [
+    {
+      "theme": "light",
+      "width": 1440,
+      "route": "/",
+      "rows": [
+        {
+          "selector": ".journey-item-then > .journey-card.ds-floating-panel > .journey-card-top > .journey-index",
+          "text": "01  03",
+          "foreground": "rgb(106, 112, 121)",
+          "compositedBackground": [
+            254.72,
+            254.68,
+            254.56
+          ],
+          "ratio": 4.9785898757566915,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".journey-item-now > .journey-card.ds-floating-panel > .journey-card-top > .journey-index",
+          "text": "02  03",
+          "foreground": "rgb(106, 112, 121)",
+          "compositedBackground": [
+            254.72,
+            254.68,
+            254.56
+          ],
+          "ratio": 4.9785898757566915,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".journey-tags > .ds-tag:nth-child(1)",
+          "text": "AI / ML",
+          "foreground": "rgb(106, 112, 121)",
+          "compositedBackground": [
+            254.9216,
+            254.9104,
+            253.4368
+          ],
+          "ratio": 4.983966123297873,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".journey-tags > .ds-tag:nth-child(3)",
+          "text": "Databases",
+          "foreground": "rgb(106, 112, 121)",
+          "compositedBackground": [
+            254.9216,
+            254.9104,
+            253.4368
+          ],
+          "ratio": 4.983966123297873,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".ds-tag:nth-child(4)",
+          "text": "Automation",
+          "foreground": "rgb(106, 112, 121)",
+          "compositedBackground": [
+            254.9216,
+            254.9104,
+            253.4368
+          ],
+          "ratio": 4.983966123297873,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".journey-item-next > .journey-card.ds-floating-panel > .journey-card-top > .journey-index",
+          "text": "03  03",
+          "foreground": "rgb(106, 112, 121)",
+          "compositedBackground": [
+            254.72,
+            254.68,
+            254.56
+          ],
+          "ratio": 4.9785898757566915,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-lead-flow > .project-visual-top[aria-hidden=\"true\"] > .project-visual-kicker",
+          "text": "System map",
+          "foreground": "rgb(106, 112, 121)",
+          "compositedBackground": [
+            250.07479999999998,
+            249.3712,
+            246.6676
+          ],
+          "ratio": 4.755091188087617,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-lead-flow > .project-visual-top[aria-hidden=\"true\"] > .project-visual-index",
+          "text": "01 / 04",
+          "foreground": "rgb(106, 112, 121)",
+          "compositedBackground": [
+            250.07479999999998,
+            249.3712,
+            246.6676
+          ],
+          "ratio": 4.755091188087617,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": [
+            "0.75"
+          ]
+        },
+        {
+          "selector": ".project-visual-lead-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(1) > .project-flow-node",
+          "text": "Lead Discovery",
+          "foreground": "rgb(25, 29, 35)",
+          "compositedBackground": [
+            254.50748,
+            254.43712,
+            252.36676
+          ],
+          "ratio": 16.81711261337202,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-lead-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(2) > .project-flow-node",
+          "text": "Enrichment",
+          "foreground": "rgb(25, 29, 35)",
+          "compositedBackground": [
+            254.50748,
+            254.43712,
+            252.36676
+          ],
+          "ratio": 16.81711261337202,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-lead-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(3) > .project-flow-node",
+          "text": "Contact Extraction",
+          "foreground": "rgb(25, 29, 35)",
+          "compositedBackground": [
+            254.50748,
+            254.43712,
+            252.36676
+          ],
+          "ratio": 16.81711261337202,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-lead-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(4) > .project-flow-node",
+          "text": "Qualification",
+          "foreground": "rgb(25, 29, 35)",
+          "compositedBackground": [
+            254.50748,
+            254.43712,
+            252.36676
+          ],
+          "ratio": 16.81711261337202,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-lead-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(5) > .project-flow-node",
+          "text": "CRM",
+          "foreground": "rgb(25, 29, 35)",
+          "compositedBackground": [
+            254.50748,
+            254.43712,
+            252.36676
+          ],
+          "ratio": 16.81711261337202,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-lead-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(6) > .project-flow-node-final.project-flow-node",
+          "text": "Outreach / Automation",
+          "foreground": "rgb(32, 67, 119)",
+          "compositedBackground": [
+            239.22094399999997,
+            242.623936,
+            246.906928
+          ],
+          "ratio": 8.821231160752303,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-lead-flow > .project-visual-note[aria-hidden=\"true\"]",
+          "text": "Conceptual flow",
+          "foreground": "rgb(106, 112, 121)",
+          "compositedBackground": [
+            250.07479999999998,
+            249.3712,
+            246.6676
+          ],
+          "ratio": 4.755091188087617,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-sentinel-flow > .project-visual-top[aria-hidden=\"true\"] > .project-visual-kicker",
+          "text": "System map",
+          "foreground": "rgb(106, 112, 121)",
+          "compositedBackground": [
+            250.07479999999998,
+            249.3712,
+            246.6676
+          ],
+          "ratio": 4.755091188087617,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-sentinel-flow > .project-visual-top[aria-hidden=\"true\"] > .project-visual-index",
+          "text": "02 / 04",
+          "foreground": "rgb(106, 112, 121)",
+          "compositedBackground": [
+            250.07479999999998,
+            249.3712,
+            246.6676
+          ],
+          "ratio": 4.755091188087617,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": [
+            "0.75"
+          ]
+        },
+        {
+          "selector": ".project-visual-sentinel-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(1) > .project-flow-node",
+          "text": "PE File",
+          "foreground": "rgb(25, 29, 35)",
+          "compositedBackground": [
+            254.50748,
+            254.43712,
+            252.36676
+          ],
+          "ratio": 16.81711261337202,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-sentinel-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(2) > .project-flow-node",
+          "text": "File Upload",
+          "foreground": "rgb(25, 29, 35)",
+          "compositedBackground": [
+            254.50748,
+            254.43712,
+            252.36676
+          ],
+          "ratio": 16.81711261337202,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-sentinel-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(3) > .project-flow-node",
+          "text": "Analysis",
+          "foreground": "rgb(25, 29, 35)",
+          "compositedBackground": [
+            254.50748,
+            254.43712,
+            252.36676
+          ],
+          "ratio": 16.81711261337202,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-sentinel-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(4) > .project-flow-node",
+          "text": "ML Model",
+          "foreground": "rgb(25, 29, 35)",
+          "compositedBackground": [
+            254.50748,
+            254.43712,
+            252.36676
+          ],
+          "ratio": 16.81711261337202,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-sentinel-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(5) > .project-flow-node",
+          "text": "Prediction",
+          "foreground": "rgb(25, 29, 35)",
+          "compositedBackground": [
+            254.50748,
+            254.43712,
+            252.36676
+          ],
+          "ratio": 16.81711261337202,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-sentinel-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(6) > .project-flow-node-final.project-flow-node",
+          "text": "Scan History / Analytics",
+          "foreground": "rgb(32, 67, 119)",
+          "compositedBackground": [
+            239.22094399999997,
+            242.623936,
+            246.906928
+          ],
+          "ratio": 8.821231160752303,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-sentinel-flow > .project-visual-note[aria-hidden=\"true\"]",
+          "text": "Conceptual flow",
+          "foreground": "rgb(106, 112, 121)",
+          "compositedBackground": [
+            250.07479999999998,
+            249.3712,
+            246.6676
+          ],
+          "ratio": 4.755091188087617,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-hospital-flow > .project-visual-top[aria-hidden=\"true\"] > .project-visual-kicker",
+          "text": "System map",
+          "foreground": "rgb(106, 112, 121)",
+          "compositedBackground": [
+            250.07479999999998,
+            249.3712,
+            246.6676
+          ],
+          "ratio": 4.755091188087617,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-hospital-flow > .project-visual-top[aria-hidden=\"true\"] > .project-visual-index",
+          "text": "03 / 04",
+          "foreground": "rgb(106, 112, 121)",
+          "compositedBackground": [
+            250.07479999999998,
+            249.3712,
+            246.6676
+          ],
+          "ratio": 4.755091188087617,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": [
+            "0.75"
+          ]
+        },
+        {
+          "selector": ".project-flow-source.project-flow-step:nth-child(1) > .project-flow-node",
+          "text": "Patients",
+          "foreground": "rgb(25, 29, 35)",
+          "compositedBackground": [
+            254.50748,
+            254.43712,
+            252.36676
+          ],
+          "ratio": 16.81711261337202,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-flow-source.project-flow-step:nth-child(2) > .project-flow-node",
+          "text": "Appointments",
+          "foreground": "rgb(25, 29, 35)",
+          "compositedBackground": [
+            254.50748,
+            254.43712,
+            252.36676
+          ],
+          "ratio": 16.81711261337202,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-flow-source.project-flow-step:nth-child(3) > .project-flow-node",
+          "text": "Operations",
+          "foreground": "rgb(25, 29, 35)",
+          "compositedBackground": [
+            254.50748,
+            254.43712,
+            252.36676
+          ],
+          "ratio": 16.81711261337202,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-flow-hospital > .project-flow-step:nth-child(4) > .project-flow-node",
+          "text": "Web App",
+          "foreground": "rgb(25, 29, 35)",
+          "compositedBackground": [
+            254.50748,
+            254.43712,
+            252.36676
+          ],
+          "ratio": 16.81711261337202,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-flow-step:nth-child(5) > .project-flow-node-final.project-flow-node",
+          "text": "REST APIs",
+          "foreground": "rgb(32, 67, 119)",
+          "compositedBackground": [
+            239.22094399999997,
+            242.623936,
+            246.906928
+          ],
+          "ratio": 8.821231160752303,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-hospital-flow > .project-visual-note[aria-hidden=\"true\"]",
+          "text": "Conceptual flow",
+          "foreground": "rgb(106, 112, 121)",
+          "compositedBackground": [
+            250.07479999999998,
+            249.3712,
+            246.6676
+          ],
+          "ratio": 4.755091188087617,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-emergency-flow > .project-visual-top[aria-hidden=\"true\"] > .project-visual-kicker",
+          "text": "System map",
+          "foreground": "rgb(106, 112, 121)",
+          "compositedBackground": [
+            250.07479999999998,
+            249.3712,
+            246.6676
+          ],
+          "ratio": 4.755091188087617,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-emergency-flow > .project-visual-top[aria-hidden=\"true\"] > .project-visual-index",
+          "text": "04 / 04",
+          "foreground": "rgb(106, 112, 121)",
+          "compositedBackground": [
+            250.07479999999998,
+            249.3712,
+            246.6676
+          ],
+          "ratio": 4.755091188087617,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": [
+            "0.75"
+          ]
+        },
+        {
+          "selector": ".project-visual-emergency-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(1) > .project-flow-node",
+          "text": "Start",
+          "foreground": "rgb(25, 29, 35)",
+          "compositedBackground": [
+            254.50748,
+            254.43712,
+            252.36676
+          ],
+          "ratio": 16.81711261337202,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-emergency-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(2) > .project-flow-node",
+          "text": "Road Network",
+          "foreground": "rgb(25, 29, 35)",
+          "compositedBackground": [
+            254.50748,
+            254.43712,
+            252.36676
+          ],
+          "ratio": 16.81711261337202,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-emergency-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(3) > .project-flow-node",
+          "text": "A* Routing",
+          "foreground": "rgb(25, 29, 35)",
+          "compositedBackground": [
+            254.50748,
+            254.43712,
+            252.36676
+          ],
+          "ratio": 16.81711261337202,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-flow-branch > .project-flow-node",
+          "text": "Traffic / ML",
+          "foreground": "rgb(25, 29, 35)",
+          "compositedBackground": [
+            254.50748,
+            254.43712,
+            252.36676
+          ],
+          "ratio": 16.81711261337202,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-emergency-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(5) > .project-flow-node",
+          "text": "Optimized Route",
+          "foreground": "rgb(25, 29, 35)",
+          "compositedBackground": [
+            254.50748,
+            254.43712,
+            252.36676
+          ],
+          "ratio": 16.81711261337202,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-emergency-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(6) > .project-flow-node-final.project-flow-node",
+          "text": "Destination",
+          "foreground": "rgb(32, 67, 119)",
+          "compositedBackground": [
+            239.22094399999997,
+            242.623936,
+            246.906928
+          ],
+          "ratio": 8.821231160752303,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-emergency-flow > .project-visual-note[aria-hidden=\"true\"]",
+          "text": "Conceptual flow",
+          "foreground": "rgb(106, 112, 121)",
+          "compositedBackground": [
+            250.07479999999998,
+            249.3712,
+            246.6676
+          ],
+          "ratio": 4.755091188087617,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "route": "/",
+      "rows": [
+        {
+          "selector": ".journey-item-then > .journey-card.ds-floating-panel > .journey-card-top > .journey-index",
+          "text": "01  03",
+          "foreground": "rgb(181, 185, 192)",
+          "compositedBackground": [
+            38.4,
+            43.31999999999999,
+            50.24
+          ],
+          "ratio": 7.203302667396279,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".journey-item-now > .journey-card.ds-floating-panel > .journey-card-top > .journey-index",
+          "text": "02  03",
+          "foreground": "rgb(181, 185, 192)",
+          "compositedBackground": [
+            38.4,
+            43.31999999999999,
+            50.24
+          ],
+          "ratio": 7.203302667396279,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".journey-tags > .ds-tag:nth-child(1)",
+          "text": "AI / ML",
+          "foreground": "rgb(181, 185, 192)",
+          "compositedBackground": [
+            33.072,
+            37.3296,
+            43.5872
+          ],
+          "ratio": 7.7884140453095165,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".journey-tags > .ds-tag:nth-child(3)",
+          "text": "Databases",
+          "foreground": "rgb(181, 185, 192)",
+          "compositedBackground": [
+            33.072,
+            37.3296,
+            43.5872
+          ],
+          "ratio": 7.7884140453095165,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".ds-tag:nth-child(4)",
+          "text": "Automation",
+          "foreground": "rgb(181, 185, 192)",
+          "compositedBackground": [
+            33.072,
+            37.3296,
+            43.5872
+          ],
+          "ratio": 7.7884140453095165,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".journey-item-next > .journey-card.ds-floating-panel > .journey-card-top > .journey-index",
+          "text": "03  03",
+          "foreground": "rgb(181, 185, 192)",
+          "compositedBackground": [
+            38.4,
+            43.31999999999999,
+            50.24
+          ],
+          "ratio": 7.203302667396279,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-lead-flow > .project-visual-top[aria-hidden=\"true\"] > .project-visual-kicker",
+          "text": "System map",
+          "foreground": "rgb(181, 185, 192)",
+          "compositedBackground": [
+            26.0748,
+            29.3712,
+            34.6676
+          ],
+          "ratio": 8.550153355054322,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-lead-flow > .project-visual-top[aria-hidden=\"true\"] > .project-visual-index",
+          "text": "01 / 04",
+          "foreground": "rgb(181, 185, 192)",
+          "compositedBackground": [
+            26.0748,
+            29.3712,
+            34.6676
+          ],
+          "ratio": 8.550153355054322,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": [
+            "0.75"
+          ]
+        },
+        {
+          "selector": ".project-visual-lead-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(1) > .project-flow-node",
+          "text": "Lead Discovery",
+          "foreground": "rgb(239, 237, 232)",
+          "compositedBackground": [
+            30.50748,
+            34.43712,
+            40.36676
+          ],
+          "ratio": 13.580010291926898,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-lead-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(2) > .project-flow-node",
+          "text": "Enrichment",
+          "foreground": "rgb(239, 237, 232)",
+          "compositedBackground": [
+            30.50748,
+            34.43712,
+            40.36676
+          ],
+          "ratio": 13.580010291926898,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-lead-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(3) > .project-flow-node",
+          "text": "Contact Extraction",
+          "foreground": "rgb(239, 237, 232)",
+          "compositedBackground": [
+            30.50748,
+            34.43712,
+            40.36676
+          ],
+          "ratio": 13.580010291926898,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-lead-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(4) > .project-flow-node",
+          "text": "Qualification",
+          "foreground": "rgb(239, 237, 232)",
+          "compositedBackground": [
+            30.50748,
+            34.43712,
+            40.36676
+          ],
+          "ratio": 13.580010291926898,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-lead-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(5) > .project-flow-node",
+          "text": "CRM",
+          "foreground": "rgb(239, 237, 232)",
+          "compositedBackground": [
+            30.50748,
+            34.43712,
+            40.36676
+          ],
+          "ratio": 13.580010291926898,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-lead-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(6) > .project-flow-node-final.project-flow-node",
+          "text": "Outreach / Automation",
+          "foreground": "rgb(139, 170, 216)",
+          "compositedBackground": [
+            37.540943999999996,
+            49.263936,
+            65.866928
+          ],
+          "ratio": 5.514923297056545,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-lead-flow > .project-visual-note[aria-hidden=\"true\"]",
+          "text": "Conceptual flow",
+          "foreground": "rgb(181, 185, 192)",
+          "compositedBackground": [
+            26.0748,
+            29.3712,
+            34.6676
+          ],
+          "ratio": 8.550153355054322,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-sentinel-flow > .project-visual-top[aria-hidden=\"true\"] > .project-visual-kicker",
+          "text": "System map",
+          "foreground": "rgb(181, 185, 192)",
+          "compositedBackground": [
+            26.0748,
+            29.3712,
+            34.6676
+          ],
+          "ratio": 8.550153355054322,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-sentinel-flow > .project-visual-top[aria-hidden=\"true\"] > .project-visual-index",
+          "text": "02 / 04",
+          "foreground": "rgb(181, 185, 192)",
+          "compositedBackground": [
+            26.0748,
+            29.3712,
+            34.6676
+          ],
+          "ratio": 8.550153355054322,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": [
+            "0.75"
+          ]
+        },
+        {
+          "selector": ".project-visual-sentinel-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(1) > .project-flow-node",
+          "text": "PE File",
+          "foreground": "rgb(239, 237, 232)",
+          "compositedBackground": [
+            30.50748,
+            34.43712,
+            40.36676
+          ],
+          "ratio": 13.580010291926898,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-sentinel-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(2) > .project-flow-node",
+          "text": "File Upload",
+          "foreground": "rgb(239, 237, 232)",
+          "compositedBackground": [
+            30.50748,
+            34.43712,
+            40.36676
+          ],
+          "ratio": 13.580010291926898,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-sentinel-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(3) > .project-flow-node",
+          "text": "Analysis",
+          "foreground": "rgb(239, 237, 232)",
+          "compositedBackground": [
+            30.50748,
+            34.43712,
+            40.36676
+          ],
+          "ratio": 13.580010291926898,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-sentinel-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(4) > .project-flow-node",
+          "text": "ML Model",
+          "foreground": "rgb(239, 237, 232)",
+          "compositedBackground": [
+            30.50748,
+            34.43712,
+            40.36676
+          ],
+          "ratio": 13.580010291926898,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-sentinel-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(5) > .project-flow-node",
+          "text": "Prediction",
+          "foreground": "rgb(239, 237, 232)",
+          "compositedBackground": [
+            30.50748,
+            34.43712,
+            40.36676
+          ],
+          "ratio": 13.580010291926898,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-sentinel-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(6) > .project-flow-node-final.project-flow-node",
+          "text": "Scan History / Analytics",
+          "foreground": "rgb(139, 170, 216)",
+          "compositedBackground": [
+            37.540943999999996,
+            49.263936,
+            65.866928
+          ],
+          "ratio": 5.514923297056545,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-sentinel-flow > .project-visual-note[aria-hidden=\"true\"]",
+          "text": "Conceptual flow",
+          "foreground": "rgb(181, 185, 192)",
+          "compositedBackground": [
+            26.0748,
+            29.3712,
+            34.6676
+          ],
+          "ratio": 8.550153355054322,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-hospital-flow > .project-visual-top[aria-hidden=\"true\"] > .project-visual-kicker",
+          "text": "System map",
+          "foreground": "rgb(181, 185, 192)",
+          "compositedBackground": [
+            26.0748,
+            29.3712,
+            34.6676
+          ],
+          "ratio": 8.550153355054322,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-hospital-flow > .project-visual-top[aria-hidden=\"true\"] > .project-visual-index",
+          "text": "03 / 04",
+          "foreground": "rgb(181, 185, 192)",
+          "compositedBackground": [
+            26.0748,
+            29.3712,
+            34.6676
+          ],
+          "ratio": 8.550153355054322,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": [
+            "0.75"
+          ]
+        },
+        {
+          "selector": ".project-flow-source.project-flow-step:nth-child(1) > .project-flow-node",
+          "text": "Patients",
+          "foreground": "rgb(239, 237, 232)",
+          "compositedBackground": [
+            30.50748,
+            34.43712,
+            40.36676
+          ],
+          "ratio": 13.580010291926898,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-flow-source.project-flow-step:nth-child(2) > .project-flow-node",
+          "text": "Appointments",
+          "foreground": "rgb(239, 237, 232)",
+          "compositedBackground": [
+            30.50748,
+            34.43712,
+            40.36676
+          ],
+          "ratio": 13.580010291926898,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-flow-source.project-flow-step:nth-child(3) > .project-flow-node",
+          "text": "Operations",
+          "foreground": "rgb(239, 237, 232)",
+          "compositedBackground": [
+            30.50748,
+            34.43712,
+            40.36676
+          ],
+          "ratio": 13.580010291926898,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-flow-hospital > .project-flow-step:nth-child(4) > .project-flow-node",
+          "text": "Web App",
+          "foreground": "rgb(239, 237, 232)",
+          "compositedBackground": [
+            30.50748,
+            34.43712,
+            40.36676
+          ],
+          "ratio": 13.580010291926898,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-flow-step:nth-child(5) > .project-flow-node-final.project-flow-node",
+          "text": "REST APIs",
+          "foreground": "rgb(139, 170, 216)",
+          "compositedBackground": [
+            37.540943999999996,
+            49.263936,
+            65.866928
+          ],
+          "ratio": 5.514923297056545,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-hospital-flow > .project-visual-note[aria-hidden=\"true\"]",
+          "text": "Conceptual flow",
+          "foreground": "rgb(181, 185, 192)",
+          "compositedBackground": [
+            26.0748,
+            29.3712,
+            34.6676
+          ],
+          "ratio": 8.550153355054322,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-emergency-flow > .project-visual-top[aria-hidden=\"true\"] > .project-visual-kicker",
+          "text": "System map",
+          "foreground": "rgb(181, 185, 192)",
+          "compositedBackground": [
+            26.0748,
+            29.3712,
+            34.6676
+          ],
+          "ratio": 8.550153355054322,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-emergency-flow > .project-visual-top[aria-hidden=\"true\"] > .project-visual-index",
+          "text": "04 / 04",
+          "foreground": "rgb(181, 185, 192)",
+          "compositedBackground": [
+            26.0748,
+            29.3712,
+            34.6676
+          ],
+          "ratio": 8.550153355054322,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": [
+            "0.75"
+          ]
+        },
+        {
+          "selector": ".project-visual-emergency-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(1) > .project-flow-node",
+          "text": "Start",
+          "foreground": "rgb(239, 237, 232)",
+          "compositedBackground": [
+            30.50748,
+            34.43712,
+            40.36676
+          ],
+          "ratio": 13.580010291926898,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-emergency-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(2) > .project-flow-node",
+          "text": "Road Network",
+          "foreground": "rgb(239, 237, 232)",
+          "compositedBackground": [
+            30.50748,
+            34.43712,
+            40.36676
+          ],
+          "ratio": 13.580010291926898,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-emergency-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(3) > .project-flow-node",
+          "text": "A* Routing",
+          "foreground": "rgb(239, 237, 232)",
+          "compositedBackground": [
+            30.50748,
+            34.43712,
+            40.36676
+          ],
+          "ratio": 13.580010291926898,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-flow-branch > .project-flow-node",
+          "text": "Traffic / ML",
+          "foreground": "rgb(239, 237, 232)",
+          "compositedBackground": [
+            30.50748,
+            34.43712,
+            40.36676
+          ],
+          "ratio": 13.580010291926898,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-emergency-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(5) > .project-flow-node",
+          "text": "Optimized Route",
+          "foreground": "rgb(239, 237, 232)",
+          "compositedBackground": [
+            30.50748,
+            34.43712,
+            40.36676
+          ],
+          "ratio": 13.580010291926898,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-emergency-flow > .project-flow[aria-hidden=\"true\"] > .project-flow-step:nth-child(6) > .project-flow-node-final.project-flow-node",
+          "text": "Destination",
+          "foreground": "rgb(139, 170, 216)",
+          "compositedBackground": [
+            37.540943999999996,
+            49.263936,
+            65.866928
+          ],
+          "ratio": 5.514923297056545,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        },
+        {
+          "selector": ".project-visual-emergency-flow > .project-visual-note[aria-hidden=\"true\"]",
+          "text": "Conceptual flow",
+          "foreground": "rgb(181, 185, 192)",
+          "compositedBackground": [
+            26.0748,
+            29.3712,
+            34.6676
+          ],
+          "ratio": 8.550153355054322,
+          "threshold": 4.5,
+          "passes": true,
+          "ancestorOpacity": []
+        }
+      ]
+    }
+  ]
+}
