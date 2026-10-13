@@ -1,48 +1,129 @@
-# Nikhil Kakade Portfolio
+# ✨ Nikhil Kakade | Developer Portfolio
 
-This project includes a standalone HTML portfolio and a full Next.js portfolio. The standalone version runs independently and does not need Node.js, npm, or a local web server.
+<p align="center">
+  <img src="public/social-preview.png" alt="Nikhil Kakade Portfolio Preview" width="100%">
+</p>
 
-## Open the standalone portfolio
+<p align="center">
+  <strong>AI & Data Science Student | Developer | Cybersecurity Enthusiast</strong>
+</p>
+
+<p align="center">
+  A personal portfolio showcasing my skills, projects, education, and journey in technology.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+</p>
+
+---
+
+## 🚀 About the Project
+
+This repository contains my personal developer portfolio, built to present my technical skills, academic background, projects, and résumé in one place.
+
+### ✨ Highlights
+
+- 🎨 Modern, responsive portfolio interface
+- 📱 Mobile-friendly layout
+- 🧑‍💻 Dedicated project and skills sections
+- 📄 Résumé download
+- 🌗 Theme toggle and mobile navigation in the standalone version
+- ⚡ Next.js application for a modern web experience
+- 🌐 Standalone HTML version that works without Node.js
+
+## 🛠️ Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| Next.js | Main portfolio application |
+| React | Reusable UI components |
+| JavaScript | Interactive functionality |
+| HTML5 & CSS3 | Structure and styling |
+| Git & GitHub | Version control |
+
+## 📂 Project Structure
+
+```text
+portfolio/
+├── public/
+│   ├── profile.jpeg
+│   ├── resume.pdf
+│   └── social-preview.png
+├── standalone/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   ├── README.md
+│   └── assets/
+│       ├── images/
+│       └── documents/
+├── src/
+│   ├── app/
+│   ├── components/
+│   ├── data/
+│   ├── hooks/
+│   ├── lib/
+│   └── styles/
+├── qa/
+├── package.json
+├── DEPLOYMENT.md
+└── README.md
+```
+
+## ⚙️ Getting Started
+
+### Option 1: Open the standalone portfolio
+
+No Node.js installation or development server is required.
 
 1. Open `D:\portfolio\standalone` in File Explorer.
 2. Double-click `index.html`.
-3. Chrome or Edge opens the portfolio. Keep `style.css`, `script.js`, and the `assets` folder beside `index.html` so its styling, mobile menu, profile photo, and résumé link load.
+3. View the portfolio in Chrome or Edge.
 
-The standalone page uses `standalone/index.html`, `standalone/style.css`, and `standalone/script.js`, with its résumé and image kept in `standalone/assets/`. Its résumé is `standalone/assets/documents/resume.pdf`; the Next.js app uses `public/resume.pdf`. These are copies of the same document, so update both when the résumé changes.
+Keep `style.css`, `script.js`, and the `assets` folder alongside `index.html`.
 
-## Run the Next.js application
+### Option 2: Run the Next.js application
 
-The supplied profile photo is stored at `public/profile.jpeg` for Next.js and `standalone/assets/images/profile.jpeg` for the standalone page.
+**Prerequisites:** Node.js and npm.
 
 1. Open `D:\portfolio` in VS Code.
 2. Open the integrated terminal.
-3. Run `npm install` only if `node_modules` is missing or dependencies have changed.
-4. Start the development server with the existing script:
+3. Install dependencies if needed:
+
+   ```powershell
+   npm install
+   ```
+
+4. Start the development server:
 
    ```powershell
    npm run dev
    ```
 
-5. Open the local URL printed in the terminal (usually `http://localhost:3000`).
+5. Open `http://localhost:3000` in your browser.
 
-Other existing scripts are `npm run typecheck`, `npm run build`, and `npm start` (for serving a production build after building).
+### Available Commands
 
-## Important files and folders
+```powershell
+npm run dev
+npm run typecheck
+npm run build
+npm start
+```
 
-- `standalone/index.html` — directly openable standalone page
-- `standalone/style.css` — standalone responsive styles
-- `standalone/script.js` — standalone mobile navigation and theme toggle
-- `standalone/assets/documents/resume.pdf` — standalone résumé copy
-- `standalone/README.md` — standalone-specific file notes
-- `src/app/` — Next.js routes, layouts, page metadata, and page-level styles
-- `src/components/` — reusable React interface and portfolio sections
-- `src/data/` — portfolio content, skills, project and education data
-- `src/hooks/` — React hooks
-- `src/lib/` — SEO and site URL helpers
-- `src/styles/` — shared design system styles
-- `public/` — Next.js static assets: `resume.pdf` and `social-preview.png`
-- `qa/` — preserved visual checks, project/contact regression checks, responsive-motion tests, and production-readiness reports; these are not application source files
-- `package.json` — existing scripts and dependencies
-- `DEPLOYMENT.md` — production hosting and deployment notes
+Use `npm start` after creating a production build with `npm run build`.
 
-There is no separate `tests/` directory or configured lint script in this project. The `.module*-qa/` folders contain the existing manual and automated verification artifacts and tools.
+## 👨‍💻 Author
+
+**Nikhil Kakade**
+
+AI & Data Science Student | Developer | Cybersecurity Enthusiast
+
+<p align="center">
+  <i>Learning, building, and creating technology that solves real problems.</i>
+</p>
